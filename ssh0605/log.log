@@ -1,0 +1,141 @@
+[ERROR] 2013-06-26 11:13:11  com.ru.javaExam.exception.exceptionTest.test(exceptionTest.java:57)  出错了！
+[INFO] 2013-06-26 11:14:39  com.ru.javaExam.exception.exceptionTest.test(exceptionTest.java:45)  异常实例-开始
+[ERROR] 2013-06-26 11:14:39  com.ru.javaExam.exception.exceptionTest.test(exceptionTest.java:57)  出错了！
+[INFO] 2013-06-26 11:45:29  com.ru.javaExam.exception.exceptionTest.test(exceptionTest.java:45)  异常实例-开始
+[ERROR] 2013-06-26 11:45:29  com.ru.javaExam.exception.exceptionTest.test(exceptionTest.java:57)  出错了！
+[INFO] 2013-07-29 15:22:23  com.ru.javaExam.regular.RegularTest1.test(RegularTest1.java:24)  ''的使用，可以是去掉字符的愿意，变成一个普通字符
+[INFO] 2013-07-29 15:22:23  com.ru.javaExam.regular.RegularTest1.test(RegularTest1.java:29)  aas匹配：false   aasqqqq匹配：false  1*匹配：false
+[INFO] 2013-07-29 15:22:57  com.ru.javaExam.regular.RegularTest1.test(RegularTest1.java:24)  '\'的使用，可以是去掉字符的愿意，变成一个普通字符
+[INFO] 2013-07-29 15:22:57  com.ru.javaExam.regular.RegularTest1.test(RegularTest1.java:29)  aas匹配：false   aasqqqq匹配：false  1*匹配：false
+[INFO] 2013-07-29 15:27:42  com.ru.javaExam.regular.RegularTest1.test(RegularTest1.java:26)  '\'的使用，可以是去掉字符的愿意，变成一个普通字符
+[INFO] 2013-07-29 15:27:42  com.ru.javaExam.regular.RegularTest1.test(RegularTest1.java:31)  aas匹配：false   aasqqqq匹配：false  a*匹配：false
+[INFO] 2013-07-29 15:29:03  com.ru.javaExam.regular.RegularTest1.test(RegularTest1.java:26)  '\'的使用，可以是去掉字符的愿意，变成一个普通字符
+[INFO] 2013-07-29 15:29:03  com.ru.javaExam.regular.RegularTest1.test(RegularTest1.java:31)  aas匹配：false   aasqqqq匹配：false  a*匹配：false
+[INFO] 2013-07-29 15:37:37  com.ru.javaExam.regular.RegularTest1.test(RegularTest1.java:26)  '\'的使用，可以是去掉字符的愿意，变成一个普通字符
+[INFO] 2013-07-29 15:41:47  com.ru.javaExam.regular.RegularTest1.test(RegularTest1.java:26)  '\'的使用，可以是去掉字符的愿意，变成一个普通字符
+[INFO] 2013-07-29 15:46:39  com.ru.javaExam.regular.RegularTest1.test(RegularTest1.java:32)  aas匹配：true   aasqqqq匹配：true  a*匹配：false
+[INFO] 2013-07-29 15:46:47  com.ru.javaExam.regular.RegularTest1.test(RegularTest1.java:26)  '\'的使用，可以是去掉字符的愿意，变成一个普通字符
+[INFO] 2013-07-29 15:46:47  com.ru.javaExam.regular.RegularTest1.test(RegularTest1.java:32)  aas匹配：true   aasqqqq匹配：true  a*匹配：false
+[INFO] 2013-07-29 15:55:05  com.ru.javaExam.regular.RegularTest1.test(RegularTest1.java:26)  '\'的使用，可以是去掉字符的愿意，变成一个普通字符
+[INFO] 2013-07-29 15:55:05  com.ru.javaExam.regular.RegularTest1.test(RegularTest1.java:32)  reg1 = a*
+[INFO] 2013-07-29 15:55:05  com.ru.javaExam.regular.RegularTest1.test(RegularTest1.java:33)  aas匹配：true   aasqqqq匹配：true  a*匹配：false
+[INFO] 2013-07-29 15:55:05  com.ru.javaExam.regular.RegularTest1.test(RegularTest1.java:35)  reg2 = a\*
+[INFO] 2013-07-29 15:55:05  com.ru.javaExam.regular.RegularTest1.test(RegularTest1.java:36)  aas匹配：false   aasqqqq匹配：false  a*匹配：false
+[INFO] 2013-07-29 15:56:07  com.ru.javaExam.regular.RegularTest1.test(RegularTest1.java:26)  '\'的使用，可以是去掉字符的愿意，变成一个普通字符
+[INFO] 2013-07-29 15:56:07  com.ru.javaExam.regular.RegularTest1.test(RegularTest1.java:32)  reg1 = a*
+[INFO] 2013-07-29 15:56:07  com.ru.javaExam.regular.RegularTest1.test(RegularTest1.java:33)  aas匹配：true   aasqqqq匹配：true  a*匹配：false
+[INFO] 2013-07-29 15:56:07  com.ru.javaExam.regular.RegularTest1.test(RegularTest1.java:35)  reg2 = a\*
+[INFO] 2013-07-29 15:56:07  com.ru.javaExam.regular.RegularTest1.test(RegularTest1.java:36)  aas匹配：false   aasqqqq匹配：false  a*匹配：false
+[INFO] 2013-07-29 15:57:00  com.ru.javaExam.regular.RegularTest1.test(RegularTest1.java:26)  '\'的使用，可以是去掉字符的愿意，变成一个普通字符
+[INFO] 2013-07-29 15:57:00  com.ru.javaExam.regular.RegularTest1.test(RegularTest1.java:32)  reg1 = a*
+[INFO] 2013-07-29 15:57:00  com.ru.javaExam.regular.RegularTest1.test(RegularTest1.java:33)  aas匹配：true   aasqqqq匹配：true  a*匹配：false
+[INFO] 2013-07-29 15:57:00  com.ru.javaExam.regular.RegularTest1.test(RegularTest1.java:35)  reg2 = a\*
+[INFO] 2013-07-29 15:57:00  com.ru.javaExam.regular.RegularTest1.test(RegularTest1.java:36)  aas匹配：false   aasqqqq匹配：false  a*匹配：false
+[INFO] 2013-07-29 15:59:15  com.ru.javaExam.regular.RegularTest1.test(RegularTest1.java:26)  '\'的使用，可以是去掉字符的愿意，变成一个普通字符
+[INFO] 2013-07-29 15:59:15  com.ru.javaExam.regular.RegularTest1.test(RegularTest1.java:32)  reg1 = a*
+[INFO] 2013-07-29 15:59:15  com.ru.javaExam.regular.RegularTest1.test(RegularTest1.java:33)  aas匹配：true   aasqqqq匹配：true  a*匹配：false
+[INFO] 2013-07-29 15:59:15  com.ru.javaExam.regular.RegularTest1.test(RegularTest1.java:35)  reg2 = a\\*
+[INFO] 2013-07-29 15:59:15  com.ru.javaExam.regular.RegularTest1.test(RegularTest1.java:36)  aas匹配：false   aasqqqq匹配：false  a*匹配：false
+[INFO] 2013-07-29 16:01:02  com.ru.javaExam.regular.RegularTest1.test(RegularTest1.java:26)  '\'的使用，可以是去掉字符的愿意，变成一个普通字符
+[INFO] 2013-07-29 16:01:02  com.ru.javaExam.regular.RegularTest1.test(RegularTest1.java:32)  reg1 = a*
+[INFO] 2013-07-29 16:01:02  com.ru.javaExam.regular.RegularTest1.test(RegularTest1.java:33)  aas匹配：true   aasqqqq匹配：true  a*匹配：false
+[INFO] 2013-07-29 16:01:02  com.ru.javaExam.regular.RegularTest1.test(RegularTest1.java:35)  reg2 = a\\*
+[INFO] 2013-07-29 16:01:02  com.ru.javaExam.regular.RegularTest1.test(RegularTest1.java:36)  aas匹配：false   aasqqqq匹配：false  a*匹配：false
+[INFO] 2013-07-29 16:01:33  com.ru.javaExam.regular.RegularTest1.test(RegularTest1.java:26)  '\'的使用，可以是去掉字符的愿意，变成一个普通字符
+[INFO] 2013-07-29 16:01:33  com.ru.javaExam.regular.RegularTest1.test(RegularTest1.java:32)  reg1 = a*
+[INFO] 2013-07-29 16:01:33  com.ru.javaExam.regular.RegularTest1.test(RegularTest1.java:33)  aas匹配：true   aasqqqq匹配：true  a*匹配：false
+[INFO] 2013-07-29 16:01:33  com.ru.javaExam.regular.RegularTest1.test(RegularTest1.java:35)  reg2 = a\*
+[INFO] 2013-07-29 16:01:33  com.ru.javaExam.regular.RegularTest1.test(RegularTest1.java:36)  aas匹配：false   aasqqqq匹配：false  a*匹配：false
+[INFO] 2013-07-29 16:03:41  com.ru.javaExam.regular.RegularTest1.test(RegularTest1.java:26)  '\'的使用，可以是去掉字符的愿意，变成一个普通字符
+[INFO] 2013-07-29 16:03:41  com.ru.javaExam.regular.RegularTest1.test(RegularTest1.java:32)  reg1 = a*
+[INFO] 2013-07-29 16:03:41  com.ru.javaExam.regular.RegularTest1.test(RegularTest1.java:33)  aas匹配：true   aasqqqq匹配：true  a*匹配：false
+[INFO] 2013-07-29 16:03:41  com.ru.javaExam.regular.RegularTest1.test(RegularTest1.java:35)  reg2 = a\*
+[INFO] 2013-07-29 16:03:41  com.ru.javaExam.regular.RegularTest1.test(RegularTest1.java:36)  aas匹配：false   aasqqqq匹配：false  a*匹配：false
+[INFO] 2013-07-29 16:05:15  com.ru.javaExam.regular.RegularTest1.test(RegularTest1.java:26)  '\'的使用，可以是去掉字符的愿意，变成一个普通字符
+[INFO] 2013-07-29 16:05:15  com.ru.javaExam.regular.RegularTest1.test(RegularTest1.java:32)  reg1 = a*
+[INFO] 2013-07-29 16:05:15  com.ru.javaExam.regular.RegularTest1.test(RegularTest1.java:33)  aas匹配：true   aasqqqq匹配：true  a*匹配：false
+[INFO] 2013-07-29 16:05:15  com.ru.javaExam.regular.RegularTest1.test(RegularTest1.java:35)  reg2 = a\*
+[INFO] 2013-07-29 16:05:15  com.ru.javaExam.regular.RegularTest1.test(RegularTest1.java:36)  aas匹配：false   aasqqqq匹配：false  a*匹配：true
+[INFO] 2013-07-29 16:11:57  com.ru.javaExam.regular.RegularTest1.test2(RegularTest1.java:44)   ^ 匹配输入字符串的开始位置
+[INFO] 2013-07-29 16:12:10  com.ru.javaExam.regular.RegularTest1.test2(RegularTest1.java:50)  reg : ^a
+[INFO] 2013-07-29 16:12:13  com.ru.javaExam.regular.RegularTest1.test2(RegularTest1.java:51)  aaa匹配：false    Aaa匹配  ：false
+[INFO] 2013-07-29 16:13:38  com.ru.javaExam.regular.RegularTest1.test2(RegularTest1.java:44)   ^ 匹配输入字符串的开始位置
+[INFO] 2013-07-29 16:13:38  com.ru.javaExam.regular.RegularTest1.test2(RegularTest1.java:50)  reg : ^a
+[INFO] 2013-07-29 16:13:38  com.ru.javaExam.regular.RegularTest1.test2(RegularTest1.java:51)  aaa匹配：false    Aaa匹配  ：false
+[INFO] 2013-07-29 16:13:53  com.ru.javaExam.regular.RegularTest1.test2(RegularTest1.java:44)   ^ 匹配输入字符串的开始位置
+[INFO] 2013-07-29 16:13:53  com.ru.javaExam.regular.RegularTest1.test2(RegularTest1.java:50)  reg : ^a*
+[INFO] 2013-07-29 16:13:53  com.ru.javaExam.regular.RegularTest1.test2(RegularTest1.java:51)  aaa匹配：true    Aaa匹配  ：false
+[INFO] 2013-07-29 16:17:37  com.ru.javaExam.regular.RegularTest1.test3(RegularTest1.java:56)   $  	匹配一个输入或一行的结尾，/a$/匹配'An a'，而不匹配'an A' 
+[INFO] 2013-07-29 16:17:37  com.ru.javaExam.regular.RegularTest1.test3(RegularTest1.java:62)  reg : [a-zA-Z]*a$
+[INFO] 2013-07-29 16:17:37  com.ru.javaExam.regular.RegularTest1.test3(RegularTest1.java:63)  aaa匹配：false    Aaa匹配  ：false
+[INFO] 2013-07-29 16:17:43  com.ru.javaExam.regular.RegularTest1.test3(RegularTest1.java:56)   $ 匹配一个输入或一行的结尾，/a$/匹配'An a'，而不匹配'an A' 
+[INFO] 2013-07-29 16:17:43  com.ru.javaExam.regular.RegularTest1.test3(RegularTest1.java:62)  reg : [a-zA-Z]*a$
+[INFO] 2013-07-29 16:17:43  com.ru.javaExam.regular.RegularTest1.test3(RegularTest1.java:63)  aaa匹配：false    Aaa匹配  ：false
+[INFO] 2013-07-29 16:19:56  com.ru.javaExam.regular.RegularTest1.test3(RegularTest1.java:56)   $ 匹配一个输入或一行的结尾，/a$/匹配'An a'，而不匹配'an A' 
+[INFO] 2013-07-29 16:19:56  com.ru.javaExam.regular.RegularTest1.test3(RegularTest1.java:62)  reg : [a-zA-Z]*a$
+[INFO] 2013-07-29 16:19:56  com.ru.javaExam.regular.RegularTest1.test3(RegularTest1.java:63)  aaa匹配：true    Aaa匹配  ：false
+[INFO] 2013-07-29 16:20:15  com.ru.javaExam.regular.RegularTest1.test3(RegularTest1.java:56)   $ 匹配一个输入或一行的结尾，/a$/匹配'An a'，而不匹配'an A' 
+[INFO] 2013-07-29 16:20:15  com.ru.javaExam.regular.RegularTest1.test3(RegularTest1.java:62)  reg : [a-zA-Z]*a$
+[INFO] 2013-07-29 16:20:15  com.ru.javaExam.regular.RegularTest1.test3(RegularTest1.java:63)  gergrttttttta匹配：true    Aa各方共同付   匹配  ：false
+[INFO] 2013-07-29 16:36:03  com.ru.javaExam.regular.RegularTest1.test4(RegularTest1.java:98)   $ 匹配一个输入或一行的结尾，/a$/匹配'An a'，而不匹配'an A' 
+[INFO] 2013-07-29 16:36:03  com.ru.javaExam.regular.RegularTest1.test4(RegularTest1.java:105)  reg : ^g[ou]+
+[INFO] 2013-07-29 16:36:03  com.ru.javaExam.regular.RegularTest1.test4(RegularTest1.java:108)  s1 : false
+[INFO] 2013-07-29 16:36:03  com.ru.javaExam.regular.RegularTest1.test4(RegularTest1.java:108)  s2 : false
+[INFO] 2013-07-29 16:36:03  com.ru.javaExam.regular.RegularTest1.test4(RegularTest1.java:108)  s3 : false
+[INFO] 2013-07-29 16:37:39  com.ru.javaExam.regular.RegularTest1.test4(RegularTest1.java:98)   $ 匹配一个输入或一行的结尾，/a$/匹配'An a'，而不匹配'an A' 
+[INFO] 2013-07-29 16:37:39  com.ru.javaExam.regular.RegularTest1.test4(RegularTest1.java:105)  reg : ^g[ou]+
+[INFO] 2013-07-29 16:37:39  com.ru.javaExam.regular.RegularTest1.test4(RegularTest1.java:108)  s1
+[INFO] 2013-07-29 16:37:39  com.ru.javaExam.regular.RegularTest1.test4(RegularTest1.java:109)  s1 : false
+[INFO] 2013-07-29 16:37:39  com.ru.javaExam.regular.RegularTest1.test4(RegularTest1.java:108)  s2
+[INFO] 2013-07-29 16:37:39  com.ru.javaExam.regular.RegularTest1.test4(RegularTest1.java:109)  s2 : false
+[INFO] 2013-07-29 16:37:39  com.ru.javaExam.regular.RegularTest1.test4(RegularTest1.java:108)  s3
+[INFO] 2013-07-29 16:37:39  com.ru.javaExam.regular.RegularTest1.test4(RegularTest1.java:109)  s3 : false
+[INFO] 2013-07-29 16:43:37  com.ru.javaExam.regular.RegularTest1.test4(RegularTest1.java:98)   $ 匹配一个输入或一行的结尾，/a$/匹配'An a'，而不匹配'an A' 
+[INFO] 2013-07-29 16:43:37  com.ru.javaExam.regular.RegularTest1.test4(RegularTest1.java:104)  reg : ^g[ou]+
+[INFO] 2013-07-29 16:43:37  com.ru.javaExam.regular.RegularTest1.test4(RegularTest1.java:106)  gouououooooooo 的匹配结果： true
+[INFO] 2013-07-29 16:43:37  com.ru.javaExam.regular.RegularTest1.test4(RegularTest1.java:106)  gou 的匹配结果： true
+[INFO] 2013-07-29 16:43:37  com.ru.javaExam.regular.RegularTest1.test4(RegularTest1.java:106)  g 的匹配结果： false
+[INFO] 2013-07-30 09:36:12  com.ru.javaExam.regular.RegularTest1.test4(RegularTest1.java:98)   $ 匹配一个输入或一行的结尾，/a$/匹配'An a'，而不匹配'an A' 
+[INFO] 2013-07-30 09:36:12  com.ru.javaExam.regular.RegularTest1.test4(RegularTest1.java:104)  reg : ^g[ou]+
+[INFO] 2013-07-30 09:36:12  com.ru.javaExam.regular.RegularTest1.test4(RegularTest1.java:106)  gouououooooooo 的匹配结果： true
+[INFO] 2013-07-30 09:36:12  com.ru.javaExam.regular.RegularTest1.test4(RegularTest1.java:106)  gou 的匹配结果： true
+[INFO] 2013-07-30 09:36:12  com.ru.javaExam.regular.RegularTest1.test4(RegularTest1.java:106)  g 的匹配结果： false
+[INFO] 2013-07-30 09:36:37  com.ru.javaExam.regular.RegularTest1.test5(RegularTest1.java:112)  {m,n}匹配自表达式n-m次
+[INFO] 2013-07-30 09:36:37  com.ru.javaExam.regular.RegularTest1.test5(RegularTest1.java:117)  fd  :false
+[INFO] 2013-07-30 09:36:37  com.ru.javaExam.regular.RegularTest1.test5(RegularTest1.java:117)  fod  :false
+[INFO] 2013-07-30 09:36:37  com.ru.javaExam.regular.RegularTest1.test5(RegularTest1.java:117)  food  :false
+[INFO] 2013-07-30 09:36:57  com.ru.javaExam.regular.RegularTest1.test5(RegularTest1.java:112)  {m,n}匹配自表达式n-m次
+[INFO] 2013-07-30 09:36:57  com.ru.javaExam.regular.RegularTest1.test5(RegularTest1.java:117)  fd  :false
+[INFO] 2013-07-30 09:36:57  com.ru.javaExam.regular.RegularTest1.test5(RegularTest1.java:117)  fod  :false
+[INFO] 2013-07-30 09:36:57  com.ru.javaExam.regular.RegularTest1.test5(RegularTest1.java:117)  food  :false
+[INFO] 2013-07-30 09:37:09  com.ru.javaExam.regular.RegularTest1.test5(RegularTest1.java:112)  {m,n}匹配自表达式n-m次
+[INFO] 2013-07-30 09:37:09  com.ru.javaExam.regular.RegularTest1.test5(RegularTest1.java:117)  fd  :true
+[INFO] 2013-07-30 09:37:09  com.ru.javaExam.regular.RegularTest1.test5(RegularTest1.java:117)  fod  :true
+[INFO] 2013-07-30 09:37:09  com.ru.javaExam.regular.RegularTest1.test5(RegularTest1.java:117)  food  :false
+[INFO] 2013-07-30 09:37:18  com.ru.javaExam.regular.RegularTest1.test5(RegularTest1.java:112)  {m,n}匹配自表达式n-m次
+[INFO] 2013-07-30 09:37:18  com.ru.javaExam.regular.RegularTest1.test5(RegularTest1.java:117)  fd  :true
+[INFO] 2013-07-30 09:37:18  com.ru.javaExam.regular.RegularTest1.test5(RegularTest1.java:117)  fod  :true
+[INFO] 2013-07-30 09:37:18  com.ru.javaExam.regular.RegularTest1.test5(RegularTest1.java:117)  food  :false
+[INFO] 2013-07-30 17:43:51  com.ru.javaExam.regular.RegularTest1.test6(RegularTest1.java:130)  .的使用
+[INFO] 2013-07-30 17:43:51  com.ru.javaExam.regular.RegularTest1.test6(RegularTest1.java:136)  1ru : true
+[INFO] 2013-07-30 17:43:51  com.ru.javaExam.regular.RegularTest1.test6(RegularTest1.java:136)  2ru : true
+[INFO] 2013-07-30 17:43:51  com.ru.javaExam.regular.RegularTest1.test6(RegularTest1.java:136)  3 : false
+[INFO] 2013-07-30 17:43:51  com.ru.javaExam.regular.RegularTest1.test6(RegularTest1.java:136)  ru : false
+[INFO] 2013-07-30 17:45:08  com.ru.javaExam.regular.RegularTest1.test6(RegularTest1.java:130)  .的使用
+[INFO] 2013-07-30 17:45:08  com.ru.javaExam.regular.RegularTest1.test6(RegularTest1.java:136)  1ru : true
+[INFO] 2013-07-30 17:45:08  com.ru.javaExam.regular.RegularTest1.test6(RegularTest1.java:136)  2ru : true
+[INFO] 2013-07-30 17:45:08  com.ru.javaExam.regular.RegularTest1.test6(RegularTest1.java:136)  3 : false
+[INFO] 2013-07-30 17:45:08  com.ru.javaExam.regular.RegularTest1.test6(RegularTest1.java:136)  
+ru : true
+[INFO] 2013-07-30 18:08:33  com.ru.javaExam.regular.RegularTest1.test7(RegularTest1.java:150)  (?:pattern)的使用
+[INFO] 2013-07-30 18:08:33  com.ru.javaExam.regular.RegularTest1.test7(RegularTest1.java:155)  todayisasunnyday : true
+[INFO] 2013-07-30 18:08:33  com.ru.javaExam.regular.RegularTest1.test7(RegularTest1.java:155)  todayisaasunnyday : true
+[INFO] 2013-07-30 18:08:33  com.ru.javaExam.regular.RegularTest1.test7(RegularTest1.java:155)  todayisa : false
+[INFO] 2013-07-30 18:08:33  com.ru.javaExam.regular.RegularTest1.test7(RegularTest1.java:155)  asunnyday : false
+[INFO] 2013-08-30 10:53:53  com.ru.javaExam.exception.exceptionTest.test(exceptionTest.java:45)  异常实例-开始
+[ERROR] 2013-08-30 10:53:53  com.ru.javaExam.exception.exceptionTest.test(exceptionTest.java:57)  出错了！
+[INFO] 2013-09-05 10:20:19  com.ru.javaExam.ObjectAndInternalMemory.innerclass.InnerClassTest.innerTest(InnerClassTest.java:80)  牛的体重：200.25
+[INFO] 2013-09-05 10:20:19  com.ru.javaExam.ObjectAndInternalMemory.innerclass.InnerClassTest.innerTest(InnerClassTest.java:81)  内部类测试：1、外部类调用内部类属性：110
+[INFO] 2013-09-05 10:24:15  com.ru.javaExam.ObjectAndInternalMemory.innerclass.InnerClassTest$CowLeg.info(InnerClassTest.java:61)  牛信息:1体重：200.25  2牛腿长：110  3牛腿颜色：white
+[INFO] 2013-09-05 10:25:08  com.ru.javaExam.ObjectAndInternalMemory.innerclass.InnerClassTest$CowLeg.info(InnerClassTest.java:61)  牛信息:1体重：200.25斤   2牛腿长：110厘米    3牛腿颜色：white色
+[INFO] 2013-09-05 11:18:29  com.ru.javaExam.ObjectAndInternalMemory.innerclass.InnerClassTest$CowLeg.info(InnerClassTest.java:61)  牛信息:1体重：200.25斤   2牛腿长：110厘米    3牛腿颜色：white色
