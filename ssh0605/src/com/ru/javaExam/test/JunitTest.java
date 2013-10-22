@@ -3,7 +3,9 @@ package com.ru.javaExam.test;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
+import java.util.Iterator;
 import java.util.Map;
+import java.util.TreeMap;
 
 import org.junit.Test;
 
@@ -51,22 +53,24 @@ public class JunitTest {
 	
 	@Test
 	public void test4(){
-		/*String s1 = new String("hello");
-		String s2 = new String("hello");
-		
-		String s3 = "hello";
-		String s4 = s3;
-		s3 = "world";
-		System.out.println(s1 == s2);
-		System.out.println("s3 = " + s3 + "   s4 = " + s4);*/
-		float longTime = 24 * 60 * 60 * 1000;
-		float timeF = (2 * 24 * 60 * 60 * 1000 -10) / longTime;
-		long timeL = (long) timeF;
-		
-		if(timeF > timeL){
-			++timeL;
+		TreeMap<String, String> map = new TreeMap<String, String>();
+		TreeMap<String, String> map2 = new TreeMap<String, String>();
+
+		map.put("01", "ru");
+		map.put("02", "ruge");
+		System.out.println("map1 = " + map.size());
+		for(Iterator it = map.keySet().iterator();it.hasNext();){
+			String key = (String) it.next(); 
+			if(key.equals("02")){
+				String value = map.get(key);
+				map2.put(key, value);
+			}
 		}
 		
-		System.out.println("timeF = " + timeF + "   timeL =" + timeL);
+		/*while(it.hasNext()){
+			System.out.println(map.remove(it.next()));
+			it.next();
+		}*/
+		System.out.println("map2 = " + map2);
 	}
 }
