@@ -28,5 +28,6 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
     	<br>
     	<%=request.getParameter("message") %>
     	<s:property value="message"/>
+    	
   </body>
 </html>

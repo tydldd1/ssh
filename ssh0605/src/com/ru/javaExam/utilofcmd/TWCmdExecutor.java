@@ -1,4 +1,4 @@
-package com.ru.javaExam.cmd;
+package com.ru.javaExam.utilofcmd;
 
 import java.io.BufferedReader;
 import java.io.IOException;

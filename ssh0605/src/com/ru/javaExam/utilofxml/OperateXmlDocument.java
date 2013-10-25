@@ -4,8 +4,10 @@ import java.io.File;
 import java.io.FileOutputStream;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.util.HashMap;
 import java.util.Iterator;
 import java.util.List;
+import java.util.Map;
 
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
@@ -43,31 +45,38 @@ public class OperateXmlDocument {
 	 * @throws IOException
 	 * @return void
 	 */
-	public static void createXmlFile(String savePath) throws IOException{
+	public static boolean createXmlFile(String rootElement,Map<String, String> map,String savePath) throws IOException{
 		
-        // 创建文档并设置文档的根元素节点 
-        Element root = DocumentHelper.createElement("student");  
-        Document document = DocumentHelper.createDocument(root);  
-  
-        root.addAttribute("name", "ruge"); //是指root节点属性 
-  
-        //添加子节点
-        Element subName = root.addElement("name");  
-        Element subAge = root.addElement("age");
-        Element subMajor = root.addElement("major");
-        
-        subName.setText("ru");//设置  
-        subAge.setText("24");
-        subMajor.setText("软件");
-  
-        subName.addAttribute("job", "programmer");  
-  
-        OutputFormat format = new OutputFormat("    ", true);  
-          
-        XMLWriter xmlWriter2 = new XMLWriter(new FileOutputStream("F:\\student.xml"), format);  
-        xmlWriter2.write(document);  
-          
-        xmlWriter2.close();
+		if(rootElement == null || savePath == null || savePath.equals("") || rootElement.equals("")){
+			return false;
+		}else if(map != null && map.size() > 0){
+			// 创建文档并设置文档的根元素节点 
+	        Element root = DocumentHelper.createElement(rootElement);  
+	        Document document = DocumentHelper.createDocument(root);  
+	  
+	        /*//添加子节点
+	        Element subName = root.addElement("name");  
+	        Element subAge = root.addElement("age");
+	        Element subMajor = root.addElement("major");
+	        
+	        subName.setText("ru");//设置  
+	        subAge.setText("24");
+	        subMajor.setText("软件");*/
+	        for(Iterator it = map.keySet().iterator(); it.hasNext();){
+	        	String key = (String) it.next();
+	        	String value = map.get(key);
+	        	root.addElement(key).setText(value);
+	        }
+	        
+	        OutputFormat format = new OutputFormat("    ", true);  
+	          
+	        XMLWriter xmlWriter = new XMLWriter(new FileOutputStream(savePath), format);  
+	        xmlWriter.write(document);  
+	          
+	        xmlWriter.close();
+		}
+		
+        return true;
 	}
 	
 	/**
@@ -79,14 +88,31 @@ public class OperateXmlDocument {
 	 * @throws IOException
 	 * @return void
 	 */
-	@Test
-	public void analysisXmlFile() throws ParserConfigurationException, DocumentException, SAXException, IOException{
+	public static HashMap<String, String> analysisXmlFile(String xmlFilePath) throws Exception{
+		
+		HashMap<String, String> map = new HashMap<String, String>();
+		
+		if(xmlFilePath == null || xmlFilePath.equals("")){
+			return map;
+		}
+		
 		SAXReader saxReader = new SAXReader();  
         
-        Document doc = saxReader.read(new File("F:\\student.xml"));//使用 SAXReader读取xml文件
+        Document doc = saxReader.read(new File(xmlFilePath));//使用 SAXReader读取xml文件
         Element root = doc.getRootElement();//读取根节点
           
         List childList = root.elements();//得到root根节点下的子节点列表
+        
+        for(Object obj : childList){
+     	    Element  childElement = (Element)obj;
+     	    String name = childElement.getName();
+     	    String txt = childElement.getText();
+     	    map.put(name, txt);
+        }
+        
+        System.out.println(map);
+        
+        return map;
         
         //下面注释代码对Element方法做了一些简单应用
         /*Element firstNameSub = root.element("name");//获取第一个name子节点
@@ -102,32 +128,22 @@ public class OperateXmlDocument {
               
             System.out.println(e.attributeValue("hobby"));  
         }  */
-          
-        /*//使用foreach循环
-           for(Object obj : root.elements()){
-        	System.out.println(((Element)obj).getText());
-        }*/
-          
-        DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();  
-        DocumentBuilder db = dbf.newDocumentBuilder();  
-        org.w3c.dom.Document document = db.parse(new File("student2.xml"));  
-          
-        DOMReader domReader = new DOMReader();  
-          
-        //将JAXP的Document转换为dom4j的Document  
-        Document d = domReader.read(document);  
-          
-        Element rootElement = d.getRootElement();  
-          
-        System.out.println(rootElement.getName());  
+           
 	}
 	
 	
-	/*public static void main(String[] args){
+	public static void main(String[] args) throws Exception{
 		try {
-			createXmlFile("");
-		} catch (IOException e) {
+			String filePath = "F:\\student.xml";
+			String root = "";
+			Map<String, String> map = new HashMap<String, String>();
+			map.put("语文", "21");
+			map.put("数学", "20");
+			map.put("英语", "20");
+			System.out.println(createXmlFile(root, map, filePath));
+			
+		} catch (Exception e) {
 			e.printStackTrace();
 		}
-	}*/
+	}
 }

@@ -9,7 +9,7 @@ import java.util.TreeMap;
 
 import org.junit.Test;
 
-import com.ru.javaExam.cmd.TWCmdExecutor;
+import com.ru.javaExam.utilofcmd.TWCmdExecutor;
 
 
 /**
