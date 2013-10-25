@@ -10,15 +10,9 @@ import java.io.InputStreamReader;
  * <p>
  * -----------------------------------------------------------------------------
  * <p>
- * 工程名 ： FGapTac
- * <p>
- * 授权 : (C) Copyright topwalk Corporation 2006-2011
- * <p>
- * 公司 : 北京天行网安信息技术有限责任公司
  * <p>
  * -----------------------------------------------------------------------------
  * <p>
- * <font color="#FF0000">注意: 本内容仅限于北京天行网安公司内部使用，禁止转发</font>
  * <p>
  * 
  * @version 1.0
@@ -26,7 +20,7 @@ import java.io.InputStreamReader;
  * @lastMonify 2011-7-21
  * @since JDK1.6
  */
-public class TWCmdExecutor {
+public class CmdExecutor {
 
 	/**
 	 * 执行外部命令，没有返回值
@@ -197,7 +191,7 @@ public class TWCmdExecutor {
 	}
 	
 	public static void main(String[] args) {
-		String result = TWCmdExecutor.exeCmdResult("sh /topapp/topwalk/cpu.sh");
+		String result = CmdExecutor.exeCmdResult("sh /topapp/topwalk/cpu.sh");
 		System.out.println("sh /topapp/topwalk/cpu.sh========================"+result);
 	}
 
