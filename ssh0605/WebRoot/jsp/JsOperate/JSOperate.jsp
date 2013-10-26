@@ -1,4 +1,5 @@
 <%@ page language="java" import="java.util.*" pageEncoding="UTF-8"%>
+<%@taglib prefix="s" uri="/struts-tags"%>
 <%
 String path = request.getContextPath();
 String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path+"/";
@@ -32,6 +33,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 	</head>
 	
 	<body>
+		<s:debug></s:debug>
 		<div style="text-align: center;font: bold;color: green;">JS实现增删改保存操作</div><br>
 		<div id="button">
 			<input type="button" id="add" value="添加">
@@ -56,6 +58,14 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 				</thead>
 				
 				<tbody id="content">
+					<s:iterator id="stus" value="list">
+						<tr id='stu'>
+							<td><input type='checkbox' id='user' value=""/></td>
+							<td><s:property value="#stus['name']"/></td>
+							<td><s:property value="#stus['age']"/></td>
+							<td><s:property value="#stus['major']"/></td>
+						</tr>
+					</s:iterator>
 				
 				</tbody>
 				

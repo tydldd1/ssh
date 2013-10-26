@@ -21,7 +21,7 @@ $(function(){
 				
 				if(addOrUpdate == "add"){//添加操作
 					listIndex++;
-					var htmlStr = "<tr><td><input type='checkbox' id='user' value='" + listIndex + "'/></td><td>" +
+					var htmlStr = "<tr id='stu'><td><input type='checkbox' id='user' value='" + listIndex + "'/></td><td >" +
 						name + "</td><td>" + age + "</td><td>" + major + "</td></tr>";
 					
 					$("#content").append(htmlStr);
@@ -46,6 +46,12 @@ $(function(){
  	
  	//添加
  	$("#add").click(function(){
+ 	    //清空弹出层数据
+ 	    $("#name").val("");
+        $("#age").val("");
+        $("#major").val("");
+        
+        //弹出层
  		addOrUpdate = "add";
  		$("#dialog").dialog("open");
  		$("#dialog").dialog({title:"添加"});
@@ -53,16 +59,8 @@ $(function(){
  	
  	//修改
  	$("#update").click(function(){
- 		//判断是否没有选择用户，或者是否选择多个用户
- 		/*var userCount = 0;
- 		var users = $("input[id='user']");
- 		var length = users.length;
  		
- 		for(var i = 0; i < length; i++){
- 			if(users[i].checked){
- 				userCount++;
- 			}
- 		}*/
+ 		//判断是否没有选择用户，或者是否选择多个用户
  		userCount = $("input[id='user']:checked").length;
  		
  		if(userCount == 0){
@@ -72,16 +70,67 @@ $(function(){
 			alert("不能同时修改多的用户");
 			return;
 		}
+		
+		//初始化弹出层
+		var tdElementArray = $("input[id='user']:checked").parent().nextAll();
+		$("#name").val($(tdElementArray[0]).text());
+        $("#age").val($(tdElementArray[1]).text());
+        $("#major").val($(tdElementArray[2]).text());
+		
+		//弹出层
  		addOrUpdate = "update";
  		$("#dialog").dialog("open");
  		$("#dialog").dialog({title:"修改"});
  	});
  	
+ 	//删除
  	$("#del").click(function(){
  		$("input[id='user']:checked").each(function(){
  			$(this).parent().parent().remove();
  		});
  	});
+ 	
+ 	//保存
+ 	$("#save").click(function(){
+ 	    var dataStr = "";
+ 	    
+ 	    $("tr[id='stu']").each(function(){
+ 	        $(this).children().each(function(i){
+ 	            if(i != 0){
+ 	                if (i != 3) {
+ 	                    dataStr = dataStr +  $(this).text() + ",";
+ 	                }else{
+ 	                    dataStr = dataStr +  $(this).text();
+ 	                }
+ 	                
+ 	            }
+ 	        });
+ 	        dataStr = dataStr + ";";
+ 	    });
+ 	    
+		 var  params  = {
+							"dataStr":dataStr
+						 };
+		  $.ajax({
+			type: "POST",
+			url: "saveStudentData_JSOperate.action",
+			data: params,
+			dataType:"json",
+			success: function(data){
+			  if(data.message == "success"){
+			      alert("保存成功");
+			  }else{
+			      alert("保存失败");
+			  }
+			},
+			error:function(XMLHttpRequest, textStatus, errorThrown){
+                alert("对不起,保存失败!" + textStatus);  
+            } 
+		 });
+		 
+ 	});
+ 	
+ 	
  	
 });
 

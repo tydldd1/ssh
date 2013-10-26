@@ -70,7 +70,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
     	</div><br>
     	
     	<div class="hibernate"><span></span>
-    		<a href="jsp/JsOperate/JSOperate.jsp">使用js实现增删改操作</a></div> 
+    		<a href="getStuMessage_JSOperate.action">使用js实现增删改操作</a></div> 
     	</div><br>
     	
     	<div class="hibernate"><span></span>

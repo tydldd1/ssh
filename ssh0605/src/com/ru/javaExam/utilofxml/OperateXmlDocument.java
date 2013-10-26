@@ -4,6 +4,7 @@ import java.io.File;
 import java.io.FileOutputStream;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.List;
@@ -41,15 +42,15 @@ public class OperateXmlDocument {
 	
 	/**
 	 * 
-	 * createXml(创建xml文件)
+	 * createXml(创建xml文件。rootElement：根节点名称，list：学生列表，savePath：保存路径)
 	 * @throws IOException
 	 * @return void
 	 */
-	public static boolean createXmlFile(String rootElement,Map<String, String> map,String savePath) throws IOException{
+	public static boolean createXmlFile(String rootElement,List<Map<String, String>> list,String savePath) throws IOException{
 		
 		if(rootElement == null || savePath == null || savePath.equals("") || rootElement.equals("")){
 			return false;
-		}else if(map != null && map.size() > 0){
+		}else if(list != null && list.size() > 0){
 			// 创建文档并设置文档的根元素节点 
 	        Element root = DocumentHelper.createElement(rootElement);  
 	        Document document = DocumentHelper.createDocument(root);  
@@ -62,10 +63,14 @@ public class OperateXmlDocument {
 	        subName.setText("ru");//设置  
 	        subAge.setText("24");
 	        subMajor.setText("软件");*/
-	        for(Iterator it = map.keySet().iterator(); it.hasNext();){
-	        	String key = (String) it.next();
-	        	String value = map.get(key);
-	        	root.addElement(key).setText(value);
+	       /* */
+	        for(Map<String, String> map : list){
+	        	Element subEle = root.addElement("student");
+	        	for(Iterator it = map.keySet().iterator(); it.hasNext();){
+		        	String key = (String) it.next();
+		        	String value = map.get(key);
+		        	subEle.addElement(key).setText(value);
+		        }
 	        }
 	        
 	        OutputFormat format = new OutputFormat("    ", true);  
@@ -88,31 +93,43 @@ public class OperateXmlDocument {
 	 * @throws IOException
 	 * @return void
 	 */
-	public static HashMap<String, String> analysisXmlFile(String xmlFilePath) throws Exception{
+	public static List<Map<String, String>> analysisXmlFile(String xmlFilePath) throws Exception{
 		
-		HashMap<String, String> map = new HashMap<String, String>();
+		List<Map<String, String>> list = null;
 		
-		if(xmlFilePath == null || xmlFilePath.equals("")){
-			return map;
+		File xml = new File(xmlFilePath);
+		
+		if(xmlFilePath == null || xmlFilePath.equals("") || xml.isFile() == false){
+			return null;
 		}
 		
 		SAXReader saxReader = new SAXReader();  
         
-        Document doc = saxReader.read(new File(xmlFilePath));//使用 SAXReader读取xml文件
+        Document doc = saxReader.read(xml);//使用 SAXReader读取xml文件
         Element root = doc.getRootElement();//读取根节点
           
         List childList = root.elements();//得到root根节点下的子节点列表
-        
-        for(Object obj : childList){
-     	    Element  childElement = (Element)obj;
-     	    String name = childElement.getName();
-     	    String txt = childElement.getText();
-     	    map.put(name, txt);
+        if(childList == null){
+        	return null;
+        }else{
+        	list = new ArrayList<Map<String,String>>();
         }
         
-        System.out.println(map);
+        for(Object obj : childList){
+        	HashMap<String, String> map = new HashMap<String, String>();
+     	    Element  childElement = (Element)obj;
+     	    List grandSonList = childElement.elements();//得到子节点的子节点列表
+     	    for(Object obje : grandSonList){
+     	    	Element  grandSonElement = (Element)obje;
+     	    	String name = grandSonElement.getName();
+          	    String txt = grandSonElement.getText();
+          	    map.put(name, txt);
+     	    }
+     	   list.add(map);
+        }
         
-        return map;
+        
+        return list;
         
         //下面注释代码对Element方法做了一些简单应用
         /*Element firstNameSub = root.element("name");//获取第一个name子节点
@@ -135,12 +152,20 @@ public class OperateXmlDocument {
 	public static void main(String[] args) throws Exception{
 		try {
 			String filePath = "F:\\student.xml";
-			String root = "";
+			/*String root = "students";
+			List<Map<String, String>> list = new ArrayList<Map<String,String>>();
 			Map<String, String> map = new HashMap<String, String>();
-			map.put("语文", "21");
+			map.put("语文", "22");
 			map.put("数学", "20");
 			map.put("英语", "20");
-			System.out.println(createXmlFile(root, map, filePath));
+			Map<String, String> map1 = new HashMap<String, String>();
+			map1.put("语文", "21");
+			map1.put("数学", "20");
+			map1.put("英语", "20");
+			
+			list.add(map);
+			list.add(map1);*/
+			System.out.println(analysisXmlFile(filePath));
 			
 		} catch (Exception e) {
 			e.printStackTrace();

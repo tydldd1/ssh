@@ -14,4 +14,5 @@
 	<import resource="spring-aop.xml"/>
 	<import resource="spring-login.xml"/>
 	<import resource="spring-hibernate.xml"/>
+	<import resource="spring-JSOperate.xml"/>
 </beans>
