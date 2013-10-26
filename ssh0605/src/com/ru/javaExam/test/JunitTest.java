@@ -9,7 +9,7 @@ import java.util.TreeMap;
 
 import org.junit.Test;
 
-import com.ru.javaExam.utilofcmd.TWCmdExecutor;
+import com.ru.javaExam.utilofcmd.CmdExecutor;
 
 
 /**
@@ -48,7 +48,7 @@ public class JunitTest {
 		String cmd1 = "hostname";
 		String cmd = "snmpwalk -v 3 -u snmptopwalkv3 -a MD5 -A 1qa2ws3ed4rf5tgtopwalk " +
 				"-l authPriv -x DES -X snmptopwalk 192.168.16.100 .1.3.6.1.4.1.2021.4.6.0";
-		System.out.println(TWCmdExecutor.exeCmdResultUTF8(cmd1));
+		System.out.println(CmdExecutor.exeCmdResultUTF8(cmd1));
 	}
 	
 	@Test
