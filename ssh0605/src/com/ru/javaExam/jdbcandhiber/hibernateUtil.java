@@ -1,4 +1,4 @@
-package com.ru.ssh.base;
+package com.ru.javaExam.jdbcandhiber;
 
 import java.util.List;
 

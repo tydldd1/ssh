@@ -3,7 +3,7 @@
  * 版权所有
  *
  */
-package com.ru.javaExam.jdbc;
+package com.ru.javaExam.jdbcandhiber;
 
 import java.sql.CallableStatement;
 import java.sql.Connection;
@@ -34,12 +34,12 @@ import com.ru.javaExam.string.StringUtil;
  * @since jdk1.7
  * @version 1.0
  */
-public class QueryTest{
+public class JdbcUtil{
 	
 	static String classDriver = "com.mysql.jdbc.Driver";
-	static String dbConnection = "jdbc:mysql://192.168.16.101:3306/dtpser";
-	static String userName = "dtpser";
-	static String password = "topwalk";
+	static String dbConnection = "jdbc:mysql://localhost:3306/ssh";
+	static String userName = "root";
+	static String password = "123456";
 	
 	
 	private static Connection connection = null;
@@ -54,8 +54,13 @@ public class QueryTest{
 		//增删改
 		//String sql = "insert into stuname(id,name) values(?,?)";
 		//String sql = "update stuname set name = ? where id = ?";
-		String sql = "delete from stuname";
-		boolean b  = insertOrUpdateDB(sql);
+		/*String sql = "delete from stuname";
+		boolean b  = insertOrUpdateDB(sql);*/
+		
+		//查询操作
+		String sql = "select * from user";
+		Object[] obj = this.sqlQueryUniqueObj(sql);
+		System.out.println(obj[1]);
 		
 		//调用存储过程
 		//String value = getCallableResult(callName);
@@ -63,7 +68,7 @@ public class QueryTest{
 	}
 	
 	/**
-	 * (1、查询帮助类)
+	 * (1、查询帮助类,得到一个list<Map<String, Object>>)
 	 * @param  
 	 * @return 
 	 * @throws
@@ -71,7 +76,19 @@ public class QueryTest{
 	public static List<Map<String, Object>> queryTest(String sql,String... args){
 		List<Map<String, Object>> list = new ArrayList<Map<String,Object>>();
 		try {
-			getStatement(sql,args);
+			//1.加载驱动
+			Class.forName(classDriver);
+			
+			//2.连接数据库
+			connection = DriverManager.getConnection(dbConnection,userName,password);
+			
+			//3.创建表达式
+			statement = connection.prepareStatement(sql);
+			if(args != null && args.length != 0){
+				for(int i = 0; i < args.length; i++){
+					statement.setString(i+1, args[i]);
+				}
+			}
 
 			//4.执行指令
 			resultSet = statement.executeQuery();
@@ -99,6 +116,47 @@ public class QueryTest{
 		
 		return list;
 	}
+	
+	/**
+	 * 
+	 * sqlQueryUniqueObj(只有一个对象时，使用这个方法得到Object[])
+	 * @param sql
+	 * @param args
+	 * @return
+	 * @return Object[]
+	 */
+	public static Object[] sqlQueryUniqueObj(String sql,String... args){
+		
+		Object[] obj = null;
+		try {
+			getStatement(sql,args);
+
+			//4.执行指令
+			resultSet = statement.executeQuery();
+			
+			//5、对resultSet结果进行处理
+			//（1）得到resultSet对象中列的类型和属性信息
+			ResultSetMetaData rsmd = resultSet.getMetaData();
+			//（2）得到一共有多少列
+			int columCount = rsmd.getColumnCount();
+			while(resultSet.next()){
+				obj = new Object[columCount];
+				for(int i = 0; i < columCount; i++){
+					Object value = resultSet.getObject(i + 1);
+					obj[i] = value;
+				}
+			}
+			
+		} catch (Exception e) {
+			e.printStackTrace();
+		}finally{
+			exceptionHandling();
+		}
+		
+		return obj;
+	}
+	
+	
 	
 	/**
 	 * 
@@ -149,10 +207,12 @@ public class QueryTest{
 			//3.创建表达式
 			statement = connection.prepareStatement(sql,ResultSet.TYPE_SCROLL_SENSITIVE,ResultSet.CONCUR_READ_ONLY);
 			for(int m = 0; m < size; m++){
-				statement.setString(1, StringUtil.getSequences2());
-				statement.setString(2, "ruyeweiwu");
+				if(args != null && args.length != 0){
+					for(int i = 0; i < args.length; i++){
+						statement.setString(i+1, args[i]);
+					}
+				}
 				statement.addBatch();
-				System.out.println("第：" + m);
 			}
 			
 			result = statement.executeBatch();
@@ -166,7 +226,6 @@ public class QueryTest{
 			exceptionHandling();
 		}
 		
-		System.out.println(result.length);
 		if(result !=null && result.length == size){
 			isInsertSucess = true;
 		}
@@ -206,19 +265,19 @@ public class QueryTest{
 	public static void getStatement(String sql,String... args) throws SQLException, ClassNotFoundException{
 		
 		
-			//1.加载驱动
-			Class.forName(classDriver);
-			
-			//2.连接数据库
-			connection = DriverManager.getConnection(dbConnection,userName,password);
-			
-			//3.创建表达式
-			statement = connection.prepareStatement(sql);
-			if(args != null && args.length != 0){
-				for(int i = 0; i < args.length; i++){
-					statement.setString(i+1, args[i]);
-				}
+		//1.加载驱动
+		Class.forName(classDriver);
+		
+		//2.连接数据库
+		connection = DriverManager.getConnection(dbConnection,userName,password);
+		
+		//3.创建表达式
+		statement = connection.prepareStatement(sql);
+		if(args != null && args.length != 0){
+			for(int i = 0; i < args.length; i++){
+				statement.setString(i+1, args[i]);
 			}
+		}
 	} 
 	
 	//公共创建表达式方法部分--调用存储过程
@@ -240,7 +299,7 @@ public class QueryTest{
 				}
 		} 
 	
-	//公共异常处理部分
+	//关闭资源
 	public static void exceptionHandling(){
 		//关闭资源
 		if(resultSet != null){

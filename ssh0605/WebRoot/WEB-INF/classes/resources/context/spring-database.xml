@@ -98,9 +98,7 @@
     <tx:annotation-driven transaction-manager="transactionManager"/>
     
     <!-- hibernate帮助类 -->
-    <bean id="basicHibernate"
-		class="com.ru.ssh.base.hibernateUtil"
-		abstract="true">
+    <bean id="basicHibernate" class="com.ru.ssh.base.hibernateUtil" abstract="true">
 		<property name="sessionFactory">
 			<ref bean="sessionFactory" />
 		</property>

@@ -69,7 +69,7 @@
 	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/slf4j-log4j12-1.5.2.jar"/>
 	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/slf4j-nop-1.5.8.jar"/>
 	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/spring-flex-core-1.5.2.RELEASE.jar"/>
-	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/spring.jar" sourcepath="E:/文档资料软件/开发软件/javaee/框架包/spring-framework-3.1.2.RELEASE-with-docs/spring-framework-3.1.2.RELEASE"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/spring.jar" sourcepath="E:/软件/学习和编程/java/框架包/需要的jar/hibernate3.6"/>
 	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/sqlitejdbc-v056.jar"/>
 	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/standard.jar"/>
 	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/struts2-core-2.1.8.1.jar"/>

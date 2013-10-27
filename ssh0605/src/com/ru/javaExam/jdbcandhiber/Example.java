@@ -3,7 +3,7 @@
  * 版权所有
  *
  */
-package com.ru.javaExam.jdbc;
+package com.ru.javaExam.jdbcandhiber;
 
 import org.junit.Test;
 
@@ -24,7 +24,7 @@ import com.ru.javaExam.string.StringUtil;
 public class Example {
 	public static void main(String[] args){
 		String sql = "INSERT INTO tbuserlogger (logger_id,descr) VALUES (?,?)";
-		boolean isInsert = QueryTest.insertBatch(sql,200000);
+		boolean isInsert = JdbcUtil.insertBatch(sql,200000);
 		System.out.println(isInsert);
 	}
 	

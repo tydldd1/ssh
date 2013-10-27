@@ -1,4 +1,4 @@
-package com.ru.javaExam.jdbc;
+package com.ru.javaExam.jdbcandhiber;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

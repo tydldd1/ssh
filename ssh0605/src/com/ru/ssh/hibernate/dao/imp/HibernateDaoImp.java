@@ -53,7 +53,7 @@ public class HibernateDaoImp extends hibernateUtil implements HibernateDaoInter{
 	public List<Person> getPersonList(int currentPage, int pageSize) throws HibernateException{
 		List<Person> personList = null;
 		String hql = "select p from Person p,Address a where p.address.addressid=a.addressid ";
-		personList = createQueryByPage(hql, currentPage, pageSize).list();
+		personList = createQueryByPage(hql, currentPage, pageSize);
 		System.out.println("dao------personList = " + personList.size());
 		return personList;
 	}
@@ -63,7 +63,7 @@ public class HibernateDaoImp extends hibernateUtil implements HibernateDaoInter{
 	public List<Person> getAddressList(int currentPage,int pageSize,String address) throws HibernateException{
 		List<Person> addressList = null;
 		String hql = "select p from Person p join p.address a where p.address.addressid=a.addressid and a.addressdetail=?";
-		addressList = createQueryByPage(hql, currentPage, pageSize,address).list();
+		addressList = createQueryByPage(hql, currentPage, pageSize,address);
 		log.info("dao   addressList.size() = " + addressList.size());
 		return addressList;
 	}
