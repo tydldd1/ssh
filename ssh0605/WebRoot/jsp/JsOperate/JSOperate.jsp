@@ -58,6 +58,8 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 				</thead>
 				
 				<tbody id="content">
+					
+					<!-- 使用xml -->
 					<s:iterator id="stus" value="list">
 						<tr id='stu'>
 							<td><input type='checkbox' id='user' value=""/></td>
@@ -66,6 +68,16 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 							<td><s:property value="#stus['major']"/></td>
 						</tr>
 					</s:iterator>
+					
+					<!-- 使用数据库 -->
+					<%-- <s:iterator id="stus" value="stuList">
+						<tr id='stu'>
+							<td><input type='checkbox' id='user' value=""/></td>
+							<td><s:property value="#stus.name"/></td>
+							<td><s:property value="#stus.age"/></td>
+							<td><s:property value="#stus.major"/></td>
+						</tr>
+					</s:iterator> --%>
 				
 				</tbody>
 				

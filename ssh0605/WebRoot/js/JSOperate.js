@@ -113,6 +113,7 @@ $(function(){
 						 };
 		  $.ajax({
 			type: "POST",
+			/*url: "saveStudentData_JSOperate.action",*/
 			url: "saveStudentData_JSOperate.action",
 			data: params,
 			dataType:"json",

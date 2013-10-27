@@ -5,11 +5,17 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+import org.apache.log4j.Logger;
+import org.hibernate.HibernateException;
+
 import com.ru.ssh.JSOperate.dao.inter.JSOperateDaoInter;
+import com.ru.ssh.JSOperate.entity.Student;
 import com.ru.ssh.JSOperate.service.inter.JSOperateServInter;
 
 public class JSOperateServImp implements JSOperateServInter{
 	
+	Logger log = Logger.getLogger(JSOperateServImp.class);
+	//接口
 	private JSOperateDaoInter JSOperateDao;
 	
 	/**
@@ -30,7 +36,7 @@ public class JSOperateServImp implements JSOperateServInter{
 	}
 	
 	
-	public List<Map<String, String>> getList(String data){
+	private List<Map<String, String>> getList(String data){
 		List<Map<String, String>> list = new ArrayList<Map<String,String>>();
 		String[] students = data.split(";");
 		
@@ -44,6 +50,71 @@ public class JSOperateServImp implements JSOperateServInter{
 		}
 		
 		return list;
+	}
+	
+	/**
+	 * 
+	 * saveStuData(2通过数据库保存学生信息)
+	 * @param list
+	 * @return
+	 * @return boolean
+	 */
+	public boolean saveStuData(List<Map<String, String>> list){
+		
+		List<String> blList = new ArrayList<String>();
+		
+		try {
+			for(Map<String, String> map : list){
+				String name = map.get("name");
+				String age = map.get("age");
+				String major = map.get("major");
+				
+				boolean bl = JSOperateDao.saveStuData(name, age, major);
+				if(bl == true){
+					blList.add("true");
+				}else{
+					blList.add("false");
+				}
+			}
+		} catch (HibernateException e) {
+			errorHandle(e,"通过数据库保存学生信息出错");
+		}
+		
+		if(blList.contains("false")){
+			return false;
+		}
+		return true;
+	}
+	
+	/**
+	 * 
+	 * getStuDataByDatabase(2通过数据库获取学生信息)
+	 * @return
+	 * @return List<Student>
+	 */
+	public List<Student> getStuDataByDatabase(){
+		
+		List<Student> list = null;
+		try {
+			 list = JSOperateDao.getStuDataByDatabase();
+		} catch (Exception e) {
+			errorHandle(e, "通过数据库获取学生信息失败");
+		}
+		
+		return list;
+	}
+	
+	
+	/**
+	 * 
+	 * errorHandle(错误处理)
+	 * @param e
+	 * @param msg
+	 * @return void
+	 */
+	public void errorHandle(Exception e, String msg){
+		log.info(msg + ">>>>>> 错误信息：" + e.toString());
+		e.printStackTrace();
 	}
 	
 	

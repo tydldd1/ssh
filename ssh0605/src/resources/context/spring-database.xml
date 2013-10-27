@@ -59,6 +59,7 @@
 				<value>com/ru/ssh/login/entity/User.hbm.xml</value>
 				<value>com/ru/ssh/hibernate/entity/Person.hbm.xml</value>
 				<value>com/ru/ssh/hibernate/entity/Address.hbm.xml</value>
+				<value>com/ru/ssh/JSOperate/entity/Student.hbm.xml</value>
 			</list>
 		</property>
 		<property name="hibernateProperties">
