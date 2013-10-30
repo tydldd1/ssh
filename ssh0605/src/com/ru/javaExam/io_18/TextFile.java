@@ -4,6 +4,7 @@ import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
 import java.io.FileReader;
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -24,7 +25,7 @@ public class TextFile {
 	 * @param String filePath
 	 * @return sb
 	 * */
-	@Test
+	//@Test
 	public void read() throws IOException{
 		StringBuffer sb=new StringBuffer();
 		String s="";
@@ -47,7 +48,7 @@ public class TextFile {
 	 * 将字符串写入文件
 	 * @param String text
 	 * */
-	@Test
+	//@Test
 	public void write(){
 		PrintWriter pw=null;
 		try {
@@ -59,5 +60,24 @@ public class TextFile {
 		}finally{
 			pw.close();
 		}
+	}
+	
+	@Test
+	public void w() throws IOException{
+		/*String path = "F:\\ru\\";
+		File file = new File(path);
+		String path2 = "F:\\ru\\123.t";
+		File file2 = new File(path2);
+		//file.mkdir();
+		
+		//file2.createNewFile();
+		File file3 = new File("F:\\ru\\123.t");
+		file3.delete();
+		//file.delete();
+*/		
+		
+		String ss = "qqqqqqqqqqqwwww";
+		 String s = ss.substring(ss.length() - 4 , ss.length());
+		 System.out.println(s);
 	}
 }
