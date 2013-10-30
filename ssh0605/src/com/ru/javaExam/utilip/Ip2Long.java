@@ -1,4 +1,4 @@
-package com.ru.javaExam.ip;
+package com.ru.javaExam.utilip;
 /**
  *  
  * <p>

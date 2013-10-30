@@ -1,4 +1,4 @@
-package com.ru.javaExam.date;
+package com.ru.javaExam.utildate;
 
 import java.sql.Timestamp;
 import java.text.ParseException;

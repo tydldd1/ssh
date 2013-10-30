@@ -1,4 +1,4 @@
-package com.ru.javaExam.ip;
+package com.ru.javaExam.utilip;
 
 import java.net.InetAddress;
 import java.net.UnknownHostException;

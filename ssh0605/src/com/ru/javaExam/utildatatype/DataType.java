@@ -1,4 +1,4 @@
-package com.ru.javaExam.datatype;
+package com.ru.javaExam.utildatatype;
 
 import java.util.List;
 

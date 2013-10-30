@@ -1,4 +1,4 @@
-package com.ru.javaExam.md5;
+package com.ru.javaExam.utilmd5;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 

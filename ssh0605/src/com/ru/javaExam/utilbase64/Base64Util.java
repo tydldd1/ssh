@@ -1,4 +1,4 @@
-package com.ru.javaExam.base64;
+package com.ru.javaExam.utilbase64;
 
 import com.jit.util.Base64;
 
