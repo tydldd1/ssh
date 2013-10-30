@@ -21,11 +21,11 @@ import com.ru.javaExam.string.StringUtil;
  */
 public class Test {
 	
-	public static void main(String[] args){
+	/*public static void main(String[] args){
 		String s = StringUtil.getSequences2();
 		System.out.println(s);
 		String[] ss = new String[12];
-	}
+	}*/
 	
 	/**
 	 * 
@@ -34,8 +34,12 @@ public class Test {
 	 * @param ii
 	 * @return String
 	 */
-	public String getStr(String ss,int ii){
-		
-		return ss;
+	@org.junit.Test
+	public void getStr(){
+		/*String configPath = Test.class.getResource("/com/ru/javaExam/test/").getPath();
+		System.out.println(configPath);*/
+		char c = 'z' + 1;
+		char a = 'a';
+		System.out.println(c);
 	}
 }

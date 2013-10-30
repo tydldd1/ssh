@@ -66,7 +66,35 @@ import org.junit.Test;
 					prop.setProperty(key, value);
 				}
 				
-				prop.store(fos, "等号两端不要有空格");
+				prop.store(fos, "OGG config file ,replicat is a number");
+				fos.close();
+			} catch (IOException e) {
+				e.printStackTrace();
+			}
+		}
+		
+		/**
+		 * 
+		 * writeData(写入属性)
+		 * @param key
+		 * @param value
+		 * @param filePath
+		 * @return void
+		 */
+		public static void writeData(String key, String value, String filePath) {
+			Properties prop = new Properties();
+			try {
+				File file = new File(filePath);
+				if (!file.exists())
+					file.createNewFile();
+				InputStream fis = new FileInputStream(file);
+				prop.load(fis);
+				fis.close();
+				OutputStream fos = new FileOutputStream(filePath);
+					
+				prop.setProperty(key, value);
+				
+				prop.store(fos, "OGG config file ,replicat is a number");
 				fos.close();
 			} catch (IOException e) {
 				e.printStackTrace();
