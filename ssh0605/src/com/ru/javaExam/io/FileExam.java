@@ -11,6 +11,7 @@ package com.ru.javaExam.io;
 
 import java.io.File;
 import java.io.IOException;
+import java.util.List;
 
 import org.apache.log4j.Logger;
 import org.junit.Test;
@@ -75,6 +76,19 @@ public class FileExam {
 		log.info("******目录操作相关方法******");
 		System.out.println("创建新目录(mkdir只能生成存在目录的下级目录不能生成多层目录)：" + new File("G:\\test\\ru\\ru1\\ru2").mkdir());
 		System.out.println("创建新目录(mkdirs可以生成多层目录，如果目录存在返回false)：" + new File("G:\\test\\ru\\ru1\\ru2").mkdirs());
+		
+		//得到文件和文件夹名数组
+		String[] fileList = new File(basePath).list();
+		
+		for(String file : fileList){
+			System.out.println("文件名：" + file);
+		}
+		
+		//得到所有的根目录file
+		File[] rootFils = File.listRoots();
+		for(File file : rootFils){
+			System.out.println("根目录：" + file.getPath());
+		}
 		
 	}
 }

@@ -127,3 +127,13 @@
 [INFO] 2013-10-29 23:41:25  com.ru.javaExam.io.FileExam.file1(FileExam.java:61)  ******获取文件信息相关方法******
 [INFO] 2013-10-29 23:41:25  com.ru.javaExam.io.FileExam.file1(FileExam.java:66)  ******文件操作相关方法******
 [INFO] 2013-10-29 23:41:25  com.ru.javaExam.io.FileExam.file1(FileExam.java:75)  ******文件操作相关方法******
+[INFO] 2013-10-30 21:00:23  com.ru.javaExam.io.FileExam.file1(FileExam.java:44)  文件名：123.txt
+[INFO] 2013-10-30 21:00:23  com.ru.javaExam.io.FileExam.file1(FileExam.java:54)  ******文件检测相关方法******
+[INFO] 2013-10-30 21:00:23  com.ru.javaExam.io.FileExam.file1(FileExam.java:62)  ******获取文件信息相关方法******
+[INFO] 2013-10-30 21:00:23  com.ru.javaExam.io.FileExam.file1(FileExam.java:67)  ******文件操作相关方法******
+[INFO] 2013-10-30 21:00:23  com.ru.javaExam.io.FileExam.file1(FileExam.java:76)  ******目录操作相关方法******
+[INFO] 2013-10-30 21:31:10  com.ru.javaExam.io.FileExam.file1(FileExam.java:44)  文件名：123.txt
+[INFO] 2013-10-30 21:31:10  com.ru.javaExam.io.FileExam.file1(FileExam.java:54)  ******文件检测相关方法******
+[INFO] 2013-10-30 21:31:10  com.ru.javaExam.io.FileExam.file1(FileExam.java:62)  ******获取文件信息相关方法******
+[INFO] 2013-10-30 21:31:10  com.ru.javaExam.io.FileExam.file1(FileExam.java:67)  ******文件操作相关方法******
+[INFO] 2013-10-30 21:31:10  com.ru.javaExam.io.FileExam.file1(FileExam.java:76)  ******目录操作相关方法******
