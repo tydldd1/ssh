@@ -41,7 +41,8 @@ public class FileExam {
 		log.debug("******文件名相关方法******");
 		
 		//得到文件名称，如果是文件返回文件名，如果是路径返回最后以及子路径名称
-		log.info("文件名：" + file.getName());
+		System.out.println("文件名：" + file.getName());
+		System.out.println("父目录(完整路径)：" + file.getParent());
 		System.out.println("file对应文件路径：" + file.getPath());
 		System.out.println("file的绝对路径:" + file2.getAbsolutePath());
 		//得到当前file的绝对路径file

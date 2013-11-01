@@ -9,6 +9,14 @@
  */
 package com.ru.javaExam.io;
 
+import java.io.File;
+import java.io.FileInputStream;
+
+import javax.sound.sampled.AudioFormat;
+import javax.sound.sampled.AudioInputStream;
+
+import org.junit.Test;
+
 /**
  * 
  * 项目名称：ssh0605
@@ -22,5 +30,14 @@ package com.ru.javaExam.io;
  * @version 1.0
  */
 public class AudioInputStreamExam {
-
+	
+	@Test
+	public void audioTest1(){
+		File file = new File("G:\\test\\Don`t Lie On Me.mp3");
+		if(!file.exists()){
+			return;
+		}
+		
+		//AudioInputStream ais = new AudioInputStream(new FileInputStream(file), format, length);
+	}
 }
