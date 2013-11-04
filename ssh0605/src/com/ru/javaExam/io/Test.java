@@ -28,6 +28,12 @@ public class Test {
 
 	@org.junit.Test
 	public void test(){
-		System.out.println(new File("ru").getPath());
+		String[] ss = new File("G:\\test\\ru123").list();
+		System.out.println(ss);
+		
+		String[] sss = {"1","2"};
+		
+		File file = new File("G:/test/ru.java");
+		System.out.println(file.getParent());
 	}
 }
