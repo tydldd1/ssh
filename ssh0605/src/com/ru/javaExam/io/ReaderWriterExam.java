@@ -153,7 +153,6 @@ public class ReaderWriterExam {
 	 * @throws IOException
 	 * @return void
 	 */
-	@Test
 	public void fileWriterTest() throws IOException{
 		
 		String str = "这个字符串将写入文件";
@@ -177,4 +176,49 @@ public class ReaderWriterExam {
 			}
 		}
 	}
+	
+	/**
+	 * 
+	 * subStrings(截取文件里的一个字符串)
+	 * @param beginStr 开始标识字符串（不包含在截取字符串里）
+	 * @param endStr 结束标识字符串（不包含在截取字符串里）
+	 * flag :false标识没有找到开始标识之前 true找到开始标识之后
+	 * @return void
+	 */
+	public static String subStrings(String beginStr, String endStr){
+		BufferedReader bf = null;
+		String flag = "false";
+		StringBuilder sb = new StringBuilder();
+		try {
+			bf = new BufferedReader(new FileReader("G:/test/topgap.conf"));
+			
+			String content = null;
+			while((content = bf.readLine()) != null){
+				//包含开始标识，将flag置为tue
+				if(content.equals(beginStr)){
+					flag = "true";
+					continue;//跳出当前循环
+				}
+				//假如flag 是true开始拼接字符串
+				if(flag.equals("true")){
+					//不是结束标识则拼接字符串
+					if(!content.equals(endStr)){
+						sb.append(content + "\n");
+					}else{//如果是结束标识的话将
+						return sb.toString();
+					}
+					
+				}
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		
+		return sb.toString();
+	}
+	
+	public static void main(String[] args){
+		System.out.println(subStrings("[tcp_base]", "[/tcp_base]"));
+	}
+	
 }
