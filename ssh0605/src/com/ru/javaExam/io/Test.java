@@ -11,6 +11,8 @@ package com.ru.javaExam.io;
 
 import java.io.File;
 
+import com.ru.ssh.JSOperate.entity.Student;
+
 
 /**
  * 
@@ -28,12 +30,15 @@ public class Test {
 
 	@org.junit.Test
 	public void test(){
-		String[] ss = new File("G:\\test\\ru123").list();
+		/*String[] ss = new File("G:\\test\\ru123").list();
 		System.out.println(ss);
 		
 		String[] sss = {"1","2"};
 		
 		File file = new File("G:/test/ru.java");
-		System.out.println(file.getParent());
+		System.out.println(file.getParent());*/
+		
+		Student stu = new Student();
+		System.out.println(stu.getAge() + "    " + stu.getName() + stu.getMajor());
 	}
 }
