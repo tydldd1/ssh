@@ -15,9 +15,10 @@
 		<param-value>classpath*:resources/context/spring.xml</param-value><!-- /WEB-INF/spring-fgap.xml -->
 	</context-param>
 	
+	<!-- log4j日志记录 -->
 	<listener>   
   	  <listener-class>org.springframework.web.util.Log4jConfigListener</listener-class>   
-	</listener>  
+	</listener> 
 	<context-param>
 		<param-name>log4jConfigLocation</param-name>
 		<param-value>/WEB-INF/log4j.properties</param-value>
