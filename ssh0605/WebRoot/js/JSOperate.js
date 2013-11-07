@@ -42,7 +42,38 @@ $(function(){
 		}
 		
 	});
- 	
+	
+	//初始化分页
+    //显示第一页信息,其他隐藏
+    $("#currentPage").val("1");
+    //总记录数
+    var totalCount = parseInt($("#totalCount").val());
+    var totalPage;
+   if((totalCount % 3) == 0){
+        totalPage = totalCount / 3;
+    }else{
+        totalPage = parseInt(totalCount / 3) + 1;
+    }
+    $("#total").text(totalPage);
+    $("#totalPage").val(totalPage);
+  
+    if(totalPage == 1){
+        //设置索引值
+        $("#begIndex").text("1");
+        $("#endIndex").text(totalCount);
+    }else{
+        //设置索引值
+        $("#begIndex").text("1");
+        $("#endIndex").text("3");
+    }
+    
+   
+    $("tr[id='stu']").each(function(){
+        var index = $(this).attr("title");
+        if((index/3) >= 1){
+            $(this).css("display","none");
+        }
+    });
  	
  	//添加
  	$("#add").click(function(){
@@ -146,4 +177,124 @@ function checkAll(){
 			this.checked=false;
 		});
 	}
+}
+
+
+//下一页
+function nextPage(){
+     //总记录数
+    var totalCount = parseInt($("#totalCount").val());
+    var nextPage = parseInt($("#currentPage").val()) + 1;
+    var totalPage = parseInt($("#totalPage").val());
+    
+    
+    if(nextPage <= totalPage){
+        $("#currentPage").val(nextPage);
+        $("#current").text(nextPage);
+        $("tr[id='stu']").each(function(){
+            var index = $(this).attr("title");
+            if(nextPage - 1 <= index/3 && index/3 < nextPage){
+                $(this).css("display","");
+            }else{
+               $(this).css("display","none");
+             }
+            
+        });
+    }
+    if(nextPage >= totalPage){
+        //设置索引值
+        var cuPage = parseInt($("#currentPage").val());
+        $("#begIndex").text((cuPage-1)*3 + 1);
+        $("#endIndex").text(totalCount);
+    }else{
+         //设置索引值
+        var cuPage = parseInt($("#currentPage").val());
+        $("#begIndex").text((cuPage-1)*3 + 1);
+        $("#endIndex").text(cuPage*3);
+    }
+}
+
+//上一页
+function prePage(){
+     //总记录数
+    var totalCount = parseInt($("#totalCount").val());
+    var prePage = parseInt($("#currentPage").val()) -1;
+    var totalPage = parseInt($("#totalPage").val());
+    
+    
+    if(prePage >= 1){
+        $("#currentPage").val(prePage);
+        $("#current").text(prePage);
+        $("tr[id='stu']").each(function(){
+            var index = $(this).attr("title");
+            if(prePage - 1 <= index/3 && index/3 < prePage){
+                $(this).css("display","");
+            }else{
+               $(this).css("display","none");
+             }
+            
+        });
+    }
+    if(nextPage <= totalPage){
+        //设置索引值
+        var cuPage = parseInt($("#currentPage").val());
+        $("#begIndex").text((cuPage-1)*3 + 1);
+        $("#endIndex").text(totalCount);
+    }else{
+         //设置索引值
+        var cuPage = parseInt($("#currentPage").val());
+        $("#begIndex").text((cuPage-1)*3 + 1);
+        $("#endIndex").text(cuPage*3);
+    }
+}
+
+//第一页
+function jumpPage(page){
+     //总记录数
+    var totalCount = parseInt($("#totalCount").val());
+    $("#currentPage").val(page);
+    $("#current").text(page);
+    var totalPage = parseInt($("#totalPage").val());
+    
+    if(totalPage == 1){
+        //设置索引值
+        $("#begIndex").text("1");
+        $("#endIndex").text(totalCount);
+    }else{
+        //设置索引值
+        $("#begIndex").text("1");
+        $("#endIndex").text("3");
+    }
+    
+    $("tr[id='stu']").each(function(){
+        var index = $(this).attr("title");
+        if(page - 1 <= index/3 && index/3 < page){
+            $(this).css("display","");
+        }else{
+           $(this).css("display","none");
+         }
+    });
+}
+
+//跳到最后一页
+function jumpLastPage(){
+     //总记录数
+    var totalCount = parseInt($("#totalCount").val());
+    var totalPage = parseInt($("#totalPage").val());
+    $("#currentPage").val(totalPage);
+    $("#current").text(totalPage);
+    
+  //设置索引值
+    var cuPage = parseInt($("#currentPage").val());
+    $("#begIndex").text((cuPage-1)*3 + 1);
+    $("#endIndex").text(totalCount);
+    
+    $("tr[id='stu']").each(function(){
+        var index = $(this).attr("title");
+        if(totalPage - 1 <= index/3 && index/3 < totalPage){
+            $(this).css("display","");
+        }else{
+           $(this).css("display","none");
+         }
+    });
 }

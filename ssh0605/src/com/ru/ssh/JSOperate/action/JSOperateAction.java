@@ -31,7 +31,7 @@ public class JSOperateAction {
 	 */
 	public String saveStudentData(){
 		String rootElement = "students";
-		String savePath = "F:\\students.xml";
+		String savePath = "G:/test/students.xml";
 		List<Map<String, String>> list = JSOperateService.getStuList(dataStr);
 		
 		try {
@@ -53,7 +53,7 @@ public class JSOperateAction {
 	 * @return String
 	 */
 	public String getStuMessage(){
-		String xmlPath = "F:\\students.xml";
+		String xmlPath = "G:/test/students.xml";
 		try {
 			list = OperateXmlDocument.analysisXmlFile(xmlPath);
 		} catch (Exception e) {

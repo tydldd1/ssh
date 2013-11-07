@@ -46,6 +46,12 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 		<div>*******以下为列表*******</div>
 		<br>
 		<div id="table">
+		<!-- 当前页 -->
+		<input type="hidden" id="currentPage" value="1">
+		<!-- 总页数 -->
+		<input type="hidden" id="totalPage">
+		<!-- 总条数 -->
+		<input type="hidden" id="totalCount" value="<s:property value='%{list.size}'/>">
 			<table border="1px;">
 				<!-- 标题 -->
 				<thead>
@@ -60,14 +66,23 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 				<tbody id="content">
 					
 					<!-- 使用xml -->
-					<s:iterator id="stus" value="list">
-						<tr id='stu'>
+					<s:iterator id="stus" value="list" status="st">
+						<tr id='stu' title="<s:property value='#st.index'/>">
 							<td><input type='checkbox' id='user' value=""/></td>
 							<td><s:property value="#stus['name']"/></td>
 							<td><s:property value="#stus['age']"/></td>
 							<td><s:property value="#stus['major']"/></td>
 						</tr>
 					</s:iterator>
+					
+					<!--<s:iterator id="stus" value="list">
+						<tr id='stu'>
+							<td><input type='checkbox' id='user' value=""/></td>
+							<td><s:property value="#stus['name']"/></td>
+							<td><s:property value="#stus['age']"/></td>
+							<td><s:property value="#stus['major']"/></td>
+						</tr>
+					</s:iterator>-->
 					
 					<!-- 使用数据库 -->
 					<%-- <s:iterator id="stus" value="stuList">
@@ -81,6 +96,15 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 				
 				</tbody>
 				
+				<tbody>
+					<tr>
+						<td colspan="4">
+							当前第  <span id="current">1</span>页共  <span id="total"><s:property value="%{list.size/2}"/></span>页
+							  <a href="javascript:void(0);" onclick="nextPage()">下一页</a><a onclick="prePage()" href="javascript:void(0);">上一页</a>
+							  <a href="javascript:void(0);" onclick="jumpPage('1')">第一页</a><a onclick="jumpLastPage()" href="javascript:void(0);">最后一页</a>
+						</td>
+					</tr>
+				</tbody>
 			</table>
 		</div>
 		
