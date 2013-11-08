@@ -1,4 +1,4 @@
-package com.ru.javaperformanceoptimization.designmodel.proxy;
+package com.ru.javadesign.designmodel.proxy;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;

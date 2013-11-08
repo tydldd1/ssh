@@ -1,4 +1,4 @@
-package com.ru.javaperformanceoptimization.designmodel.signalmodel;
+package com.ru.javadesign.designmodel.signalmodel;
 
 /**
  * 项目名称：ssh0605

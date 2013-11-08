@@ -1,4 +1,4 @@
-package com.ru.javaperformanceoptimization.component.split;
+package com.ru.javadesign.component.split;
 
 import java.util.StringTokenizer;
 

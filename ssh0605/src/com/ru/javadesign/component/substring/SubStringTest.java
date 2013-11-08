@@ -1,4 +1,4 @@
-package com.ru.javaperformanceoptimization.component.substring;
+package com.ru.javadesign.component.substring;
 
 import java.util.ArrayList;
 import java.util.List;

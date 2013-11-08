@@ -1,4 +1,4 @@
-package com.ru.javaperformanceoptimization.designmodel.flyweightpattern;
+package com.ru.javadesign.designmodel.flyweightpattern;
 
 /**
  * 项目名称：ssh0605

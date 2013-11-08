@@ -1,4 +1,4 @@
-package com.ru.javaperformanceoptimization.designmodel.flyweightpattern;
+package com.ru.javadesign.designmodel.flyweightpattern;
 
 import java.util.HashMap;
 import java.util.Map;

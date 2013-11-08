@@ -1,4 +1,4 @@
-package com.ru.javaperformanceoptimization.designmodel.proxy;
+package com.ru.javadesign.designmodel.proxy;
 
 /**
  * 项目名称：ssh0605

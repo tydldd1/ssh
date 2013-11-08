@@ -1,4 +1,4 @@
-package com.ru.javaperformanceoptimization.designmodel.flyweightpattern;
+package com.ru.javadesign.designmodel.flyweightpattern;
 
 import org.junit.Test;
 
