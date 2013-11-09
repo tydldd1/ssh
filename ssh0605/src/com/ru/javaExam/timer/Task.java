@@ -32,6 +32,7 @@ public class Task extends TimerTask{
 	public void run() {
 		/*log.debug("这个I = " + i++);*/
 		System.out.println(i++);
+
 	}
 	
 }
