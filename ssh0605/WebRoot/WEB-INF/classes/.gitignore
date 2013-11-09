@@ -1,1 +1,7 @@
 /com
+/ehcache.xml
+/resources
+/struts-JSOperate.xml
+/struts-hibernate.xml
+/struts-login.xml
+/struts.xml
