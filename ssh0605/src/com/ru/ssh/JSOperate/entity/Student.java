@@ -9,6 +9,8 @@
  */
 package com.ru.ssh.JSOperate.entity;
 
+import java.io.Serializable;
+
 /**
  * 
  * 项目名称：ssh0605
@@ -21,7 +23,7 @@ package com.ru.ssh.JSOperate.entity;
  * @since  jdk1.7
  * @version 1.0
  */
-public class Student {
+public class Student implements Serializable{
 	
 	private int id;
 	private String name;

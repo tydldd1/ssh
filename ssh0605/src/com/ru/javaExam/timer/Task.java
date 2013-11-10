@@ -30,10 +30,8 @@ public class Task extends TimerTask{
 	private static int i = 0;
 
 	public void run() {
-		/*log.debug("这个I = " + i++);*/
-		System.out.println(i++);
+		log.debug("这个I = " + i++);
 	}
-
 }
 
 

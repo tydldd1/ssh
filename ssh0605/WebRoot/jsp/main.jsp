@@ -74,8 +74,12 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
     	</div><br>
     	
     	<div class="hibernate"><span></span>
-    		<a href="jsp/jspplugins/jsp.jsp">jsp插件测试</a></div> 
-    	</div><br>
+            <a href="jsp/jspplugins/jsp.jsp">jsp插件测试</a></div>
+        </div><br>
+
+        <div class="hibernate"><span></span>
+            <a href="/jsp/filepath/filepath.jsp">jsp路径</a></div>
+        </div><br>
     	
   </body>
 </html>

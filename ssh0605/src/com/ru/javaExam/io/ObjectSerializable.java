@@ -9,12 +9,10 @@
  */
 package com.ru.javaExam.io;
 
-import java.io.FileOutputStream;
-import java.io.IOException;
-import java.io.ObjectOutput;
-import java.io.ObjectOutputStream;
+import java.io.*;
 
 import com.ru.ssh.JSOperate.entity.Student;
+import org.apache.log4j.Logger;
 
 /**
  * 
@@ -29,17 +27,17 @@ import com.ru.ssh.JSOperate.entity.Student;
  * @version 1.0
  */
 public class ObjectSerializable {
+    static Logger log = Logger.getLogger(ObjectSerializable.class);
 
 	/**
-	 * 
+	 * 将序列化对像写入文件（对象必须序列化）
 	 * ObjectOutputStream1()
-	 * @return void
-	 * @throws IOException 
+	 * @throws IOException
 	 */
 	public static void ObjectOutputStream1() throws IOException{
 		ObjectOutputStream oos = null;
 		try {
-			oos = new ObjectOutputStream(new FileOutputStream("student-seria.java"));
+			oos = new ObjectOutputStream(new FileOutputStream("G:/test/student.java"));
 			
 			Student stu = new Student();
 			stu.setAge(24);
@@ -55,4 +53,30 @@ public class ObjectSerializable {
 			}
 		}
 	}
+
+    /**
+     *    读取对象文件的内容   *
+     * @param filePath
+     * @throws IOException
+     */
+    public static void objectInputStreamExam(String filePath) throws IOException {
+        ObjectInputStream ois = null;
+        try {
+            ois = new ObjectInputStream(new FileInputStream(filePath));
+            Student stu = (Student) ois.readObject();
+
+            log.debug(stu.getAge() + "    " + stu.getName() + "   " + stu.getMajor());
+        }catch (Exception e){
+            e.printStackTrace();
+        }finally {
+            if (ois != null){
+                ois.close();
+            }
+        }
+    }
+
+    public static void main(String[] args) throws IOException {
+       // ObjectOutputStream1();
+        objectInputStreamExam("G:/test/student.java");
+    }
 }

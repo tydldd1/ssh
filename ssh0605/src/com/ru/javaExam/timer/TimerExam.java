@@ -10,11 +10,6 @@
 package com.ru.javaExam.timer;
 
 import java.util.Timer;
-import java.util.TimerTask;
-
-import org.apache.log4j.Logger;
-
-import com.topwalk.twcswap.util.Log;
 
 /**
  * 
@@ -32,7 +27,7 @@ public class TimerExam {
 	
 	public static void main(String[] args){
 		Timer timer = new Timer();
-		timer.schedule(new Task(), 1000);
+		timer.schedule(new Task(), 1000, 2000);
 	}
 }
 
