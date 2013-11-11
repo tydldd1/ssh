@@ -29,9 +29,11 @@ public class Task extends TimerTask{
 	Logger log = Logger.getLogger(TimerExam.class);
 	private static int i = 0;
 
-	public void run() {
-		log.debug("这个I = " + i++);
-	}
+    @Override
+    public void run() {
+        log.debug("这个I = " + i++);
+    }
+
 }
 
 
