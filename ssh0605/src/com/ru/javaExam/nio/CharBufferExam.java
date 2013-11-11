@@ -51,5 +51,7 @@ public class CharBufferExam {
         System.out.println("字符缓冲区的limit限制位置：" + cb.limit());
         System.out.println("字符缓冲区的position指针位置：" + cb.position());
 
+
+
     }
 }
