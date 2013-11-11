@@ -16,5 +16,6 @@ public class CharBufferExam {
 
         System.out.println("字符缓冲区的容量：" + cb.capacity());
         System.out.println("字符缓冲区的限制位置：" + cb.limit());
+
     }
 }
