@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="db15c45a-3b0b-430c-978f-b4cf20e23c67" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/ru/javaExam/nio/CharBufferExam.java" afterPath="$PROJECT_DIR$/src/com/ru/javaExam/nio/CharBufferExam.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ssh0605.iws" />
@@ -74,7 +73,7 @@
       <file leaf-file-name="CharBufferExam.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/ru/javaExam/nio/CharBufferExam.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="52" column="31" selection-start="1686" selection-end="1686" vertical-scroll-proportion="0.5978062">
+            <state line="52" column="35" selection-start="1690" selection-end="1690" vertical-scroll-proportion="0.5978062">
               <folding />
             </state>
           </provider>
@@ -512,7 +511,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32871974" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -610,7 +609,7 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/ru/javaExam/nio/CharBufferExam.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="31" selection-start="1686" selection-end="1686" vertical-scroll-proportion="0.5978062">
+        <state line="52" column="35" selection-start="1690" selection-end="1690" vertical-scroll-proportion="0.5978062">
           <folding />
         </state>
       </provider>
