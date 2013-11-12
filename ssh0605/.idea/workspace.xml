@@ -8,7 +8,7 @@
     <ignored path="ssh0605.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="G:/intelliJ-workspace/testdeploye/.idea/workspace.xml" changelist="db15c45a-3b0b-430c-978f-b4cf20e23c67" time="1383970392887" ignored="false" />
-    <file path="/Dummy.txt" changelist="db15c45a-3b0b-430c-978f-b4cf20e23c67" time="1384218487670" ignored="false" />
+    <file path="/Dummy.txt" changelist="db15c45a-3b0b-430c-978f-b4cf20e23c67" time="1384220830748" ignored="false" />
     <file path="/CharBufferExam.java" changelist="db15c45a-3b0b-430c-978f-b4cf20e23c67" time="1384218536873" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -73,7 +73,7 @@
       <file leaf-file-name="CharBufferExam.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/ru/javaExam/nio/CharBufferExam.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="52" column="35" selection-start="1690" selection-end="1690" vertical-scroll-proportion="0.5978062">
+            <state line="52" column="40" selection-start="1695" selection-end="1695" vertical-scroll-proportion="0.5978062">
               <folding />
             </state>
           </provider>
@@ -506,7 +506,11 @@
       <created>1384218493528</created>
       <updated>1384218493528</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="ssh">
+      <created>1384220837874</created>
+      <updated>1384220837874</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -609,7 +613,7 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/ru/javaExam/nio/CharBufferExam.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="35" selection-start="1690" selection-end="1690" vertical-scroll-proportion="0.5978062">
+        <state line="52" column="40" selection-start="1695" selection-end="1695" vertical-scroll-proportion="0.5978062">
           <folding />
         </state>
       </provider>
