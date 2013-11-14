@@ -1,7 +1,7 @@
 package com.ru.javaExam.thread;
 
 /**
- * Description:如果使用
+ * Description:如果使用线程的run()方法启动线程则系统会把线程对象当成普通对象，run方法只是普通方法
  * User: NanChengRu
  * Date: 13-11-13
  * Time: 下午11:16
@@ -9,7 +9,6 @@ package com.ru.javaExam.thread;
  * version: 1.0
  */
 public class ThreadRunMethod implements Runnable{
-
 
     /**
      * When an object implementing interface <code>Runnable</code> is used
@@ -24,6 +23,12 @@ public class ThreadRunMethod implements Runnable{
      */
     @Override
     public void run() {
-        //To change body of implemented methods use File | Settings | File Templates.
+        System.out.println("线程名称：" + Thread.currentThread().getName());
+    }
+
+    public static void main(String[] args){
+        System.out.println("main线程名称：" + Thread.currentThread().getName());
+        //使用run启动线程，相当于调用对象的run方法=this.run();
+        new Thread(new ThreadRunMethod(),"新线程").run();
     }
 }
