@@ -10,5 +10,6 @@ public interface JSOperateDaoInter {
 	
 	public boolean saveStuData(String name, String age, String major) throws HibernateException;
 	public List<Student> getStuDataByDatabase() throws HibernateException;
+    public List<Object[]> getUser() throws HibernateException;
 
 }

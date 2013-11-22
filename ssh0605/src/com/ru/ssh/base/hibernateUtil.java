@@ -49,6 +49,7 @@ public class hibernateUtil extends HibernateDaoSupport{
 	/**
 	 * 
 	 * queryList(hibernateHQL数据库list查询)
+     * 注：当查询的记录为空时，依然返回list对象，其大小为0
 	 * @param hql
 	 * @param values
 	 * @return Query
@@ -129,6 +130,7 @@ public class hibernateUtil extends HibernateDaoSupport{
 	/**
 	 * 
 	 * createSqlQuery(创建SQL 查询:得到一个Object)
+     * 注：返回对象可能为空
 	 * @param sql
 	 * @param values
 	 * @throws HibernateException
@@ -148,6 +150,7 @@ public class hibernateUtil extends HibernateDaoSupport{
 	/**
 	 * 
 	 * createSqlQueryList(创建SQL 查询:得到List<Object[]>)
+     * 注：当查询的记录为空时，依然返回list对象，其大小为0
 	 * @param sql
 	 * @param values
 	 * @throws HibernateException

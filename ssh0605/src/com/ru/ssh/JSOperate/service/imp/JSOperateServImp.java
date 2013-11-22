@@ -116,6 +116,11 @@ public class JSOperateServImp implements JSOperateServInter{
 		log.info(msg + ">>>>>> 错误信息：" + e.toString());
 		e.printStackTrace();
 	}
+
+    public List<Object[]> getUser(){
+        List<Object[]> list = JSOperateDao.getUser();
+        return list;
+    }
 	
 	
 	

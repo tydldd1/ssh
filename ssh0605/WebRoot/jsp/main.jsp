@@ -21,7 +21,9 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 	<!--
 	<link rel="stylesheet" type="text/css" href="styles.css">
 	-->
+    <script type="text/javascript" src="js/jQuery1.9.1-min.js"></script>
 	<script language="javascript" type="text/javascript" src="js/My97DatePicker/WdatePicker.js"></script>
+    <script language="javascript" type="text/javascript" src="js/main.js"></script>
 	<style type="text/css">
 		.login{text-align: center;font-size: 20px;color: red}
 		.hibernate{color:mediumvioletred}
@@ -32,6 +34,12 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   <body>
     	<div class="login">登录成功！欢迎 <s:property value="#session.user.name" /> </div>
     	<div class="hibernate"><span></span><a href="jsp/hibernate/hibernateMain.jsp">hibernate实例</a></div><br>
+        <div>
+            注：1/当查询的记录为空时，依然返回list对象，其大小为0,不会返回null
+                2/使用uniqueResult() 取得一个Object时，返回值有可能是null
+        </div>
+
+
     	<div class="hibernate"><span></span><a href="jsp/javaExam/javaMain.jsp">java实例</a></div><br>
     	<div class="hibernate"><span></span><a href="jsp/inputalert/alert.jsp">input弹出层</a></div><br>
     	<div class="hibernate"><span></span><a href="jsp/showLoading/jquery.showLoading.example.html">jsp遮罩</a></div><br>
@@ -79,6 +87,22 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 
         <div class="hibernate"><span></span>
             <a href="/jsp/filepath/filepath.jsp">jsp路径</a></div>
+        </div><br>
+
+        <div class="hibernate"><span></span>
+            <a href="testDB_JSOperate.action">查询数据库返回值</a></div>
+        </div><br>
+
+        <div class="hibernate"><span></span>
+            <a href="javascript:void(0);" onclick="backValue()">当input值为空时床底到action的值</a></div>
+            <input id="test">
+        <s:select id="select1" name="alarmInfoBean.level" list="#{'ERROR':'错误','FATAL':'失败','INFO':'信息','WARN':'警告'}"
+                  headerKey="all" headerValue="所有级别" cssClass="sel"></s:select>
+        <select id="sel2">
+             <option selected="selected">
+                 1234
+             </option>
+        </select>
         </div><br>
     	
   </body>

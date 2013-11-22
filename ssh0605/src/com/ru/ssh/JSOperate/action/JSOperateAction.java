@@ -95,7 +95,20 @@ public class JSOperateAction {
 		
 		return "stuMessage";
 	}
-	
+
+    /**
+     * 测试数据库返回值
+     * @return
+     */
+    public String testDB(){
+        List<Object[]> list = JSOperateService.getUser();
+        System.out.println("列表长度：" + list.size());
+        for (Object[] obj : list){
+            System.out.println(obj[1].toString());
+        }
+        System.out.println("message =" + message + "--");
+        return "saveSucess";
+    }
 	
 	/**
 	 * 

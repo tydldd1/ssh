@@ -10,5 +10,6 @@ public interface JSOperateServInter {
 	public List<Map<String, String>> getStuList(String data);
 	public boolean saveStuData(List<Map<String, String>> list);
 	public List<Student> getStuDataByDatabase();
+    public List<Object[]> getUser();
 
 }

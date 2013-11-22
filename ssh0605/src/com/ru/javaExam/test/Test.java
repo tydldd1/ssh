@@ -38,8 +38,7 @@ public class Test {
 	public void getStr(){
 		/*String configPath = Test.class.getResource("/com/ru/javaExam/test/").getPath();
 		System.out.println(configPath);*/
-		char c = 'z' + 1;
-		char a = 'a';
-		System.out.println(c);
+		String[] str = new String[5];
+        System.out.println(str.length);
 	}
 }
