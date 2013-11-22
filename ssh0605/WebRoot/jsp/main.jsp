@@ -35,7 +35,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
     	<div class="login">登录成功！欢迎 <s:property value="#session.user.name" /> </div>
     	<div class="hibernate"><span></span><a href="jsp/hibernate/hibernateMain.jsp">hibernate实例</a></div><br>
         <div>
-            注：1/当查询的记录为空时，依然返回list对象，其大小为0,不会返回null
+            注：1/当查询的列表记录为空时，依然返回list对象，其大小为0,不会返回null
                 2/使用uniqueResult() 取得一个Object时，返回值有可能是null
         </div>
 
@@ -67,7 +67,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 	           		value="2013-10-11 00:00:00" class="Wdate"
 	           		onclick="WdatePicker({maxDate:'#F{$dp.$D(\'endtime\')||\'2020-10-01\'}',isShowClear:false,dateFmt:'yyyy-MM-dd HH:mm:ss',lang:'zh-cn'})"/>
     			结束时间：<input id="endtime" type="text" readonly="readonly" name="startTime"
-	           		`value="" class="Wdate"
+	           		value="" class="Wdate"
 	           		onclick="WdatePicker({minDate:'#F{$dp.$D(\'starttime\')}',maxDate:'2020-10-01',isShowClear:false,dateFmt:'yyyy-MM-dd HH:mm:ss',lang:'zh-cn'})" />
     		</p>
     	</div><br>
@@ -94,16 +94,34 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
         </div><br>
 
         <div class="hibernate"><span></span>
-            <a href="javascript:void(0);" onclick="backValue()">当input值为空时床底到action的值</a></div>
-            <input id="test">
-        <s:select id="select1" name="alarmInfoBean.level" list="#{'ERROR':'错误','FATAL':'失败','INFO':'信息','WARN':'警告'}"
-                  headerKey="all" headerValue="所有级别" cssClass="sel"></s:select>
-        <select id="sel2">
-             <option selected="selected">
-                 1234
-             </option>
-        </select>
+            <a href="javascript:void(0);" onclick="backValue()">当input值为空时，传到action的值.</a>
+            <div>注：当input 为"input id='test'" 传递到action的值为"".</div>
+                input：<input id="test">
         </div><br>
-    	
+
+        <div class="hibernate"><span></span>
+            <a href="javascript:void(0);" onclick="selectTest('name')">取s:select和select的值</a><br>
+            取s:select和select的值：给select一个id，直接通过val()方法取值。
+            例如：“var select = $("#select1").find('option:selected').val();
+            var sel2 = $("#sel2").find('option:selected').val();”
+            <p>
+             s:select:
+                <s:select id="select1" name="alarmInfoBean.level" list="#{'ERROR':'错误','FATAL':'失败','INFO':'信息','WARN':'警告'}"
+                          headerKey="all" headerValue="所有级别" cssClass="sel"></s:select>
+            </p>
+            <p>
+            select:
+                <select id="sel2">
+                    <option selected="selected">
+                        1234
+                    </option>
+                    <option>
+                        5678
+                    </option>
+                </select>
+            </p>
+        </div>
+
+
   </body>
 </html>

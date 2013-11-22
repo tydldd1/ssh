@@ -1,16 +1,15 @@
 package com.ru.ssh.JSOperate.service.imp;
 
+import com.ru.ssh.JSOperate.dao.inter.JSOperateDaoInter;
+import com.ru.ssh.JSOperate.entity.Student;
+import com.ru.ssh.JSOperate.service.inter.JSOperateServInter;
+import org.apache.log4j.Logger;
+import org.hibernate.HibernateException;
+
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-
-import org.apache.log4j.Logger;
-import org.hibernate.HibernateException;
-
-import com.ru.ssh.JSOperate.dao.inter.JSOperateDaoInter;
-import com.ru.ssh.JSOperate.entity.Student;
-import com.ru.ssh.JSOperate.service.inter.JSOperateServInter;
 
 public class JSOperateServImp implements JSOperateServInter{
 	
@@ -117,8 +116,8 @@ public class JSOperateServImp implements JSOperateServInter{
 		e.printStackTrace();
 	}
 
-    public List<Object[]> getUser(){
-        List<Object[]> list = JSOperateDao.getUser();
+    public List<Object[]> getUser(String message){
+        List<Object[]> list = JSOperateDao.getUser(message);
         return list;
     }
 	

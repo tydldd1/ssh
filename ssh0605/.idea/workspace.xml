@@ -2,25 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="db15c45a-3b0b-430c-978f-b4cf20e23c67" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/ru/javaExam/threadnew/TraditionalThread.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/ru/javaExam/threadnew/TraditionalTimer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebRoot/js/main.js" />
-      <change type="DELETED" beforePath="G:\GitRepositories\ssh\ssh0605\src\com\ru\javaExam\utildatabase\Example.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/ru/ssh/JSOperate/action/JSOperateAction.java" afterPath="$PROJECT_DIR$/src/com/ru/ssh/JSOperate/action/JSOperateAction.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/ru/ssh/JSOperate/dao/imp/JSOperateDaoImp.java" afterPath="$PROJECT_DIR$/src/com/ru/ssh/JSOperate/dao/imp/JSOperateDaoImp.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/ru/ssh/JSOperate/dao/inter/JSOperateDaoInter.java" afterPath="$PROJECT_DIR$/src/com/ru/ssh/JSOperate/dao/inter/JSOperateDaoInter.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/ru/ssh/JSOperate/service/imp/JSOperateServImp.java" afterPath="$PROJECT_DIR$/src/com/ru/ssh/JSOperate/service/imp/JSOperateServImp.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/ru/ssh/JSOperate/service/inter/JSOperateServInter.java" afterPath="$PROJECT_DIR$/src/com/ru/ssh/JSOperate/service/inter/JSOperateServInter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/ru/javaExam/test/Test.java" afterPath="$PROJECT_DIR$/src/com/ru/javaExam/test/Test.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/ru/ssh/base/hibernateUtil.java" afterPath="$PROJECT_DIR$/src/com/ru/ssh/base/hibernateUtil.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebRoot/js/main.js" afterPath="$PROJECT_DIR$/WebRoot/js/main.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebRoot/jsp/main.jsp" afterPath="$PROJECT_DIR$/WebRoot/jsp/main.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/struts-JSOperate.xml" afterPath="$PROJECT_DIR$/src/struts-JSOperate.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ssh0605.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="G:/intelliJ-workspace/testdeploye/.idea/workspace.xml" changelist="db15c45a-3b0b-430c-978f-b4cf20e23c67" time="1383970392887" ignored="false" />
-    <file path="/Dummy.txt" changelist="db15c45a-3b0b-430c-978f-b4cf20e23c67" time="1385082000093" ignored="false" />
+    <file path="/Dummy.txt" changelist="db15c45a-3b0b-430c-978f-b4cf20e23c67" time="1385083197026" ignored="false" />
     <file path="/CharBufferExam.java" changelist="db15c45a-3b0b-430c-978f-b4cf20e23c67" time="1384218536873" ignored="false" />
     <file path="/TheadExam.java" changelist="db15c45a-3b0b-430c-978f-b4cf20e23c67" time="1384268116670" ignored="false" />
     <file path="/ThreadExam.java" changelist="db15c45a-3b0b-430c-978f-b4cf20e23c67" time="1384268031658" ignored="false" />
@@ -34,12 +28,12 @@
     <file path="/TraditionalTimer.java" changelist="db15c45a-3b0b-430c-978f-b4cf20e23c67" time="1384851105272" ignored="false" />
     <file path="G:/intelliJ-workspace/DtpSer/src/com/topwalk/dtpser/alarmcentermd/action/DbSyncAlarmInfoAction.java" changelist="db15c45a-3b0b-430c-978f-b4cf20e23c67" time="1384852601600" ignored="false" />
     <file path="/DbSyncAlarmInfoAction.java" changelist="db15c45a-3b0b-430c-978f-b4cf20e23c67" time="1384852486183" ignored="false" />
-    <file path="/main.jsp" changelist="db15c45a-3b0b-430c-978f-b4cf20e23c67" time="1385083178723" ignored="false" />
-    <file path="/JSOperateAction.java" changelist="db15c45a-3b0b-430c-978f-b4cf20e23c67" time="1385082250163" ignored="false" />
-    <file path="/JSOperateServImp.java" changelist="db15c45a-3b0b-430c-978f-b4cf20e23c67" time="1385042883766" ignored="false" />
-    <file path="/JSOperateDaoImp.java" changelist="db15c45a-3b0b-430c-978f-b4cf20e23c67" time="1385042797046" ignored="false" />
+    <file path="/main.jsp" changelist="db15c45a-3b0b-430c-978f-b4cf20e23c67" time="1385086295105" ignored="false" />
+    <file path="/JSOperateAction.java" changelist="db15c45a-3b0b-430c-978f-b4cf20e23c67" time="1385084676080" ignored="false" />
+    <file path="/JSOperateServImp.java" changelist="db15c45a-3b0b-430c-978f-b4cf20e23c67" time="1385084695741" ignored="false" />
+    <file path="/JSOperateDaoImp.java" changelist="db15c45a-3b0b-430c-978f-b4cf20e23c67" time="1385084766354" ignored="false" />
     <file path="/struts-JSOperate.xml" changelist="db15c45a-3b0b-430c-978f-b4cf20e23c67" time="1385043020487" ignored="false" />
-    <file path="/main.js" changelist="db15c45a-3b0b-430c-978f-b4cf20e23c67" time="1385045888064" ignored="false" />
+    <file path="/main.js" changelist="db15c45a-3b0b-430c-978f-b4cf20e23c67" time="1385086220838" ignored="false" />
     <file path="/hibernateUtil.java" changelist="db15c45a-3b0b-430c-978f-b4cf20e23c67" time="1385082905319" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -107,7 +101,7 @@
       <file leaf-file-name="main.jsp" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/WebRoot/jsp/main.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="58" selection-start="1583" selection-end="1583" vertical-scroll-proportion="0.5726316">
+            <state line="99" column="18" selection-start="4252" selection-end="4252" vertical-scroll-proportion="0.30526316">
               <folding />
             </state>
           </provider>
@@ -116,7 +110,7 @@
       <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WebRoot/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="25" selection-start="447" selection-end="447" vertical-scroll-proportion="0.0">
+            <state line="39" column="19" selection-start="1016" selection-end="1016" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -134,7 +128,7 @@
       <file leaf-file-name="JSOperateAction.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/ru/ssh/JSOperate/action/JSOperateAction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="108" column="48" selection-start="2370" selection-end="2377" vertical-scroll-proportion="0.0">
+            <state line="103" column="64" selection-start="2188" selection-end="2188" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -143,7 +137,18 @@
       <file leaf-file-name="JSOperateServImp.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/ru/ssh/JSOperate/service/imp/JSOperateServImp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="120" column="42" selection-start="2552" selection-end="2564" vertical-scroll-proportion="0.0">
+            <state line="119" column="51" selection-start="2586" selection-end="2586" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#952#972#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JSOperateDaoInter.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/ru/ssh/JSOperate/dao/inter/JSOperateDaoInter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="49" selection-start="405" selection-end="405" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -152,7 +157,7 @@
       <file leaf-file-name="JSOperateDaoImp.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/ru/ssh/JSOperate/dao/imp/JSOperateDaoImp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="50" column="0" selection-start="1272" selection-end="1272" vertical-scroll-proportion="0.0">
+            <state line="45" column="66" selection-start="1203" selection-end="1203" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -199,14 +204,14 @@
         <option value="$PROJECT_DIR$/src/com/ru/javaExam/test/Test.java" />
         <option value="$PROJECT_DIR$/src/com/ru/javaExam/threadnew/TraditionalThread.java" />
         <option value="$PROJECT_DIR$/src/com/ru/javaExam/threadnew/TraditionalTimer.java" />
-        <option value="$PROJECT_DIR$/src/com/ru/ssh/JSOperate/dao/inter/JSOperateDaoInter.java" />
-        <option value="$PROJECT_DIR$/src/com/ru/ssh/JSOperate/service/imp/JSOperateServImp.java" />
-        <option value="$PROJECT_DIR$/src/com/ru/ssh/JSOperate/service/inter/JSOperateServInter.java" />
         <option value="$PROJECT_DIR$/src/struts-JSOperate.xml" />
-        <option value="$PROJECT_DIR$/WebRoot/js/main.js" />
-        <option value="$PROJECT_DIR$/src/com/ru/ssh/JSOperate/action/JSOperateAction.java" />
-        <option value="$PROJECT_DIR$/src/com/ru/ssh/JSOperate/dao/imp/JSOperateDaoImp.java" />
         <option value="$PROJECT_DIR$/src/com/ru/ssh/base/hibernateUtil.java" />
+        <option value="$PROJECT_DIR$/src/com/ru/ssh/JSOperate/action/JSOperateAction.java" />
+        <option value="$PROJECT_DIR$/src/com/ru/ssh/JSOperate/service/inter/JSOperateServInter.java" />
+        <option value="$PROJECT_DIR$/src/com/ru/ssh/JSOperate/dao/inter/JSOperateDaoInter.java" />
+        <option value="$PROJECT_DIR$/src/com/ru/ssh/JSOperate/dao/imp/JSOperateDaoImp.java" />
+        <option value="$PROJECT_DIR$/src/com/ru/ssh/JSOperate/service/imp/JSOperateServImp.java" />
+        <option value="$PROJECT_DIR$/WebRoot/js/main.js" />
         <option value="$PROJECT_DIR$/WebRoot/jsp/main.jsp" />
       </list>
     </option>
@@ -991,7 +996,11 @@
       <created>1384444400958</created>
       <updated>1384444400958</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="测试">
+      <created>1385083204464</created>
+      <updated>1385083204464</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1089,7 +1098,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="线程3" />
+    <option name="LAST_COMMIT_MESSAGE" value="测试" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -1107,6 +1116,7 @@
     <MESSAGE value="Merge branch 'master' of https://github.com/tydldd1/ssh&#10;&#10;Conflicts:&#10;&#9;ssh0605/.idea/workspace.xml&#10;" />
     <MESSAGE value="线程1" />
     <MESSAGE value="线程3" />
+    <MESSAGE value="测试" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1128,12 +1138,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/ru/javaExam/threadnew/TraditionalThread.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="17" selection-start="1083" selection-end="1083" vertical-scroll-proportion="0.0" />
+        <state line="38" column="17" selection-start="1083" selection-end="1083" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/ru/javaExam/threadnew/TraditionalTimer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="9" selection-start="671" selection-end="671" vertical-scroll-proportion="0.0" />
+        <state line="30" column="9" selection-start="671" selection-end="671" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/struts-login.xml">
@@ -1143,16 +1159,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ru/ssh/JSOperate/dao/inter/JSOperateDaoInter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="62" selection-start="419" selection-end="419" vertical-scroll-proportion="0.33911368">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/WebRoot/js/login/login.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="4" selection-start="102" selection-end="1004" vertical-scroll-proportion="0.0" />
+        <state line="3" column="4" selection-start="102" selection-end="1004" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/WebRoot/jsp/login.jsp">
@@ -1162,44 +1173,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ru/ssh/JSOperate/service/imp/JSOperateServImp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="120" column="42" selection-start="2552" selection-end="2564" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ru/ssh/JSOperate/service/inter/JSOperateServInter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="36" selection-start="378" selection-end="378" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/struts-JSOperate.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="48" selection-start="354" selection-end="364" vertical-scroll-proportion="-6.16">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebRoot/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="25" selection-start="447" selection-end="447" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ru/ssh/JSOperate/action/JSOperateAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="108" column="48" selection-start="2370" selection-end="2377" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ru/ssh/JSOperate/dao/imp/JSOperateDaoImp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="0" selection-start="1272" selection-end="1272" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -1213,9 +1189,53 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ru/ssh/JSOperate/action/JSOperateAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="103" column="64" selection-start="2188" selection-end="2188" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ru/ssh/JSOperate/service/inter/JSOperateServInter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="50" selection-start="392" selection-end="392" vertical-scroll-proportion="0.3815029">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ru/ssh/JSOperate/dao/inter/JSOperateDaoInter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="49" selection-start="405" selection-end="405" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ru/ssh/JSOperate/dao/imp/JSOperateDaoImp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="66" selection-start="1203" selection-end="1203" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ru/ssh/JSOperate/service/imp/JSOperateServImp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="119" column="51" selection-start="2586" selection-end="2586" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#952#972#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebRoot/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="19" selection-start="1016" selection-end="1016" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/WebRoot/jsp/main.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="58" selection-start="1583" selection-end="1583" vertical-scroll-proportion="0.5726316">
+        <state line="99" column="18" selection-start="4252" selection-end="4252" vertical-scroll-proportion="0.30526316">
           <folding />
         </state>
       </provider>

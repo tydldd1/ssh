@@ -12,9 +12,6 @@ $(function(){
 
 function backValue(){
     var message = $("#test").val();
-    var select = $("#select1").find('option:selected').val();
-    var sel2 = $("#sel2").find('option:selected').val();
-    alert(" select :" + select + "  sel2 = " + sel2);
     var params = {
         "message":message
     };
@@ -24,11 +21,22 @@ function backValue(){
         data: params,
         dataType:"json",
         success:function(data){
-            alert(data.message);
+            //alert(data.message);
         },
         error:function(XMLHttpRequest, textStatus, errorThrown){
             //window.location.href="jsp/error/error.jsp";
             alert("XMLHttpRequest = " + XMLHttpRequest.message + "        textStatus =  " + textStatus + "      errorThrown=  " + errorThrown);
         }
+    });
+}
+
+function selectTest(name){
+    alert(name);
+    var select = $("#select1").find('option:selected').val();
+    alert("被选中的option：" + select);
+    //得到
+    var sel = $("select[id='select1']").children();
+    sel.each(function(i){
+        alert("每一个：" + $(this).val());
     });
 }

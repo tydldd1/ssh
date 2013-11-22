@@ -42,8 +42,8 @@ public class JSOperateDaoImp extends hibernateUtil implements JSOperateDaoInter{
 		return list;
 	}
 
-    public List<Object[]> getUser() throws HibernateException{
-        String sql = "select * from user where name = ''";
+    public List<Object[]> getUser(String message) throws HibernateException{
+        String sql = "select * from user where name = '" + message +"'";
         List<Object[]> list = super.createSqlQueryList(sql);
         return list;
     }
