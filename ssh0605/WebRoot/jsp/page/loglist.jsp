@@ -52,7 +52,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
                         </select>
                     </td>
                     <td>
-                        <input type="button" value="查询" onclick="querylog()"/>
+                        <input type="button" value="查询123" onclick="querylog()"/>
                     </td>
                 </tr>
             </table>
