@@ -7,7 +7,7 @@
     <ignored path="ssh0605.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="G:/intelliJ-workspace/testdeploye/.idea/workspace.xml" changelist="db15c45a-3b0b-430c-978f-b4cf20e23c67" time="1383970392887" ignored="false" />
-    <file path="/Dummy.txt" changelist="db15c45a-3b0b-430c-978f-b4cf20e23c67" time="1385086390424" ignored="false" />
+    <file path="/Dummy.txt" changelist="db15c45a-3b0b-430c-978f-b4cf20e23c67" time="1385086542400" ignored="false" />
     <file path="/CharBufferExam.java" changelist="db15c45a-3b0b-430c-978f-b4cf20e23c67" time="1384218536873" ignored="false" />
     <file path="/TheadExam.java" changelist="db15c45a-3b0b-430c-978f-b4cf20e23c67" time="1384268116670" ignored="false" />
     <file path="/ThreadExam.java" changelist="db15c45a-3b0b-430c-978f-b4cf20e23c67" time="1384268031658" ignored="false" />
@@ -94,7 +94,7 @@
       <file leaf-file-name="main.jsp" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/WebRoot/jsp/main.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="99" column="18" selection-start="4252" selection-end="4252" vertical-scroll-proportion="0.30526316">
+            <state line="100" column="0" selection-start="4253" selection-end="4253" vertical-scroll-proportion="0.21263158">
               <folding />
             </state>
           </provider>
@@ -997,7 +997,11 @@
       <created>1385086409075</created>
       <updated>1385086409075</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="测试：">
+      <created>1385086546739</created>
+      <updated>1385086546739</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1022,7 +1026,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32871974" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1233,7 +1237,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/WebRoot/jsp/main.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="99" column="18" selection-start="4252" selection-end="4252" vertical-scroll-proportion="0.30526316">
+        <state line="100" column="0" selection-start="4253" selection-end="4253" vertical-scroll-proportion="0.21263158">
           <folding />
         </state>
       </provider>
