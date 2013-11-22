@@ -75,11 +75,15 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
     	<div class="hibernate"><span></span>
     		<a href="jsp/jqueryduidialog/defaultdialog.jsp">1、默认jquery-ui-dialog弹出层</a></div>
     		&nbsp;&nbsp;<a href="jsp/jqueryduidialog/dialog-form.jsp">2、设置属性和事件的弹出层</a></div>
-    	</div><br>
+    	</div><br><br>
     	
     	<div class="hibernate"><span></span>
-    		<a href="getStuMessage_JSOperate.action">  使用js实现增删改操作</a></div> 
+    		<a href="getStuMessage_JSOperate.action">*****使用js实现增删改操作*****</a>
     	</div><br>
+
+        <div class="hibernate"><span></span>
+            <a href="getDagaLogList_page.action">*****分页操作*****</a>
+        </div><br>
     	
     	<div class="hibernate"><span></span>
             <a href="jsp/jspplugins/jsp.jsp">jsp插件测试</a></div>

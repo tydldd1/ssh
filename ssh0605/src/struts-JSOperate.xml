@@ -13,5 +13,13 @@
 
 			<result name="error">jsp/error/error.jsp</result>	
 		</action>
+
+        <action name="*_page" class="PageExamAction" method="{1}">
+            <result type="json" name="saveSucess">
+                <param name="includeProperties">message</param>
+            </result>
+
+            <result name="pageList">jsp/page/loglist.jsp</result>
+        </action>
 	</package>
 </struts>

@@ -1,7 +1,5 @@
 package com.ru.ssh.base;
 
-import java.util.List;
-
 import org.apache.poi.hssf.record.formula.functions.T;
 import org.hibernate.HibernateException;
 import org.hibernate.Query;
@@ -9,7 +7,7 @@ import org.hibernate.SQLQuery;
 import org.hibernate.Session;
 import org.springframework.orm.hibernate3.support.HibernateDaoSupport;
 
-import com.ru.ssh.hibernate.entity.Person;
+import java.util.List;
 
 /**
  * 
@@ -166,6 +164,24 @@ public class hibernateUtil extends HibernateDaoSupport{
 		}	
 		return query.list();
 	}
+
+    /**
+     *得到list<object>
+     * @param sql
+     * @param values
+     * @return
+     * @throws HibernateException
+     */
+    public List<Object> createSqlQueryzObjectList(String sql, Object... values)  throws HibernateException {
+        SQLQuery query = getSession().createSQLQuery(sql);
+
+        if(values != null && values.length != 0){
+            for (int i = 0; i < values.length; i++) {
+                query.setParameter(i, values[i]);
+            }
+        }
+        return query.list();
+    }
 	
 	
 	/**

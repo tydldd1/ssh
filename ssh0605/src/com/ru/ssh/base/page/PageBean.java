@@ -1,6 +1,5 @@
 package com.ru.ssh.base.page;
 
-import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -14,14 +13,15 @@ import java.util.List;
  */
 public class PageBean<T> {
 
+    //当前页
+    private int currentPage = 1;
 	//每页显示多少条记录
 	private int pageSize = 10;
 	//总记录数
 	private int totalCount;
 	//总页数
 	private int totalPage;
-	//当前页
-	private int currentPage = 1;
+
 	//查询起始点
 	private int beginIndex;
 	//是否有上一页
@@ -44,7 +44,7 @@ public class PageBean<T> {
 		this.hasPrePage = getHasPrePage(currentPage);
 		this.hasNextPage = getHasNextPage(totalPage, currentPage);
 	}
-	
+
 	public PageBean(int totalCount, int currentPage, List<T> list) {
 		this.currentPage = getCurrentPage(currentPage);
 		this.totalPage = getTotalPage(pageSize, totalCount);
@@ -53,6 +53,21 @@ public class PageBean<T> {
 		this.hasNextPage = getHasNextPage(totalPage, currentPage);
 		this.pageBeanList = list;
 	}
+
+    /**
+     * 初始化pagebean对象
+     * @param totalCount
+     * @param currentPage
+     * @param list
+     */
+    public void initPage(int totalCount, int currentPage, List<T> list){
+        this.currentPage = getCurrentPage(currentPage);
+        this.totalPage = getTotalPage(pageSize, totalCount);
+        this.beginIndex = getBeginIndex(pageSize, currentPage);
+        this.hasPrePage = getHasPrePage(currentPage);
+        this.hasNextPage = getHasNextPage(totalPage, currentPage);
+        this.pageBeanList = list;
+    }
 	
 	//获得每页显示几条记录个数
 	public static int getEveryPage(int pageSize){

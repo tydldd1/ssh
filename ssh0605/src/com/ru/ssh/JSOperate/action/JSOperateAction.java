@@ -1,17 +1,16 @@
 package com.ru.ssh.JSOperate.action;
 
+import com.opensymphony.xwork2.ActionSupport;
+import com.ru.javaExam.utilofxml.OperateXmlDocument;
+import com.ru.ssh.JSOperate.entity.Student;
+import com.ru.ssh.JSOperate.service.inter.JSOperateServInter;
+import org.apache.log4j.Logger;
+
 import java.io.IOException;
 import java.util.List;
 import java.util.Map;
 
-import org.apache.log4j.Logger;
-
-import com.ru.javaExam.utilofxml.OperateXmlDocument;
-import com.ru.ssh.JSOperate.dao.inter.JSOperateDaoInter;
-import com.ru.ssh.JSOperate.entity.Student;
-import com.ru.ssh.JSOperate.service.inter.JSOperateServInter;
-
-public class JSOperateAction {
+public class JSOperateAction extends ActionSupport{
 	
 	Logger log = Logger.getLogger(JSOperateAction.class);
 	//接口

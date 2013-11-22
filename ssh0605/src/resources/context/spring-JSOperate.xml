@@ -25,4 +25,11 @@
 			<ref bean="JSOperateServ"/>
 		</property>
 	</bean>
+
+    <!--分页action-->
+    <bean id="PageExamAction" class="com.ru.ssh.JSOperate.action.PageExamAction">
+        <property name="jsOperateService">
+            <ref bean="JSOperateServ"/>
+        </property>
+    </bean>
 </beans>

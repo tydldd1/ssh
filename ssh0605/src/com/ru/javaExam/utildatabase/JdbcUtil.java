@@ -5,22 +5,13 @@
  */
 package com.ru.javaExam.utildatabase;
 
-import java.sql.CallableStatement;
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.PreparedStatement;
-import java.sql.ResultSet;
-import java.sql.ResultSetMetaData;
-import java.sql.SQLException;
-import java.sql.Statement;
+import org.junit.Test;
+
+import java.sql.*;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-
-import org.junit.Test;
-
-import com.ru.javaExam.string.StringUtil;
 
 /**
  * 
@@ -52,15 +43,15 @@ public class JdbcUtil{
 	@Test
 	public void test(){
 		//增删改
-		//String sql = "insert into stuname(id,name) values(?,?)";
+		String sql = "insert into datalog(`taskname`,`status`,`level`,`desr`,`data`) values(?,?,?,?,?)";
 		//String sql = "update stuname set name = ? where id = ?";
-		/*String sql = "delete from stuname";
-		boolean b  = insertOrUpdateDB(sql);*/
+		//String sql = "delete from stuname";
+		boolean b  = insertBatch(sql,500,"任务","INFO","log","一条日志记录","2013-11-22 11:17:30");
 		
 		//查询操作
-		String sql = "select * from user";
+		/*String sql = "select * from user";
 		Object[] obj = this.sqlQueryUniqueObj(sql);
-		System.out.println(obj[1]);
+		System.out.println(obj[1]);*/
 		
 		//调用存储过程
 		//String value = getCallableResult(callName);

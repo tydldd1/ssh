@@ -1,20 +1,18 @@
 package com.ru.ssh.JSOperate.dao.imp;
 
-import java.util.List;
-
-import org.hibernate.HibernateException;
-
 import com.ru.ssh.JSOperate.dao.inter.JSOperateDaoInter;
 import com.ru.ssh.JSOperate.entity.Student;
 import com.ru.ssh.base.hibernateUtil;
+import com.ru.ssh.base.page.PageBean;
+import org.hibernate.HibernateException;
+
+import java.util.List;
 
 public class JSOperateDaoImp extends hibernateUtil implements JSOperateDaoInter{
 	
 	/**
 	 * 
 	 * saveStuData(2通过数据库保存学生信息)
-	 * @param param
-	 * @return
 	 * @return boolean
 	 */
 	public boolean saveStuData(String name, String age, String major) throws HibernateException{
@@ -47,4 +45,38 @@ public class JSOperateDaoImp extends hibernateUtil implements JSOperateDaoInter{
         List<Object[]> list = super.createSqlQueryList(sql);
         return list;
     }
+
+    /**
+     * 查询列表
+     * @param sql
+     * @param pageBean
+     * @return
+     */
+    public List<Object[]> datalogList(String sql, PageBean pageBean) throws  Exception{
+        List<Object[]> logList = super.createSqlQueryByPage(sql, pageBean.getCurrentPage(), pageBean.getPageSize());
+        return logList;
+    }
+
+    /**
+     * 得到日志记录数
+     * @return
+     */
+    public int getDatalogCount (String sql) throws  Exception{
+        Object count = super.createSqlQuery(sql);
+        if (count == null){
+            return 0;
+        }
+        return Integer.parseInt(count.toString());
+    }
+
+    /**
+     * 用户名列表
+     * @return
+     */
+    public List<Object> getTaskName() throws Exception{
+        String sql = "select taskname from datalog group by taskname";
+        List<Object> taskNameList = super.createSqlQueryzObjectList(sql);
+        return taskNameList;
+    }
+
 }
