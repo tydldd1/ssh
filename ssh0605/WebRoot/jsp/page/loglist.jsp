@@ -57,7 +57,6 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
                 </tr>
             </table>
         </div>
-    </form>
 
     <div id="list">
         <table border="1px">
@@ -76,5 +75,6 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
    <div id="page">
         <jsp:include page="page.jsp"/>
    </div>
+    </form>
   </body>
 </html>

@@ -44,6 +44,11 @@ $(document).ready(function(){
 });
 /***************************ready主体部分结束******************************/
 /***************************以下为各个方法*********************************/
+//点击分页按钮触发的方法
+function dividePage(current){
+    $("#gocurrentpage").attr("value",current);
+    $("#form").submit();
+}
 function querylog(){
     $("#form").submit();
 }
