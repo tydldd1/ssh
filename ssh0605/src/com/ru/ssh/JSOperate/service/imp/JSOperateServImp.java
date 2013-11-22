@@ -125,57 +125,80 @@ public class JSOperateServImp implements JSOperateServInter{
      * @return
      */
     public PageBean getDagaLogList(QueryBean queryBean, PageBean pageBean){
-        log.debug("service -----begin");
-        //查询列表
-        String sql = "select taskname,status,level,desr,data from datalog";
-        StringBuilder sb = new StringBuilder();
-        sb.append(sql + " where ");
+        //拼装sql和sqlconunt
+        String sql = "select taskname,status,level,desr,data from datalog";//分页列表
+        String sqlCount = "select count(*) from datalog";//总条数
+        StringBuilder sbSql = new StringBuilder();//拼装分页列表sql
+        StringBuilder sbSqlCount = new StringBuilder();//拼装总条数sql
+
+        sbSql.append(sql + " where ");
+        sbSqlCount.append(sqlCount + " where ");
         if(queryBean == null){//跳转页面之前没有查询条件
-            queryBean = new QueryBean();
             SimpleDateFormat sdfBegin = new SimpleDateFormat("yyyy-MM-dd 00:00:00");
             SimpleDateFormat sdfEnd = new SimpleDateFormat("yyyy-MM-dd 23:59:59");
+
+            queryBean = new QueryBean();
+            //用于初始化搜索框
+            queryBean.setTaskName("all");
+            queryBean.setStatus("all");
+            queryBean.setLevel("all");
+            queryBean.setDesr("all");
+
+            //设置时间
             queryBean.setBeginTime(sdfBegin.format(new Date()));
             queryBean.setEndTime(sdfEnd.format(new Date()));
-            sb.append("data between '" + queryBean.getBeginTime() + "'");
-            sb.append(" and '" + queryBean.getEndTime() + "'");
+
+            sbSql.append("data between '" + queryBean.getBeginTime() + "'");
+            sbSql.append(" and '" + queryBean.getEndTime() + "'");
+            sbSqlCount.append("data between '" + queryBean.getBeginTime() + "'");
+            sbSqlCount.append(" and '" + queryBean.getEndTime() + "'");
         }else{//在页面访问时，有查询对象
             if (!queryBean.getTaskName().equals("all")){
-                sb.append("taskname = '" + queryBean.getTaskName() + "' and ");
+                sbSql.append("taskname = '" + queryBean.getTaskName() + "' and ");
+                sbSqlCount.append("taskname = '" + queryBean.getTaskName() + "' and ");
             }else{
-                sb.append("taskname <> '" + queryBean.getTaskName() + "' and ");
+                sbSql.append("taskname <> '" + queryBean.getTaskName() + "' and ");
+                sbSqlCount.append("taskname <> '" + queryBean.getTaskName() + "' and ");
             }
             if (!queryBean.getStatus().equals("all")){
-                sb.append("status = '" + queryBean.getStatus() + "' and ");
+                sbSql.append("status = '" + queryBean.getStatus() + "' and ");
+                sbSqlCount.append("status = '" + queryBean.getStatus() + "' and ");
             }else{
-                sb.append("status <> '" + queryBean.getStatus() + "' and ");
+                sbSql.append("status <> '" + queryBean.getStatus() + "' and ");
+                sbSqlCount.append("status <> '" + queryBean.getStatus() + "' and ");
             }
             if (!queryBean.getLevel().equals("all")){
-                sb.append("level = '" + queryBean.getLevel() + "'");
+                sbSql.append("level = '" + queryBean.getLevel() + "'");
+                sbSqlCount.append("level = '" + queryBean.getLevel() + "'");
             }else {
-                sb.append("level <> '" + queryBean.getLevel() + "'");
+                sbSql.append("level <> '" + queryBean.getLevel() + "'");
+                sbSqlCount.append("level <> '" + queryBean.getLevel() + "'");
             }
             /*sb.append("data between '" + queryBean.getBeginTime() + "'");
             sb.append(" and '" + queryBean.getEndTime() + "'");*/
         }
-        log.debug("sql = " + sb.toString());
+
+        //查询分页列表
+        log.debug("sql = " + sbSql.toString());
         List<Object[]> datalogList = null;
         try {
-            datalogList = JSOperateDao.datalogList(sb.toString(), pageBean);
+            datalogList = JSOperateDao.datalogList(sbSql.toString(), pageBean);
         } catch (Exception e) {
             log.error("查询日志分页列表失败！", e);
         }
+
         //得到总条数
-        String sqlCount = "select count(*) from datalog";
+        log.debug("sqlcount = " + sqlCount);
         int totalcount = 0;
         try {
-            totalcount = JSOperateDao.getDatalogCount(sqlCount);
+            totalcount = JSOperateDao.getDatalogCount(sbSqlCount.toString());
         } catch (Exception e) {
             log.error("查询总条数失败！", e);
         }
         log.debug("totalcount = " + totalcount);
+
         //初始化pagebean（添加列表，判断上一页下一页）
         pageBean.initPage(totalcount, pageBean.getCurrentPage(), datalogList);
-
         return pageBean;
     }
 

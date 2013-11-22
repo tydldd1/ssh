@@ -24,7 +24,7 @@ public class PageExamAction extends ActionSupport{
     private PageBean pageBean = new PageBean();
     //查询条件对象
     private QueryBean queryBean;
-
+    //任务名
     private List<Object> taskNameList;
 
     /**

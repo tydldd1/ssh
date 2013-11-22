@@ -20,6 +20,9 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   </head>
   <body>
   <s:debug></s:debug>
+  <input type="hidden" id="taskNameH" value="<s:property value='queryBean.taskName'/>">
+  <input type="hidden" id="statusH" value="<s:property value='queryBean.status'/>">
+  <input type="hidden" id="levelH" value="<s:property value='queryBean.level'/>">
     <form id="form" action="getDagaLogList_page.action" method="post">
         <div>
             <table>
@@ -49,27 +52,29 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
                         </select>
                     </td>
                     <td>
-                        <input type="button" value="查询" onclick="query()">
+                        <input type="button" value="查询" onclick="querylog()"/>
                     </td>
                 </tr>
             </table>
         </div>
-        <div id="list">
-            <table border="1px">
-                <s:iterator value="pageBean.pageBeanList" id="log" status="status">
-                    <tr>
-                        <td>任务名：<s:property value="#log[0]"/> </td>
-                        <td>状  态：<s:property value="#log[1]"/> </td>
-                        <td>级  别：<s:property value="#log[2]"/> </td>
-                        <td>描  述：<s:property value="#log[3]"/> </td>
-                        <td>日  期：<s:property value="#log[4]"/> </td>
-                    </tr>
-                </s:iterator>
-            </table>
-        </div>
-       <div id="page">
-            <jsp:include page="page.jsp"/>
-       </div>
     </form>
+
+    <div id="list">
+        <table border="1px">
+            <s:iterator value="pageBean.pageBeanList" id="log" status="status">
+                <tr>
+                    <td>任务名：<s:property value="#log[0]"/> </td>
+                    <td>状  态：<s:property value="#log[1]"/> </td>
+                    <td>级  别：<s:property value="#log[2]"/> </td>
+                    <td>描  述：<s:property value="#log[3]"/> </td>
+                    <td>日  期：<s:property value="#log[4]"/> </td>
+                </tr>
+            </s:iterator>
+        </table>
+    </div>
+
+   <div id="page">
+        <jsp:include page="page.jsp"/>
+   </div>
   </body>
 </html>

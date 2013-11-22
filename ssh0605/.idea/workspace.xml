@@ -2,32 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="db15c45a-3b0b-430c-978f-b4cf20e23c67" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/ru/ssh/JSOperate/action/PageExamAction.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/ru/ssh/JSOperate/entity/QueryBean.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebRoot/jsp/page/loglist.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebRoot/js/page/page.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" />
-      <change type="DELETED" beforePath="G:\GitRepositories\ssh\ssh0605\WebRoot\js\common\page.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/ru/ssh/JSOperate/action/JSOperateAction.java" afterPath="$PROJECT_DIR$/src/com/ru/ssh/JSOperate/action/JSOperateAction.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/ru/ssh/JSOperate/dao/imp/JSOperateDaoImp.java" afterPath="$PROJECT_DIR$/src/com/ru/ssh/JSOperate/dao/imp/JSOperateDaoImp.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/ru/ssh/JSOperate/dao/inter/JSOperateDaoInter.java" afterPath="$PROJECT_DIR$/src/com/ru/ssh/JSOperate/dao/inter/JSOperateDaoInter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebRoot/jsp/common/page.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dictionaries/.xml" afterPath="$PROJECT_DIR$/.idea/dictionaries/.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/ru/ssh/JSOperate/service/imp/JSOperateServImp.java" afterPath="$PROJECT_DIR$/src/com/ru/ssh/JSOperate/service/imp/JSOperateServImp.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/ru/ssh/JSOperate/service/inter/JSOperateServInter.java" afterPath="$PROJECT_DIR$/src/com/ru/ssh/JSOperate/service/inter/JSOperateServInter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/ru/javaExam/utildatabase/JdbcUtil.java" afterPath="$PROJECT_DIR$/src/com/ru/javaExam/utildatabase/JdbcUtil.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/ru/ssh/base/page/PageBean.java" afterPath="$PROJECT_DIR$/src/com/ru/ssh/base/page/PageBean.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/ru/ssh/base/hibernateUtil.java" afterPath="$PROJECT_DIR$/src/com/ru/ssh/base/hibernateUtil.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebRoot/jsp/main.jsp" afterPath="$PROJECT_DIR$/WebRoot/jsp/main.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/ru/ssh/JSOperate/action/PageExamAction.java" afterPath="$PROJECT_DIR$/src/com/ru/ssh/JSOperate/action/PageExamAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebRoot/jsp/page/loglist.jsp" afterPath="$PROJECT_DIR$/WebRoot/jsp/page/loglist.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebRoot/js/page/page.js" afterPath="$PROJECT_DIR$/WebRoot/js/page/page.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebRoot/jsp/page/page.jsp" afterPath="$PROJECT_DIR$/WebRoot/jsp/page/page.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/resources/context/spring-JSOperate.xml" afterPath="$PROJECT_DIR$/src/resources/context/spring-JSOperate.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/struts-JSOperate.xml" afterPath="$PROJECT_DIR$/src/struts-JSOperate.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ssh0605.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="G:/intelliJ-workspace/testdeploye/.idea/workspace.xml" changelist="db15c45a-3b0b-430c-978f-b4cf20e23c67" time="1383970392887" ignored="false" />
-    <file path="/Dummy.txt" changelist="db15c45a-3b0b-430c-978f-b4cf20e23c67" time="1385114421630" ignored="false" />
+    <file path="/Dummy.txt" changelist="db15c45a-3b0b-430c-978f-b4cf20e23c67" time="1385127287271" ignored="false" />
     <file path="/CharBufferExam.java" changelist="db15c45a-3b0b-430c-978f-b4cf20e23c67" time="1384218536873" ignored="false" />
     <file path="/TheadExam.java" changelist="db15c45a-3b0b-430c-978f-b4cf20e23c67" time="1384268116670" ignored="false" />
     <file path="/ThreadExam.java" changelist="db15c45a-3b0b-430c-978f-b4cf20e23c67" time="1384268031658" ignored="false" />
@@ -43,19 +30,19 @@
     <file path="/DbSyncAlarmInfoAction.java" changelist="db15c45a-3b0b-430c-978f-b4cf20e23c67" time="1384852486183" ignored="false" />
     <file path="/main.jsp" changelist="db15c45a-3b0b-430c-978f-b4cf20e23c67" time="1385087839883" ignored="false" />
     <file path="/JSOperateAction.java" changelist="db15c45a-3b0b-430c-978f-b4cf20e23c67" time="1385088056882" ignored="false" />
-    <file path="/JSOperateServImp.java" changelist="db15c45a-3b0b-430c-978f-b4cf20e23c67" time="1385103569845" ignored="false" />
+    <file path="/JSOperateServImp.java" changelist="db15c45a-3b0b-430c-978f-b4cf20e23c67" time="1385130621182" ignored="false" />
     <file path="/JSOperateDaoImp.java" changelist="db15c45a-3b0b-430c-978f-b4cf20e23c67" time="1385102262411" ignored="false" />
     <file path="/struts-JSOperate.xml" changelist="db15c45a-3b0b-430c-978f-b4cf20e23c67" time="1385097513005" ignored="false" />
     <file path="/main.js" changelist="db15c45a-3b0b-430c-978f-b4cf20e23c67" time="1385086220838" ignored="false" />
     <file path="/hibernateUtil.java" changelist="db15c45a-3b0b-430c-978f-b4cf20e23c67" time="1385102177858" ignored="false" />
-    <file path="/PageExamAction.java" changelist="db15c45a-3b0b-430c-978f-b4cf20e23c67" time="1385102478072" ignored="false" />
+    <file path="/PageExamAction.java" changelist="db15c45a-3b0b-430c-978f-b4cf20e23c67" time="1385127375239" ignored="false" />
     <file path="/PageBean.java" changelist="db15c45a-3b0b-430c-978f-b4cf20e23c67" time="1385089330171" ignored="false" />
     <file path="/QueryBean.java" changelist="db15c45a-3b0b-430c-978f-b4cf20e23c67" time="1385090940707" ignored="false" />
     <file path="/JSOperateDaoInter.java" changelist="db15c45a-3b0b-430c-978f-b4cf20e23c67" time="1385095874558" ignored="false" />
     <file path="/spring-JSOperate.xml" changelist="db15c45a-3b0b-430c-978f-b4cf20e23c67" time="1385096232437" ignored="false" />
     <file path="/fragment.java" changelist="db15c45a-3b0b-430c-978f-b4cf20e23c67" time="1385096196132" ignored="false" />
-    <file path="/loglist.jsp" changelist="db15c45a-3b0b-430c-978f-b4cf20e23c67" time="1385104643196" ignored="false" />
-    <file path="/page.js" changelist="db15c45a-3b0b-430c-978f-b4cf20e23c67" time="1385104301059" ignored="false" />
+    <file path="/loglist.jsp" changelist="db15c45a-3b0b-430c-978f-b4cf20e23c67" time="1385128557587" ignored="false" />
+    <file path="/page.js" changelist="db15c45a-3b0b-430c-978f-b4cf20e23c67" time="1385128724767" ignored="false" />
     <file path="G:/intelliJ-workspace/DtpSer/WebRoot/alarmCernterMd/sendAlarmConf.jsp" changelist="db15c45a-3b0b-430c-978f-b4cf20e23c67" time="1385106386662" ignored="false" />
     <file path="G:/intelliJ-workspace/DtpSer/src/com/topwalk/dtpser/alarmcentermd/action/AlarmBasicConfAction.java" changelist="db15c45a-3b0b-430c-978f-b4cf20e23c67" time="1385107691911" ignored="false" />
     <file path="/AlarmBasicConfAction.java" changelist="db15c45a-3b0b-430c-978f-b4cf20e23c67" time="1385107690492" ignored="false" />
@@ -129,7 +116,7 @@
       <file leaf-file-name="main.jsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WebRoot/jsp/main.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="72" selection-start="759" selection-end="827" vertical-scroll-proportion="0.0">
+            <state line="100" column="60" selection-start="4225" selection-end="4234" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -138,7 +125,7 @@
       <file leaf-file-name="page.jsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WebRoot/jsp/page/page.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="68" selection-start="2169" selection-end="2171" vertical-scroll-proportion="0.0">
+            <state line="13" column="77" selection-start="924" selection-end="924" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -147,16 +134,16 @@
       <file leaf-file-name="page.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WebRoot/js/page/page.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="43" selection-start="296" selection-end="304" vertical-scroll-proportion="0.0">
+            <state line="12" column="39" selection-start="552" selection-end="552" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="loglist.jsp" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="loglist.jsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WebRoot/jsp/page/loglist.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="11" selection-start="648" selection-end="648" vertical-scroll-proportion="0.04074074">
+            <state line="24" column="76" selection-start="907" selection-end="907" vertical-scroll-proportion="-5.677419">
               <folding />
             </state>
           </provider>
@@ -165,7 +152,7 @@
       <file leaf-file-name="PageExamAction.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/ru/ssh/JSOperate/action/PageExamAction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="31" selection-start="655" selection-end="664" vertical-scroll-proportion="0.0">
+            <state line="36" column="54" selection-start="973" selection-end="973" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -174,7 +161,27 @@
       <file leaf-file-name="JSOperateServImp.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/ru/ssh/JSOperate/service/imp/JSOperateServImp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="146" column="54" selection-start="3841" selection-end="3841" vertical-scroll-proportion="0.0">
+            <state line="200" column="24" selection-start="6121" selection-end="6121" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#992#1012#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PageBean.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/ru/ssh/base/page/PageBean.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="99" column="22" selection-start="2490" selection-end="2490" vertical-scroll-proportion="0.23699422">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="hibernateUtil.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/ru/ssh/base/hibernateUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="181" column="9" selection-start="4344" selection-end="4344" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -192,7 +199,7 @@
       <file leaf-file-name="QueryBean.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/ru/ssh/JSOperate/entity/QueryBean.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="24" selection-start="278" selection-end="283" vertical-scroll-proportion="0.0">
+            <state line="14" column="0" selection-start="259" selection-end="259" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -221,22 +228,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/com/ru/ssh/JSOperate/action/JSOperateAction.java" />
         <option value="$PROJECT_DIR$/src/com/ru/javaExam/utildatabase/JdbcUtil.java" />
         <option value="$PROJECT_DIR$/src/com/ru/ssh/base/page/PageBean.java" />
         <option value="$PROJECT_DIR$/src/com/ru/ssh/JSOperate/entity/QueryBean.java" />
         <option value="$PROJECT_DIR$/src/resources/context/spring-JSOperate.xml" />
         <option value="$PROJECT_DIR$/WebRoot/jsp/main.jsp" />
         <option value="$PROJECT_DIR$/src/struts-JSOperate.xml" />
-        <option value="$PROJECT_DIR$/WebRoot/jsp/page/page.jsp" />
         <option value="$PROJECT_DIR$/src/com/ru/ssh/base/hibernateUtil.java" />
         <option value="$PROJECT_DIR$/src/com/ru/ssh/JSOperate/dao/imp/JSOperateDaoImp.java" />
         <option value="$PROJECT_DIR$/src/com/ru/ssh/JSOperate/dao/inter/JSOperateDaoInter.java" />
-        <option value="$PROJECT_DIR$/src/com/ru/ssh/JSOperate/action/PageExamAction.java" />
         <option value="$PROJECT_DIR$/src/com/ru/ssh/JSOperate/service/inter/JSOperateServInter.java" />
-        <option value="$PROJECT_DIR$/src/com/ru/ssh/JSOperate/service/imp/JSOperateServImp.java" />
-        <option value="$PROJECT_DIR$/WebRoot/js/page/page.js" />
+        <option value="$PROJECT_DIR$/WebRoot/jsp/common/page.jsp" />
+        <option value="$PROJECT_DIR$/WebRoot/jsp/page/page.jsp" />
+        <option value="$PROJECT_DIR$/src/com/ru/ssh/JSOperate/action/PageExamAction.java" />
         <option value="$PROJECT_DIR$/WebRoot/jsp/page/loglist.jsp" />
+        <option value="$PROJECT_DIR$/WebRoot/js/page/page.js" />
+        <option value="$PROJECT_DIR$/src/com/ru/ssh/JSOperate/service/imp/JSOperateServImp.java" />
       </list>
     </option>
   </component>
@@ -369,317 +376,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ssh0605" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ssh0605" />
+              <option name="myItemId" value="WebRoot" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ru" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ssh" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ssh0605" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ssh0605" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ru" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ssh" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JSOperate" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="service" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="inter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ssh0605" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ssh0605" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ru" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ssh" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JSOperate" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="service" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="imp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ssh0605" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ssh0605" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ru" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ssh" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JSOperate" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="entity" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ssh0605" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ssh0605" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ru" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ssh" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JSOperate" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dao" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ssh0605" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ssh0605" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ru" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ssh" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JSOperate" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dao" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="imp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ssh0605" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ssh0605" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ru" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ssh" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JSOperate" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="action" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ssh0605" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ssh0605" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ru" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ssh" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="base" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ssh0605" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ssh0605" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ru" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ssh" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="base" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="page" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ssh0605" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ssh0605" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ru" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javaExam" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ssh0605" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ssh0605" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ru" />
+              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -689,7 +390,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="OverrideImplement.combined" value="true" />
     <property name="project.structure.proportion" value="0.15" />
@@ -712,6 +413,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\GitRepositories\ssh\ssh0605\WebRoot\jsp\common" />
+      <recent name="G:\GitRepositories\ssh\ssh0605\WebRoot\jsp\page" />
       <recent name="G:\GitRepositories\ssh\ssh0605\src\com\ru\javaExam\thread" />
     </key>
   </component>
@@ -734,34 +437,6 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="ssh0605" />
       <envs />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Test.getStr" type="JUnit" factoryName="JUnit" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.ru.javaExam.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="ssh0605" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.ru.javaExam.test" />
-      <option name="MAIN_CLASS_NAME" value="com.ru.javaExam.test.Test" />
-      <option name="METHOD_NAME" value="getStr" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
@@ -806,6 +481,34 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="ssh0605" />
       <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Test.getStr" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.ru.javaExam.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="ssh0605" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.ru.javaExam.test" />
+      <option name="MAIN_CLASS_NAME" value="com.ru.javaExam.test.Test" />
+      <option name="METHOD_NAME" value="getStr" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
@@ -958,8 +661,8 @@
       <server-settings>
         <option name="BASE_DIRECTORY_NAME" value="Unnamed_ssh0605_7" />
       </server-settings>
-      <predefined_log_file id="Tomcat" enabled="true" />
-      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat" enabled="false" />
+      <predefined_log_file id="Tomcat Catalina" enabled="false" />
       <predefined_log_file id="Tomcat Manager" enabled="false" />
       <predefined_log_file id="Tomcat Host Manager" enabled="false" />
       <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
@@ -1023,12 +726,12 @@
       </method>
     </configuration>
     <list size="6">
-      <item index="0" class="java.lang.String" itemvalue="Tomcat Server.tomcat" />
-      <item index="1" class="java.lang.String" itemvalue="Application.ThreadIsAlive" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.Test.getStr" />
-      <item index="3" class="java.lang.String" itemvalue="Application.TraditionalThread" />
-      <item index="4" class="java.lang.String" itemvalue="Application.TraditionalTimer" />
-      <item index="5" class="java.lang.String" itemvalue="JUnit.JdbcUtil" />
+      <item index="0" class="java.lang.String" itemvalue="Application.ThreadIsAlive" />
+      <item index="1" class="java.lang.String" itemvalue="Application.TraditionalThread" />
+      <item index="2" class="java.lang.String" itemvalue="Application.TraditionalTimer" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.Test.getStr" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.JdbcUtil" />
+      <item index="5" class="java.lang.String" itemvalue="Tomcat Server.tomcat" />
     </list>
     <recent_temporary>
       <list size="5">
@@ -1134,31 +837,31 @@
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32871974" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298611" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32871974" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32871974" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.328125" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298611" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17579909" sideWeight="0.6267361" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3732639" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298611" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.328125" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.328125" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17579909" sideWeight="0.14756945" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.8524306" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298611" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.328125" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1233,37 +936,9 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$PROJECT_DIR$/WebRoot/WEB-INF/lib/hibernate3.jar!/org/hibernate/impl/SessionImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="340" column="34" selection-start="22648" selection-end="22648" vertical-scroll-proportion="-0.47401246" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/struts-JSOperate.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="30" selection-start="805" selection-end="805" vertical-scroll-proportion="0.9352227" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/resources/context/spring-JSOperate.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="36" selection-start="1528" selection-end="1541" vertical-scroll-proportion="0.7456647">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ru/ssh/base/hibernateUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="174" column="22" selection-start="4014" selection-end="4020" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#540#564#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/ru/ssh/JSOperate/dao/inter/JSOperateDaoInter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="55" selection-start="677" selection-end="677" vertical-scroll-proportion="0.46628132">
-          <folding />
-        </state>
+        <state line="15" column="55" selection-start="677" selection-end="677" vertical-scroll-proportion="0.46628132" />
       </provider>
     </entry>
     <entry file="jar://D:/ProgramFiles/Java/jdk1.6.0_38/src.zip!/java/lang/Exception.java">
@@ -1278,20 +953,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebRoot/jsp/main.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="72" selection-start="759" selection-end="827" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ru/ssh/base/page/PageBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="9" selection-start="179" selection-end="179" vertical-scroll-proportion="0.05009634">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/ru/ssh/JSOperate/dao/imp/JSOperateDaoImp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="79" column="5" selection-start="1952" selection-end="2183" vertical-scroll-proportion="0.0">
@@ -1299,44 +960,82 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ru/ssh/JSOperate/service/imp/JSOperateServImp.java">
+    <entry file="file://$PROJECT_DIR$/WebRoot/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="146" column="54" selection-start="3841" selection-end="3841" vertical-scroll-proportion="0.0">
+        <state line="10" column="3" selection-start="170" selection-end="170" vertical-scroll-proportion="-0.65217394" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebRoot/jsp/common/page.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="57" selection-start="741" selection-end="741" vertical-scroll-proportion="0.4631579" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebRoot/js/JSOperate.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="34" selection-start="92" selection-end="92" vertical-scroll-proportion="0.25433525" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebRoot/jsp/main.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="100" column="60" selection-start="4225" selection-end="4234" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/WebRoot/jsp/page/page.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="68" selection-start="2169" selection-end="2171" vertical-scroll-proportion="0.0">
+        <state line="13" column="77" selection-start="924" selection-end="924" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/ru/ssh/JSOperate/entity/QueryBean.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="24" selection-start="278" selection-end="283" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ru/ssh/JSOperate/action/PageExamAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="31" selection-start="655" selection-end="664" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebRoot/js/page/page.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="43" selection-start="296" selection-end="304" vertical-scroll-proportion="0.0">
+        <state line="14" column="0" selection-start="259" selection-end="259" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/WebRoot/jsp/page/loglist.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="11" selection-start="648" selection-end="648" vertical-scroll-proportion="0.04074074">
+        <state line="24" column="76" selection-start="907" selection-end="907" vertical-scroll-proportion="-5.677419">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebRoot/js/page/page.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="39" selection-start="552" selection-end="552" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ru/ssh/JSOperate/action/PageExamAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="54" selection-start="973" selection-end="973" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ru/ssh/base/hibernateUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="181" column="9" selection-start="4344" selection-end="4344" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ru/ssh/JSOperate/service/imp/JSOperateServImp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="200" column="24" selection-start="6121" selection-end="6121" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#992#1012#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ru/ssh/base/page/PageBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="99" column="22" selection-start="2490" selection-end="2490" vertical-scroll-proportion="0.23699422">
           <folding />
         </state>
       </provider>
