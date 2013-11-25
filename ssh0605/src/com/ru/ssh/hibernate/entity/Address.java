@@ -58,13 +58,4 @@ public class Address  implements java.io.Serializable {
     public void setPersons(Set persons) {
         this.persons = persons;
     }
-   
-
-
-
-
-
-
-
-
 }

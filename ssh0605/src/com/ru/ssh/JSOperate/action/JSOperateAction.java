@@ -21,7 +21,7 @@ public class JSOperateAction extends ActionSupport{
 	private String message;
 	private List<Map<String, String>> list;
 	private List<Student> stuList;
-	
+
 	/**
 	 * 
 	 * saveStudentData(1通过xml保存学生信息)

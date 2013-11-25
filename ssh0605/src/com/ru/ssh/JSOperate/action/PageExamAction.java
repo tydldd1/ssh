@@ -27,6 +27,10 @@ public class PageExamAction extends ActionSupport{
     //任务名
     private List<Object> taskNameList;
 
+    public PageExamAction(){
+        log.debug("pageExamAction spring初始化！");
+    }
+
     /**
      * 查询datalog列表
      * @return
