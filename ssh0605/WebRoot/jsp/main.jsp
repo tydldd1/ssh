@@ -94,7 +94,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
         </div><br>
 
         <div class="hibernate"><span></span>
-            <a href="testDB_JSOperate.action">查询数据库返回值</a></div>
+            <a href="testDB_JSOperate.action">查询数据库返回值</a>
         </div><br>
 
         <div class="hibernate"><span></span>
@@ -125,6 +125,10 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
                 </select>
             </p>
         </div>
+
+        <div class="hibernate"><span></span>
+            <a href="/jsp/drag/drag1.jsp">页面拖拽</a>
+        </div><br>
 
 
   </body>

@@ -2,15 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="db15c45a-3b0b-430c-978f-b4cf20e23c67" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/ru/ssh/hibernate/entity/Address.java" afterPath="$PROJECT_DIR$/src/com/ru/ssh/hibernate/entity/Address.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/ru/ssh/JSOperate/action/JSOperateAction.java" afterPath="$PROJECT_DIR$/src/com/ru/ssh/JSOperate/action/JSOperateAction.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/ru/ssh/JSOperate/action/PageExamAction.java" afterPath="$PROJECT_DIR$/src/com/ru/ssh/JSOperate/action/PageExamAction.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/ru/javaExam/utildtp/CreateExcelReport.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/ru/javaExam/utildtp/TWEmailUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/ru/javaExam/utildtp/XmlUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/ru/javaExam/utildtp/ZipUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebRoot/jsp/drag/drag1.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebRoot/jsp/main.jsp" afterPath="$PROJECT_DIR$/WebRoot/jsp/main.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ssh0605.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="G:/intelliJ-workspace/testdeploye/.idea/workspace.xml" changelist="db15c45a-3b0b-430c-978f-b4cf20e23c67" time="1383970392887" ignored="false" />
-    <file path="/Dummy.txt" changelist="db15c45a-3b0b-430c-978f-b4cf20e23c67" time="1385361285055" ignored="false" />
+    <file path="/Dummy.txt" changelist="db15c45a-3b0b-430c-978f-b4cf20e23c67" time="1385519811531" ignored="false" />
     <file path="/CharBufferExam.java" changelist="db15c45a-3b0b-430c-978f-b4cf20e23c67" time="1384218536873" ignored="false" />
     <file path="/TheadExam.java" changelist="db15c45a-3b0b-430c-978f-b4cf20e23c67" time="1384268116670" ignored="false" />
     <file path="/ThreadExam.java" changelist="db15c45a-3b0b-430c-978f-b4cf20e23c67" time="1384268031658" ignored="false" />
@@ -24,7 +27,7 @@
     <file path="/TraditionalTimer.java" changelist="db15c45a-3b0b-430c-978f-b4cf20e23c67" time="1384851105272" ignored="false" />
     <file path="G:/intelliJ-workspace/DtpSer/src/com/topwalk/dtpser/alarmcentermd/action/DbSyncAlarmInfoAction.java" changelist="db15c45a-3b0b-430c-978f-b4cf20e23c67" time="1384852601600" ignored="false" />
     <file path="/DbSyncAlarmInfoAction.java" changelist="db15c45a-3b0b-430c-978f-b4cf20e23c67" time="1384852486183" ignored="false" />
-    <file path="/main.jsp" changelist="db15c45a-3b0b-430c-978f-b4cf20e23c67" time="1385087839883" ignored="false" />
+    <file path="/main.jsp" changelist="db15c45a-3b0b-430c-978f-b4cf20e23c67" time="1385362099794" ignored="false" />
     <file path="/JSOperateAction.java" changelist="db15c45a-3b0b-430c-978f-b4cf20e23c67" time="1385304202270" ignored="false" />
     <file path="/JSOperateServImp.java" changelist="db15c45a-3b0b-430c-978f-b4cf20e23c67" time="1385130621182" ignored="false" />
     <file path="/JSOperateDaoImp.java" changelist="db15c45a-3b0b-430c-978f-b4cf20e23c67" time="1385102262411" ignored="false" />
@@ -36,7 +39,7 @@
     <file path="/QueryBean.java" changelist="db15c45a-3b0b-430c-978f-b4cf20e23c67" time="1385090940707" ignored="false" />
     <file path="/JSOperateDaoInter.java" changelist="db15c45a-3b0b-430c-978f-b4cf20e23c67" time="1385095874558" ignored="false" />
     <file path="/spring-JSOperate.xml" changelist="db15c45a-3b0b-430c-978f-b4cf20e23c67" time="1385096232437" ignored="false" />
-    <file path="/fragment.java" changelist="db15c45a-3b0b-430c-978f-b4cf20e23c67" time="1385096196132" ignored="false" />
+    <file path="/fragment.java" changelist="db15c45a-3b0b-430c-978f-b4cf20e23c67" time="1385520803317" ignored="false" />
     <file path="/loglist.jsp" changelist="db15c45a-3b0b-430c-978f-b4cf20e23c67" time="1385128557587" ignored="false" />
     <file path="/page.js" changelist="db15c45a-3b0b-430c-978f-b4cf20e23c67" time="1385128724767" ignored="false" />
     <file path="G:/intelliJ-workspace/DtpSer/WebRoot/alarmCernterMd/sendAlarmConf.jsp" changelist="db15c45a-3b0b-430c-978f-b4cf20e23c67" time="1385106386662" ignored="false" />
@@ -52,6 +55,12 @@
     <file path="/test.jsp" changelist="db15c45a-3b0b-430c-978f-b4cf20e23c67" time="1385221479416" ignored="false" />
     <file path="/jsp RuDefineFile.txt.ft" changelist="db15c45a-3b0b-430c-978f-b4cf20e23c67" time="1385222214480" ignored="false" />
     <file path="/test4.jsp" changelist="db15c45a-3b0b-430c-978f-b4cf20e23c67" time="1385222236405" ignored="false" />
+    <file path="/drag1.jsp" changelist="db15c45a-3b0b-430c-978f-b4cf20e23c67" time="1385361828689" ignored="false" />
+    <file path="/XmlUtil.java" changelist="db15c45a-3b0b-430c-978f-b4cf20e23c67" time="1385366465983" ignored="false" />
+    <file path="/spring-aop.xml" changelist="db15c45a-3b0b-430c-978f-b4cf20e23c67" time="1385519958298" ignored="false" />
+    <file path="$PROJECT_DIR$/../../srpingexam/src/com/ru/Spring/examone/utils/InitSpring.java" changelist="db15c45a-3b0b-430c-978f-b4cf20e23c67" time="1385520865687" ignored="false" />
+    <file path="/InitSpring.java" changelist="db15c45a-3b0b-430c-978f-b4cf20e23c67" time="1385520862600" ignored="false" />
+    <file path="$PROJECT_DIR$/../../srpingexam/src/com/ru/Spring/examone/utils/StaticSingleton.java" changelist="db15c45a-3b0b-430c-978f-b4cf20e23c67" time="1385520804735" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,10 +124,73 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Address.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/ru/ssh/hibernate/entity/Address.java">
+      <file leaf-file-name="CreateExcelReport.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/ru/javaExam/utildtp/CreateExcelReport.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="59" column="5" selection-start="1158" selection-end="1158" vertical-scroll-proportion="0.0">
+            <state line="110" column="37" selection-start="3506" selection-end="3506" vertical-scroll-proportion="0.38003838">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TWEmailUtil.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/ru/javaExam/utildtp/TWEmailUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="46" column="26" selection-start="1508" selection-end="1508" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="XmlUtil.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/ru/javaExam/utildtp/XmlUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="27" selection-start="118" selection-end="118" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="spring.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/resources/context/spring.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="spring-aop.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/resources/context/spring-aop.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="112" selection-start="997" selection-end="997" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StaticSingleton.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/ru/javadesign/designmodel/signalmodel/StaticSingleton.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="23" column="48" selection-start="475" selection-end="475" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ZipUtil.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/ru/javaExam/utildtp/ZipUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="0" selection-start="276" selection-end="276" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JSOperateAction.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/ru/ssh/JSOperate/action/JSOperateAction.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="32" column="24" selection-start="810" selection-end="810" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -127,43 +199,16 @@
       <file leaf-file-name="PageExamAction.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/ru/ssh/JSOperate/action/PageExamAction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="47" selection-start="792" selection-end="792" vertical-scroll-proportion="0.0">
+            <state line="39" column="50" selection-start="980" selection-end="980" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="spring-JSOperate.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/resources/context/spring-JSOperate.xml">
+      <file leaf-file-name="JSOperateServImp.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/ru/ssh/JSOperate/service/imp/JSOperateServImp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="39" selection-start="1544" selection-end="1544" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="log4j.properties" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WebRoot/WEB-INF/log4j.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="43" selection-start="410" selection-end="413" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JSOperateAction.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/ru/ssh/JSOperate/action/JSOperateAction.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="36" selection-start="1078" selection-end="1086" vertical-scroll-proportion="0.7683824">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JSOperateServInter.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/ru/ssh/JSOperate/service/inter/JSOperateServInter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="41" selection-start="518" selection-end="518" vertical-scroll-proportion="0.0">
+            <state line="215" column="0" selection-start="6479" selection-end="6479" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -192,13 +237,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/WebRoot/jsp/main.jsp" />
-        <option value="$PROJECT_DIR$/src/struts-JSOperate.xml" />
-        <option value="$PROJECT_DIR$/src/com/ru/ssh/base/hibernateUtil.java" />
-        <option value="$PROJECT_DIR$/src/com/ru/ssh/JSOperate/dao/imp/JSOperateDaoImp.java" />
-        <option value="$PROJECT_DIR$/src/com/ru/ssh/JSOperate/dao/inter/JSOperateDaoInter.java" />
-        <option value="$PROJECT_DIR$/src/com/ru/ssh/JSOperate/service/inter/JSOperateServInter.java" />
-        <option value="$PROJECT_DIR$/WebRoot/jsp/common/page.jsp" />
         <option value="$PROJECT_DIR$/src/com/ru/ssh/JSOperate/service/imp/JSOperateServImp.java" />
         <option value="$PROJECT_DIR$/WebRoot/js/page/page.js" />
         <option value="$PROJECT_DIR$/WebRoot/jsp/page/page.jsp" />
@@ -208,6 +246,13 @@
         <option value="$PROJECT_DIR$/src/com/ru/ssh/hibernate/entity/Address.java" />
         <option value="$PROJECT_DIR$/src/com/ru/ssh/JSOperate/action/PageExamAction.java" />
         <option value="$PROJECT_DIR$/src/com/ru/ssh/JSOperate/action/JSOperateAction.java" />
+        <option value="$PROJECT_DIR$/WebRoot/jsp/drag/drag1.jsp" />
+        <option value="$PROJECT_DIR$/WebRoot/jsp/main.jsp" />
+        <option value="$PROJECT_DIR$/src/com/ru/javaExam/utildtp/TWEmailUtil.java" />
+        <option value="$PROJECT_DIR$/src/com/ru/javaExam/utildtp/ZipUtil.java" />
+        <option value="$PROJECT_DIR$/src/resources/context/spring-aop.xml" />
+        <option value="$PROJECT_DIR$/src/com/ru/javaExam/utildtp/XmlUtil.java" />
+        <option value="$PROJECT_DIR$/src/com/ru/javaExam/utildtp/CreateExcelReport.java" />
       </list>
     </option>
   </component>
@@ -260,8 +305,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -304,42 +347,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="WebRoot" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ssh0605" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ssh0605" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WebRoot" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jsp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ssh0605" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ssh0605" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -361,10 +368,6 @@
               <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="context" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -380,7 +383,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
+              <option name="myItemId" value="ru" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -402,7 +405,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ssh" />
+              <option name="myItemId" value="javadesign" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="designmodel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="signalmodel" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -424,41 +435,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ssh" />
+              <option name="myItemId" value="javadesign" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="JSOperate" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ssh0605" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ssh0605" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ru" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ssh" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JSOperate" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="action" />
+              <option name="myItemId" value="designmodel" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -477,11 +458,17 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="ru" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javadesign" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -493,21 +480,22 @@
     <property name="recentsLimit" value="5" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="options.lastSelected" value="fileTemplates" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../srpingexam" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="FullScreen" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
+    <property name="FullScreen" value="false" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.searchVisible" value="true" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="dynamic.classpath" value="false" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\GitRepositories\ssh\ssh0605\src\com\ru\javaExam" />
       <recent name="G:\GitRepositories\ssh\ssh0605\WebRoot\jsp\common" />
       <recent name="G:\GitRepositories\ssh\ssh0605\WebRoot\jsp\page" />
       <recent name="G:\GitRepositories\ssh\ssh0605\src\com\ru\javaExam\thread" />
@@ -650,6 +638,19 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -676,19 +677,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -970,7 +958,11 @@
       <created>1385223275977</created>
       <updated>1385223275977</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="测试：">
+      <created>1385361380961</created>
+      <updated>1385361380961</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1006,6 +998,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32871974" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17579909" sideWeight="0.7698962" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32871974" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.7301038" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="CSS-X-Fire" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32871974" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952815" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
@@ -1013,9 +1006,9 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24961948" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952815" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32698962" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17579909" sideWeight="0.42041522" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5795848" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.73875433" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2716895" sideWeight="0.031141868" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.9688581" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -1023,7 +1016,6 @@
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298611" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32698962" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1098,88 +1090,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/ru/ssh/JSOperate/service/inter/JSOperateServInter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="41" selection-start="518" selection-end="518" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ru/ssh/base/page/PageBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="106" column="4" selection-start="2673" selection-end="2673" vertical-scroll-proportion="0.040219378" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ru/ssh/base/page/page.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="14" selection-start="0" selection-end="2213" vertical-scroll-proportion="-6.387097" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ru/ssh/base/page/page.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="1" selection-start="1002" selection-end="1119" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebRoot/js/page/page.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="29" selection-start="766" selection-end="766" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebRoot/jsp/page/page.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="16" selection-start="1448" selection-end="1448" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/idea.jar!/resources/html5-schema/tables.rnc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="30" selection-start="1295" selection-end="1295" vertical-scroll-proportion="0.33205375" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebRoot/jsp/page/loglist.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="64" column="25" selection-start="2740" selection-end="2740" vertical-scroll-proportion="-2.8387096" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ru/ssh/hibernate/service/imp/HibernateServiceImp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="13" selection-start="374" selection-end="374" vertical-scroll-proportion="0.16087751" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ru/ssh/JSOperate/service/inter/JSOperateServInter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="41" selection-start="518" selection-end="518" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ru/ssh/hibernate/entity/Address.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="5" selection-start="1158" selection-end="1158" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebRoot/WEB-INF/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="43" selection-start="410" selection-end="413" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ru/ssh/JSOperate/action/PageExamAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="47" selection-start="792" selection-end="792" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/struts-JSOperate.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="0" selection-start="569" selection-end="569" vertical-scroll-proportion="-13.2">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/resources/context/spring-JSOperate.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="31" column="39" selection-start="1544" selection-end="1544" vertical-scroll-proportion="0.0">
@@ -1187,9 +1097,97 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/WebRoot/jsp/jqueryduidialog/dialog-form.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="4" selection-start="377" selection-end="377" vertical-scroll-proportion="0.04263566" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebRoot/jsp/main.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="127" column="0" selection-start="5322" selection-end="5322" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebRoot/js/jquery-ui/ui/jquery.ui.core.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="27" selection-start="176" selection-end="176" vertical-scroll-proportion="0.041198503" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebRoot/js/jQuery1.9.1-min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="45" selection-start="64267" selection-end="64267" vertical-scroll-proportion="0.16479401" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebRoot/jsp/drag/drag1.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="17" selection-start="650" selection-end="650" vertical-scroll-proportion="-5.419355" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ru/javaExam/utildtp/TWEmailUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="26" selection-start="1508" selection-end="1508" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ru/javaExam/utildtp/ZipUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="0" selection-start="276" selection-end="276" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/ru/ssh/JSOperate/action/JSOperateAction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="36" selection-start="1078" selection-end="1086" vertical-scroll-proportion="0.7683824">
+        <state line="32" column="24" selection-start="810" selection-end="810" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ru/ssh/JSOperate/action/PageExamAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="50" selection-start="980" selection-end="980" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ru/ssh/JSOperate/service/imp/JSOperateServImp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="215" column="0" selection-start="6479" selection-end="6479" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/context/spring.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/context/spring-aop.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="112" selection-start="997" selection-end="997" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ru/javadesign/designmodel/signalmodel/StaticSingleton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="48" selection-start="475" selection-end="475" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ru/javaExam/utildtp/XmlUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="27" selection-start="118" selection-end="118" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ru/javaExam/utildtp/CreateExcelReport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="110" column="37" selection-start="3506" selection-end="3506" vertical-scroll-proportion="0.38003838">
           <folding />
         </state>
       </provider>
