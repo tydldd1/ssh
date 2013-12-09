@@ -8,11 +8,11 @@
  */
 package com.ru.javaExam.collection;
 
+import org.junit.Test;
+
 import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Set;
-
-import org.junit.Test;
 
 /**
  * 
@@ -55,11 +55,10 @@ public class SetTest {
 	 * @throws
 	 */
 	@Test
-	public void hashSetTest(){
+	public void hashSetTest(String s1){
 		System.out.println("**************************************************");
 		HashSet<String> hs = new HashSet<String>();
 		
-		String s1 = new String("111111111111");
 		String s2 = new String("111111111111");
 		System.out.println(s1.hashCode() + "       " + s2.hashCode());
 		boolean b = s1.equals(s2);

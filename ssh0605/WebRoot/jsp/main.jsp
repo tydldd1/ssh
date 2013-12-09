@@ -35,7 +35,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
     	<div class="login">登录成功！欢迎 <s:property value="#session.user.name" /> </div>
     	<div class="hibernate"><span></span><a href="jsp/hibernate/hibernateMain.jsp">hibernate实例</a></div><br>
         <div>
-            注：1/当查询的列表记录为空时，依然返回list对象，其大小为0,不会返回null
+            注：1/当查询的列表记录为空时，依然返回list对象，其大小为0,不会返回null（注：如果list里面是sum计算结果，那么一定有记录，并且sum结果可能为null）
                 2/使用uniqueResult() 取得一个Object时，返回值有可能是null
         </div>
 

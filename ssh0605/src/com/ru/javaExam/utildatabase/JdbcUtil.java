@@ -35,6 +35,7 @@ public class JdbcUtil{
 	
 	private static Connection connection = null;
 	private static PreparedStatement statement = null;
+    private static Statement statement2 = null;
 	private static CallableStatement callStatement = null;
 	private static ResultSet resultSet = null;
 	
@@ -43,10 +44,10 @@ public class JdbcUtil{
 	@Test
 	public void test(){
 		//增删改
-		String sql = "insert into datalog(`taskname`,`status`,`level`,`desr`,`data`) values(?,?,?,?,?)";
+		//String sql = "insert into datalog(`taskname`,`status`,`level`,`desr`,`data`) values('任务','INFO','log','一条日志记录','2013-11-22 11:17:30')";
 		//String sql = "update stuname set name = ? where id = ?";
 		//String sql = "delete from stuname";
-		boolean b  = insertBatch(sql,500,"任务","INFO","log","一条日志记录","2013-11-22 11:17:30");
+		//boolean b  = insertBatch(sql,500);
 		
 		//查询操作
 		/*String sql = "select * from user";
@@ -56,6 +57,11 @@ public class JdbcUtil{
 		//调用存储过程
 		//String value = getCallableResult(callName);
 		//System.out.println("value = " + value);
+        /*String[] sqls = {"insert into datalog(`taskname`,`status`,`level`,`desr`,`data`) values('任务','INFO','log','一条日志记录','2013-11-22 11:17:30')",
+                "insert into datalog(`taskname`,`status`,`level`,`desr`,`data`) values('任务','INFO','log','一条日志记录','2013-11-22 11:17:30')"};
+        System.out.print( customCommit2(sqls));*/
+        String sql = "select count(*) from datalog";
+        System.out.print(sqlQueryObject(sql));
 	}
 	
 	/**
@@ -111,9 +117,9 @@ public class JdbcUtil{
 	/**
 	 * 
 	 * sqlQueryUniqueObj(只有一个对象时，使用这个方法得到Object[])
+     * 取一列，得到的也是一个object[],可以通过列索引值获取，从1开始
 	 * @param sql
 	 * @param args
-	 * @return
 	 * @return Object[]
 	 */
 	public static Object[] sqlQueryUniqueObj(String sql,String... args){
@@ -121,10 +127,8 @@ public class JdbcUtil{
 		Object[] obj = null;
 		try {
 			getStatement(sql,args);
-
 			//4.执行指令
 			resultSet = statement.executeQuery();
-			
 			//5、对resultSet结果进行处理
 			//（1）得到resultSet对象中列的类型和属性信息
 			ResultSetMetaData rsmd = resultSet.getMetaData();
@@ -137,7 +141,6 @@ public class JdbcUtil{
 					obj[i] = value;
 				}
 			}
-			
 		} catch (Exception e) {
 			e.printStackTrace();
 		}finally{
@@ -146,8 +149,29 @@ public class JdbcUtil{
 		
 		return obj;
 	}
-	
-	
+
+    /**
+     * 得到一个obejct（适用于只查询一个值得情况）
+     * @param sql
+     * @param args
+     * @return
+     */
+    public static Object sqlQueryObject(String sql,String... args){
+        Object value = null;
+        try {
+            getStatement(sql,args);
+            //4.执行指令
+            resultSet = statement.executeQuery();
+            while(resultSet.next()){
+                value = resultSet.getObject(1);
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        }finally{
+            exceptionHandling();
+        }
+        return value;
+    }
 	
 	/**
 	 * 
@@ -223,6 +247,103 @@ public class JdbcUtil{
 		
 		return isInsertSucess;
 	}
+
+    /**
+     * 使用批量插入自定义提交方法（同时执行多个sql，失败回滚）
+     * @return
+     */
+    public static boolean customCommit(String[] sqls){
+        try {
+            //1.加载驱动
+            Class.forName(classDriver);
+            //2.连接数据库
+            connection = DriverManager.getConnection(dbConnection,userName,password);
+            //关闭自动提交
+            connection.setAutoCommit(false);
+            //3.创建表达式，执行操作
+            statement2 = connection.createStatement();
+            statement2.addBatch(sqls[0]);
+            statement2.addBatch(sqls[1]);
+            statement2.executeBatch();
+            //提交事物
+            connection.commit();
+            return true;
+        }catch (Exception e){
+            try {
+                //执行失败，回滚
+                connection.rollback();
+            } catch (SQLException e1) {
+                e1.printStackTrace();
+            }
+            e.printStackTrace();
+            return false;
+        }
+    }
+
+    /**
+     * 可以达到相同效果
+     * @param sql
+     * @return
+     */
+    public boolean customCommit2(String[] sql){
+        try {
+            //1.加载驱动
+            Class.forName(classDriver);
+            //2.连接数据库
+            connection = DriverManager.getConnection(dbConnection,userName,password);
+            //关闭自动提交
+            connection.setAutoCommit(false);
+            //3.创建表达式，执行操作
+            statement = connection.prepareStatement(sql[0]);
+            statement.executeUpdate();
+            statement = connection.prepareStatement(sql[1]);
+            statement.executeUpdate();
+            //提交事物
+            connection.commit();
+            return true;
+        }catch (Exception e){
+            try {
+                //执行失败，回滚
+                connection.rollback();
+            } catch (SQLException e1) {
+                e1.printStackTrace();
+            }
+            e.printStackTrace();
+            return false;
+        }
+    }
+
+    /**
+     * 这个批量插入只会插入一条(不能使用)
+     */
+    /*public static boolean customCommit3(String[] sql){
+        try {
+            //1.加载驱动
+            Class.forName(classDriver);
+            //2.连接数据库
+            connection = DriverManager.getConnection(dbConnection,userName,password);
+            //关闭自动提交
+            connection.setAutoCommit(false);
+            //3.创建表达式，执行操作
+            statement = connection.prepareStatement(sql[0]);
+            statement.addBatch();
+            statement = connection.prepareStatement(sql[1]);
+            statement.addBatch();
+            statement.executeBatch();
+            //提交事物
+            connection.commit();
+            return true;
+        }catch (Exception e){
+            try {
+                //执行失败，回滚
+                connection.rollback();
+            } catch (SQLException e1) {
+                e1.printStackTrace();
+            }
+            e.printStackTrace();
+            return false;
+        }
+    }*/
 	
 	/**
 	 * 
@@ -258,10 +379,8 @@ public class JdbcUtil{
 		
 		//1.加载驱动
 		Class.forName(classDriver);
-		
 		//2.连接数据库
 		connection = DriverManager.getConnection(dbConnection,userName,password);
-		
 		//3.创建表达式
 		statement = connection.prepareStatement(sql);
 		if(args != null && args.length != 0){

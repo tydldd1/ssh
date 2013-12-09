@@ -2,71 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="db15c45a-3b0b-430c-978f-b4cf20e23c67" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/ru/javaExam/utildatabase/JdbcUtil.java" afterPath="$PROJECT_DIR$/src/com/ru/javaExam/utildatabase/JdbcUtil.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/ru/javaExam/collection/SetTest.java" afterPath="$PROJECT_DIR$/src/com/ru/javaExam/collection/SetTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebRoot/jsp/main.jsp" afterPath="$PROJECT_DIR$/WebRoot/jsp/main.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/ru/javaExam/utildatabase/HibernateUtil.java" afterPath="$PROJECT_DIR$/src/com/ru/javaExam/utildatabase/HibernateUtil.java" />
     </list>
     <ignored path="ssh0605.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="G:/intelliJ-workspace/testdeploye/.idea/workspace.xml" changelist="db15c45a-3b0b-430c-978f-b4cf20e23c67" time="1383970392887" ignored="false" />
-    <file path="/Dummy.txt" changelist="db15c45a-3b0b-430c-978f-b4cf20e23c67" time="1385527492684" ignored="false" />
-    <file path="/CharBufferExam.java" changelist="db15c45a-3b0b-430c-978f-b4cf20e23c67" time="1384218536873" ignored="false" />
-    <file path="/TheadExam.java" changelist="db15c45a-3b0b-430c-978f-b4cf20e23c67" time="1384268116670" ignored="false" />
-    <file path="/ThreadExam.java" changelist="db15c45a-3b0b-430c-978f-b4cf20e23c67" time="1384268031658" ignored="false" />
-    <file path="$PROJECT_DIR$/../../ssh1113/ssh0605/src/resources/context/spring-database.xml" changelist="db15c45a-3b0b-430c-978f-b4cf20e23c67" time="1384435639250" ignored="false" />
-    <file path="/ThreadRunMethod.java" changelist="db15c45a-3b0b-430c-978f-b4cf20e23c67" time="1384436952104" ignored="false" />
-    <file path="/ThreadIsAlive.java" changelist="db15c45a-3b0b-430c-978f-b4cf20e23c67" time="1384442971289" ignored="false" />
-    <file path="/a.dummy" changelist="db15c45a-3b0b-430c-978f-b4cf20e23c67" time="1385220121408" ignored="false" />
-    <file path="/JdbcUtil.java" changelist="db15c45a-3b0b-430c-978f-b4cf20e23c67" time="1385090154472" ignored="false" />
-    <file path="/Test.java" changelist="db15c45a-3b0b-430c-978f-b4cf20e23c67" time="1385530716780" ignored="false" />
-    <file path="/TraditionalThread.java" changelist="db15c45a-3b0b-430c-978f-b4cf20e23c67" time="1384845056450" ignored="false" />
-    <file path="/TraditionalTimer.java" changelist="db15c45a-3b0b-430c-978f-b4cf20e23c67" time="1384851105272" ignored="false" />
-    <file path="G:/intelliJ-workspace/DtpSer/src/com/topwalk/dtpser/alarmcentermd/action/DbSyncAlarmInfoAction.java" changelist="db15c45a-3b0b-430c-978f-b4cf20e23c67" time="1384852601600" ignored="false" />
-    <file path="/DbSyncAlarmInfoAction.java" changelist="db15c45a-3b0b-430c-978f-b4cf20e23c67" time="1384852486183" ignored="false" />
-    <file path="/main.jsp" changelist="db15c45a-3b0b-430c-978f-b4cf20e23c67" time="1385362099794" ignored="false" />
-    <file path="/JSOperateAction.java" changelist="db15c45a-3b0b-430c-978f-b4cf20e23c67" time="1385304202270" ignored="false" />
-    <file path="/JSOperateServImp.java" changelist="db15c45a-3b0b-430c-978f-b4cf20e23c67" time="1385130621182" ignored="false" />
-    <file path="/JSOperateDaoImp.java" changelist="db15c45a-3b0b-430c-978f-b4cf20e23c67" time="1385102262411" ignored="false" />
-    <file path="/struts-JSOperate.xml" changelist="db15c45a-3b0b-430c-978f-b4cf20e23c67" time="1385097513005" ignored="false" />
-    <file path="/main.js" changelist="db15c45a-3b0b-430c-978f-b4cf20e23c67" time="1385086220838" ignored="false" />
-    <file path="/hibernateUtil.java" changelist="db15c45a-3b0b-430c-978f-b4cf20e23c67" time="1385102177858" ignored="false" />
-    <file path="/PageExamAction.java" changelist="db15c45a-3b0b-430c-978f-b4cf20e23c67" time="1385303191740" ignored="false" />
-    <file path="/PageBean.java" changelist="db15c45a-3b0b-430c-978f-b4cf20e23c67" time="1385089330171" ignored="false" />
-    <file path="/QueryBean.java" changelist="db15c45a-3b0b-430c-978f-b4cf20e23c67" time="1385090940707" ignored="false" />
-    <file path="/JSOperateDaoInter.java" changelist="db15c45a-3b0b-430c-978f-b4cf20e23c67" time="1385095874558" ignored="false" />
-    <file path="/spring-JSOperate.xml" changelist="db15c45a-3b0b-430c-978f-b4cf20e23c67" time="1385096232437" ignored="false" />
-    <file path="/fragment.java" changelist="db15c45a-3b0b-430c-978f-b4cf20e23c67" time="1385520803317" ignored="false" />
-    <file path="/loglist.jsp" changelist="db15c45a-3b0b-430c-978f-b4cf20e23c67" time="1385128557587" ignored="false" />
-    <file path="/page.js" changelist="db15c45a-3b0b-430c-978f-b4cf20e23c67" time="1385128724767" ignored="false" />
-    <file path="G:/intelliJ-workspace/DtpSer/WebRoot/alarmCernterMd/sendAlarmConf.jsp" changelist="db15c45a-3b0b-430c-978f-b4cf20e23c67" time="1385106386662" ignored="false" />
-    <file path="G:/intelliJ-workspace/DtpSer/src/com/topwalk/dtpser/alarmcentermd/action/AlarmBasicConfAction.java" changelist="db15c45a-3b0b-430c-978f-b4cf20e23c67" time="1385107691911" ignored="false" />
-    <file path="/AlarmBasicConfAction.java" changelist="db15c45a-3b0b-430c-978f-b4cf20e23c67" time="1385107690492" ignored="false" />
-    <file path="G:/intelliJ-workspace/DtpSer/src/com/topwalk/dtpser/alarmcentermd/service/impl/AlarmBasicConfImpl.java" changelist="db15c45a-3b0b-430c-978f-b4cf20e23c67" time="1385109326508" ignored="false" />
-    <file path="/AlarmBasicConfImpl.java" changelist="db15c45a-3b0b-430c-978f-b4cf20e23c67" time="1385109326508" ignored="false" />
-    <file path="G:/intelliJ-workspace/DtpSer/src/com/topwalk/dtpser/alarm/message/util/TWEmailUtil.java" changelist="db15c45a-3b0b-430c-978f-b4cf20e23c67" time="1385109744787" ignored="false" />
-    <file path="/TWEmailUtil.java" changelist="db15c45a-3b0b-430c-978f-b4cf20e23c67" time="1385111195582" ignored="false" />
-    <file path="/page.jsp" changelist="db15c45a-3b0b-430c-978f-b4cf20e23c67" time="1385133606452" ignored="false" />
-    <file path="/Address.java" changelist="db15c45a-3b0b-430c-978f-b4cf20e23c67" time="1385215034653" ignored="false" />
-    <file path="/Unnamed.txt.ft" changelist="db15c45a-3b0b-430c-978f-b4cf20e23c67" time="1385221255254" ignored="false" />
-    <file path="/test.jsp" changelist="db15c45a-3b0b-430c-978f-b4cf20e23c67" time="1385221479416" ignored="false" />
-    <file path="/jsp RuDefineFile.txt.ft" changelist="db15c45a-3b0b-430c-978f-b4cf20e23c67" time="1385222214480" ignored="false" />
-    <file path="/test4.jsp" changelist="db15c45a-3b0b-430c-978f-b4cf20e23c67" time="1385222236405" ignored="false" />
-    <file path="/drag1.jsp" changelist="db15c45a-3b0b-430c-978f-b4cf20e23c67" time="1385361828689" ignored="false" />
-    <file path="/XmlUtil.java" changelist="db15c45a-3b0b-430c-978f-b4cf20e23c67" time="1385366465983" ignored="false" />
-    <file path="/spring-aop.xml" changelist="db15c45a-3b0b-430c-978f-b4cf20e23c67" time="1385519958298" ignored="false" />
-    <file path="$PROJECT_DIR$/../../srpingexam/src/com/ru/Spring/examone/utils/InitSpring.java" changelist="db15c45a-3b0b-430c-978f-b4cf20e23c67" time="1385520865687" ignored="false" />
-    <file path="/InitSpring.java" changelist="db15c45a-3b0b-430c-978f-b4cf20e23c67" time="1385520862600" ignored="false" />
-    <file path="$PROJECT_DIR$/../../srpingexam/src/com/ru/Spring/examone/utils/StaticSingleton.java" changelist="db15c45a-3b0b-430c-978f-b4cf20e23c67" time="1385520804735" ignored="false" />
-    <file path="$PROJECT_DIR$/../../srpingexam/web/WEB-INF/web.xml" changelist="db15c45a-3b0b-430c-978f-b4cf20e23c67" time="1385529420563" ignored="false" />
-    <file path="$PROJECT_DIR$/../../srpingexam/src/com/ru/Spring/examone/service/imp/SpingInitBeanSerImp.java" changelist="db15c45a-3b0b-430c-978f-b4cf20e23c67" time="1385528372334" ignored="false" />
-    <file path="/SpingInitBeanSerImp.java" changelist="db15c45a-3b0b-430c-978f-b4cf20e23c67" time="1385528371642" ignored="false" />
-    <file path="$PROJECT_DIR$/../../srpingexam/src/com/ru/Spring/examone/action/SpringInitBeanAction.java" changelist="db15c45a-3b0b-430c-978f-b4cf20e23c67" time="1385530526657" ignored="false" />
-    <file path="/SpringInitBeanAction.java" changelist="db15c45a-3b0b-430c-978f-b4cf20e23c67" time="1385528663041" ignored="false" />
-    <file path="$PROJECT_DIR$/../../srpingexam/src/com/ru/Spring/examone/test/Test.java" changelist="db15c45a-3b0b-430c-978f-b4cf20e23c67" time="1385530207805" ignored="false" />
-    <file path="$PROJECT_DIR$/../../srpingexam/src/com/ru/Spring/examone/service/SpringInitBeanSerInter.java" changelist="db15c45a-3b0b-430c-978f-b4cf20e23c67" time="1385528696637" ignored="false" />
-    <file path="$PROJECT_DIR$/../../srpingexam/src/resources/SpringConfigfiles/spring.xml" changelist="db15c45a-3b0b-430c-978f-b4cf20e23c67" time="1385529223018" ignored="false" />
-    <file path="/web.xml" changelist="db15c45a-3b0b-430c-978f-b4cf20e23c67" time="1385529420563" ignored="false" />
-    <file path="$PROJECT_DIR$/../../srpingexam/src/resources/config/log4j.properties" changelist="db15c45a-3b0b-430c-978f-b4cf20e23c67" time="1385529489662" ignored="false" />
-    <file path="/log4j.properties" changelist="db15c45a-3b0b-430c-978f-b4cf20e23c67" time="1385529484597" ignored="false" />
-    <file path="$PROJECT_DIR$/../../srpingexam/src/com/ru/Spring/examone/test/Log4jTest.java" changelist="db15c45a-3b0b-430c-978f-b4cf20e23c67" time="1385530751888" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +28,6 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -121,6 +64,7 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -130,92 +74,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="CreateExcelReport.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/ru/javaExam/utildtp/CreateExcelReport.java">
+      <file leaf-file-name="JdbcUtil.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/ru/javaExam/utildatabase/JdbcUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="131" column="32" selection-start="4202" selection-end="4202" vertical-scroll-proportion="0.042226486">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TWEmailUtil.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/ru/javaExam/utildtp/TWEmailUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="26" selection-start="1508" selection-end="1508" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="XmlUtil.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/ru/javaExam/utildtp/XmlUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="27" selection-start="118" selection-end="118" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="spring.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/resources/context/spring.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="spring-aop.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/resources/context/spring-aop.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="112" selection-start="997" selection-end="997" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StaticSingleton.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/ru/javadesign/designmodel/signalmodel/StaticSingleton.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="48" selection-start="475" selection-end="475" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ZipUtil.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/ru/javaExam/utildtp/ZipUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="0" selection-start="276" selection-end="276" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JSOperateAction.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/ru/ssh/JSOperate/action/JSOperateAction.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="24" selection-start="810" selection-end="810" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PageExamAction.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/ru/ssh/JSOperate/action/PageExamAction.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="50" selection-start="980" selection-end="980" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JSOperateServImp.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/ru/ssh/JSOperate/service/imp/JSOperateServImp.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="215" column="0" selection-start="6479" selection-end="6479" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="142" column="13" selection-start="3834" selection-end="3834" vertical-scroll-proportion="1.6495726" vertical-offset="1939" max-vertical-offset="9592">
+              <folding>
+                <element signature="e#2139#2159#0" expanded="true" />
+                <element signature="e#2804#2820#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -243,7 +109,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/com/ru/ssh/JSOperate/service/imp/JSOperateServImp.java" />
         <option value="$PROJECT_DIR$/WebRoot/js/page/page.js" />
         <option value="$PROJECT_DIR$/WebRoot/jsp/page/page.jsp" />
         <option value="$PROJECT_DIR$/WebRoot/jsp/page/loglist.jsp" />
@@ -259,6 +124,8 @@
         <option value="$PROJECT_DIR$/src/resources/context/spring-aop.xml" />
         <option value="$PROJECT_DIR$/src/com/ru/javaExam/utildtp/XmlUtil.java" />
         <option value="$PROJECT_DIR$/src/com/ru/javaExam/utildtp/CreateExcelReport.java" />
+        <option value="$PROJECT_DIR$/src/com/ru/javaExam/collection/SetTest.java" />
+        <option value="$PROJECT_DIR$/src/com/ru/javaExam/utildatabase/JdbcUtil.java" />
       </list>
     </option>
   </component>
@@ -339,20 +206,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="WebRoot" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ssh0605" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ssh0605" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -393,15 +246,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="javadesign" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="designmodel" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="signalmodel" />
+              <option name="myItemId" value="javaExam" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -423,33 +268,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="javadesign" />
+              <option name="myItemId" value="javaExam" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="designmodel" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ssh0605" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ssh0605" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ru" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javadesign" />
+              <option name="myItemId" value="utildatabase" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -474,12 +297,12 @@
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="FullScreen" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
+    <property name="FullScreen" value="false" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.searchVisible" value="true" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="dynamic.classpath" value="false" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -489,29 +312,7 @@
       <recent name="G:\GitRepositories\ssh\ssh0605\src\com\ru\javaExam\thread" />
     </key>
   </component>
-  <component name="RunManager" selected="Tomcat Server.tomcat">
-    <configuration default="false" name="ThreadIsAlive" type="Application" factoryName="Application" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.ru.javaExam.thread.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.ru.javaExam.thread.ThreadIsAlive" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="ssh0605" />
-      <envs />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.JdbcUtil.test">
     <configuration default="false" name="TraditionalThread" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -608,11 +409,45 @@
       </option>
       <envs />
       <patterns />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="JdbcUtil.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.ru.javaExam.utildatabase.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="ssh0605" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.ru.javaExam.utildatabase" />
+      <option name="MAIN_CLASS_NAME" value="com.ru.javaExam.utildatabase.JdbcUtil" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin" singleton="true">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
       <option name="PROGRAM_PARAMETERS" />
@@ -624,6 +459,36 @@
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+      <method />
+    </configuration>
+    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" output_log_level="null" package_name="" scope="Class">
+      <option name="BCName" value="" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browserFamily" value="FIREFOX" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="moduleName" value="" />
+      <option name="trusted" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -654,17 +519,23 @@
       <listeners />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="myFilePath" />
+      <option name="GLUE" />
+      <option name="myNameFilter" />
+      <option name="myGeneratedName" />
       <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -680,13 +551,6 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="" />
       <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavascriptDebugSession" factoryName="Remote" singleton="true">
-      <JSRemoteDebuggerConfigurationSettings>
-        <option name="engineId" value="embedded" />
-        <option name="fileUrl" />
-      </JSRemoteDebuggerConfigurationSettings>
       <method />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -710,7 +574,7 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local">
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
       <deployment />
       <server-settings>
         <option name="BASE_DIRECTORY_NAME" value="_ssh0605" />
@@ -775,7 +639,42 @@
       </ConfigurationWrapper>
       <method />
     </configuration>
-    <configuration default="false" name="tomcat" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 6.0">
+    <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
+      <option name="BCName" value="" />
+      <option name="IOSSimulatorSdkPath" value="" />
+      <option name="adlOptions" value="" />
+      <option name="airProgramParameters" value="" />
+      <option name="appDescriptorForEmulator" value="Android" />
+      <option name="debugTransport" value="USB" />
+      <option name="debuggerSdkRaw" value="BC SDK" />
+      <option name="emulator" value="NexusOne" />
+      <option name="emulatorAdlOptions" value="" />
+      <option name="fastPackaging" value="true" />
+      <option name="fullScreenHeight" value="0" />
+      <option name="fullScreenWidth" value="0" />
+      <option name="launchUrl" value="false" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browserFamily" value="FIREFOX" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="mobileRunTarget" value="Emulator" />
+      <option name="moduleName" value="" />
+      <option name="overriddenMainClass" value="" />
+      <option name="overriddenOutputFileName" value="" />
+      <option name="overrideMainClass" value="false" />
+      <option name="runTrusted" value="true" />
+      <option name="screenDpi" value="0" />
+      <option name="screenHeight" value="0" />
+      <option name="screenWidth" value="0" />
+      <option name="url" value="http://" />
+      <option name="usbDebugPort" value="7936" />
+      <method />
+    </configuration>
+    <configuration default="false" name="tomcat" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 6.0" ALTERNATIVE_JRE_ENABLED="false">
       <deployment>
         <artifact name="tomcatDeployee">
           <settings>
@@ -852,19 +751,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Tomcat Server.tomcat" />
-      <item index="1" class="java.lang.String" itemvalue="Application.ThreadIsAlive" />
-      <item index="2" class="java.lang.String" itemvalue="Application.TraditionalThread" />
-      <item index="3" class="java.lang.String" itemvalue="Application.TraditionalTimer" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.Test.getStr" />
-      <item index="5" class="java.lang.String" itemvalue="JUnit.JdbcUtil" />
+      <item index="1" class="java.lang.String" itemvalue="Application.TraditionalThread" />
+      <item index="2" class="java.lang.String" itemvalue="Application.TraditionalTimer" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.Test.getStr" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.JdbcUtil" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.JdbcUtil.test" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.JdbcUtil" />
-        <item index="1" class="java.lang.String" itemvalue="Application.TraditionalTimer" />
-        <item index="2" class="java.lang.String" itemvalue="Application.TraditionalThread" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.Test.getStr" />
-        <item index="4" class="java.lang.String" itemvalue="Application.ThreadIsAlive" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.JdbcUtil.test" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.JdbcUtil" />
+        <item index="2" class="java.lang.String" itemvalue="Application.TraditionalTimer" />
+        <item index="3" class="java.lang.String" itemvalue="Application.TraditionalThread" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.Test.getStr" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -897,6 +796,8 @@
       <changelist id="db15c45a-3b0b-430c-978f-b4cf20e23c67" name="Default" comment="" />
       <created>1383969987121</created>
       <updated>1383969987121</updated>
+      <workItem from="1386339079002" duration="5708000" />
+      <workItem from="1386600060728" duration="1557000" />
     </task>
     <task id="LOCAL-00001" summary="ssh">
       <created>1384218493528</created>
@@ -957,6 +858,9 @@
     <option name="localTasksCounter" value="15" />
     <servers />
   </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="7265000" />
+  </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
       <are-packages-shown value="false" />
@@ -981,92 +885,54 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
     <editor active="true" />
     <layout>
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32871974" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32871974" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3990461" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32871974" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17579909" sideWeight="0.7698962" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="JSF" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32871974" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="CSS-X-Fire" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32871974" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.7301038" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952815" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298611" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24961948" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952815" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.73875433" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2716895" sideWeight="0.26124567" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.9688581" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21156661" sideWeight="0.031141868" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5055644" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="CSS-X-Fire" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32871974" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298611" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.7301038" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USERS">
+      <collection />
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
-    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
-    <option name="CHECK_NEW_TODO" value="true" />
     <option name="myTodoPanelSettings">
-      <value>
-        <are-packages-shown value="false" />
-        <are-modules-shown value="false" />
-        <flatten-packages value="false" />
-        <is-autoscroll-to-source value="false" />
-      </value>
+      <TodoPanelSettings />
     </option>
-    <option name="PERFORM_UPDATE_IN_BACKGROUND" value="true" />
-    <option name="PERFORM_COMMIT_IN_BACKGROUND" value="true" />
-    <option name="PERFORM_EDIT_IN_BACKGROUND" value="true" />
-    <option name="PERFORM_CHECKOUT_IN_BACKGROUND" value="true" />
-    <option name="PERFORM_ADD_REMOVE_IN_BACKGROUND" value="true" />
-    <option name="PERFORM_ROLLBACK_IN_BACKGROUND" value="false" />
-    <option name="CHECK_LOCALLY_CHANGED_CONFLICTS_IN_BACKGROUND" value="false" />
-    <option name="CHANGED_ON_SERVER_INTERVAL" value="60" />
-    <option name="SHOW_ONLY_CHANGED_IN_SELECTION_DIFF" value="true" />
-    <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
-    <option name="DEFAULT_PATCH_EXTENSION" value="patch" />
-    <option name="SHORT_DIFF_HORIZONTALLY" value="true" />
-    <option name="SHORT_DIFF_EXTRA_LINES" value="2" />
-    <option name="SOFT_WRAPS_IN_SHORT_DIFF" value="true" />
-    <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
-    <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
-    <option name="SHOW_FILE_HISTORY_DETAILS" value="true" />
-    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
-    <option name="SHOW_DIRTY_RECURSIVELY" value="false" />
-    <option name="LIMIT_HISTORY" value="true" />
-    <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
-    <option name="UPDATE_FILTER_SCOPE_NAME" />
-    <option name="USE_COMMIT_MESSAGE_MARGIN" value="false" />
-    <option name="COMMIT_MESSAGE_MARGIN_SIZE" value="72" />
-    <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
-    <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
-    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="xiugai" />
-    <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
-    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
-    <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
-    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="false" />
-    <option name="REFORMAT_BEFORE_FILE_COMMIT" value="false" />
-    <option name="FILE_HISTORY_DIALOG_COMMENTS_SPLITTER_PROPORTION" value="0.8" />
-    <option name="FILE_HISTORY_DIALOG_SPLITTER_PROPORTION" value="0.5" />
-    <option name="ACTIVE_VCS_NAME" />
-    <option name="UPDATE_GROUP_BY_PACKAGES" value="false" />
-    <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
-    <option name="UPDATE_FILTER_BY_SCOPE" value="false" />
-    <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
-    <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
     <MESSAGE value="ssh" />
     <MESSAGE value="Merge branch 'master' of https://github.com/tydldd1/ssh&#10;&#10;Conflicts:&#10;&#9;ssh0605/.idea/workspace.xml&#10;" />
     <MESSAGE value="线程1" />
@@ -1074,6 +940,7 @@
     <MESSAGE value="测试" />
     <MESSAGE value="测试：" />
     <MESSAGE value="xiugai" />
+    <option name="LAST_COMMIT_MESSAGE" value="xiugai" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1083,105 +950,213 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/resources/context/spring-JSOperate.xml">
+    <entry file="file://$PROJECT_DIR$/src/com/ru/javaExam/utildatabase/JdbcUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="39" selection-start="1544" selection-end="1544" vertical-scroll-proportion="0.0">
-          <folding />
+        <state line="61" column="39" selection-start="1800" selection-end="1800" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="9086">
+          <folding>
+            <element signature="e#2139#2159#0" expanded="true" />
+            <element signature="e#2804#2820#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebRoot/jsp/jqueryduidialog/dialog-form.jsp">
+    <entry file="file://$PROJECT_DIR$/src/com/ru/javaExam/utildtp/CreateExcelReport.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="4" selection-start="377" selection-end="377" vertical-scroll-proportion="0.04263566" />
+        <state line="136" column="25" selection-start="4325" selection-end="4325" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="7238" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebRoot/jsp/main.jsp">
+    <entry file="file://$PROJECT_DIR$/src/com/ru/javaExam/collection/SetTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="127" column="0" selection-start="5322" selection-end="5322" vertical-scroll-proportion="0.0" />
+        <state line="60" column="8" selection-start="1235" selection-end="1235" vertical-scroll-proportion="0.0" vertical-offset="1320" max-vertical-offset="1584" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebRoot/js/jquery-ui/ui/jquery.ui.core.js">
+    <entry file="file://$PROJECT_DIR$/src/com/ru/javaExam/utildtp/XmlUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="27" selection-start="176" selection-end="176" vertical-scroll-proportion="0.041198503" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebRoot/js/jQuery1.9.1-min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="45" selection-start="64267" selection-end="64267" vertical-scroll-proportion="0.16479401" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebRoot/jsp/drag/drag1.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="17" selection-start="650" selection-end="650" vertical-scroll-proportion="-5.419355" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ru/javaExam/utildtp/TWEmailUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="26" selection-start="1508" selection-end="1508" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ru/javaExam/utildtp/ZipUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="276" selection-end="276" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ru/ssh/JSOperate/action/JSOperateAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="24" selection-start="810" selection-end="810" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ru/ssh/JSOperate/action/PageExamAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="50" selection-start="980" selection-end="980" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ru/ssh/JSOperate/service/imp/JSOperateServImp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="215" column="0" selection-start="6479" selection-end="6479" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="5" column="27" selection-start="118" selection-end="118" vertical-scroll-proportion="0.0" vertical-offset="110" max-vertical-offset="9856" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/resources/context/spring.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="506">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/resources/context/spring-aop.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="112" selection-start="997" selection-end="997" vertical-scroll-proportion="0.0">
+        <state line="13" column="112" selection-start="997" selection-end="997" vertical-scroll-proportion="0.0" vertical-offset="286" max-vertical-offset="1606">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/ru/javadesign/designmodel/signalmodel/StaticSingleton.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="48" selection-start="475" selection-end="475" vertical-scroll-proportion="0.0">
+        <state line="23" column="48" selection-start="475" selection-end="475" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="748" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ru/javaExam/utildtp/ZipUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="0" selection-start="276" selection-end="276" vertical-scroll-proportion="0.0" vertical-offset="220" max-vertical-offset="2112" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ru/ssh/JSOperate/action/JSOperateAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="24" selection-start="810" selection-end="810" vertical-scroll-proportion="0.0" vertical-offset="704" max-vertical-offset="3850" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ru/ssh/JSOperate/action/PageExamAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="50" selection-start="980" selection-end="980" vertical-scroll-proportion="0.0" vertical-offset="858" max-vertical-offset="1892" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ru/ssh/JSOperate/service/imp/JSOperateServImp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="215" column="0" selection-start="6479" selection-end="6479" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5060" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebRoot/jsp/jqueryduidialog/dialog-form.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="4" selection-start="377" selection-end="377" vertical-scroll-proportion="0.04263566" vertical-offset="0" max-vertical-offset="0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebRoot/jsp/main.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="127" column="0" selection-start="5322" selection-end="5322" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebRoot/js/jquery-ui/ui/jquery.ui.core.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="27" selection-start="176" selection-end="176" vertical-scroll-proportion="0.041198503" vertical-offset="0" max-vertical-offset="0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebRoot/js/jQuery1.9.1-min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="45" selection-start="64267" selection-end="64267" vertical-scroll-proportion="0.16479401" vertical-offset="0" max-vertical-offset="0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebRoot/jsp/drag/drag1.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="17" selection-start="650" selection-end="650" vertical-scroll-proportion="-5.419355" vertical-offset="0" max-vertical-offset="0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ru/javaExam/utildtp/TWEmailUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="26" selection-start="1508" selection-end="1508" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ru/javaExam/utildtp/ZipUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="0" selection-start="276" selection-end="276" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ru/ssh/JSOperate/action/JSOperateAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="24" selection-start="810" selection-end="810" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ru/ssh/JSOperate/action/PageExamAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="50" selection-start="980" selection-end="980" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ru/ssh/JSOperate/service/imp/JSOperateServImp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="215" column="0" selection-start="6479" selection-end="6479" vertical-scroll-proportion="0.44816053" vertical-offset="4462" max-vertical-offset="5060" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/context/spring.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/context/spring-aop.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="112" selection-start="997" selection-end="997" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ru/javadesign/designmodel/signalmodel/StaticSingleton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="48" selection-start="475" selection-end="475" vertical-scroll-proportion="0.5953177" vertical-offset="150" max-vertical-offset="748" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/ru/javaExam/utildtp/XmlUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="27" selection-start="118" selection-end="118" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="5" column="27" selection-start="118" selection-end="118" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/ru/javaExam/utildtp/CreateExcelReport.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="131" column="32" selection-start="4202" selection-end="4202" vertical-scroll-proportion="0.042226486">
+        <state line="136" column="25" selection-start="4325" selection-end="4325" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ru/javaExam/collection/SetTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="61" column="34" selection-start="1264" selection-end="1264" vertical-scroll-proportion="0.41137123" vertical-offset="854" max-vertical-offset="1562" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ru/javaExam/utildatabase/HibernateUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="13" selection-start="637" selection-end="637" vertical-scroll-proportion="0.0" vertical-offset="396" max-vertical-offset="6006">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/config/jdbc.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="946" />
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/WebRoot/WEB-INF/lib/mysql-connector-java-5.1.6-bin.jar!/com/mysql/jdbc/StatementImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="104" column="19" selection-start="5200" selection-end="5200" vertical-scroll-proportion="0.19821429" vertical-offset="2155" max-vertical-offset="4840" />
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/WebRoot/WEB-INF/lib/mysql-connector-java-5.1.6-bin.jar!/com/mysql/jdbc/ConnectionImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="252" column="33" selection-start="13573" selection-end="13573" vertical-scroll-proportion="0.18392856" vertical-offset="5419" max-vertical-offset="10824" />
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.10.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="40" selection-start="388" selection-end="388" vertical-scroll-proportion="0.38394415" vertical-offset="0" max-vertical-offset="573" />
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.10.jar!/org/junit/runners/model/FrameworkMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="28" selection-start="504" selection-end="504" vertical-scroll-proportion="-3.76" vertical-offset="170" max-vertical-offset="990" />
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.10.jar!/org/junit/internal/runners/statements/InvokeMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="16" selection-start="489" selection-end="489" vertical-scroll-proportion="-6.68" vertical-offset="75" max-vertical-offset="396" />
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.10.jar!/org/junit/runners/BlockJUnit4ClassRunner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2134" />
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.10.jar!/org/junit/runners/ParentRunner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="50" column="16" selection-start="2766" selection-end="2766" vertical-scroll-proportion="-3.76" vertical-offset="984" max-vertical-offset="1584" />
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.10.jar!/org/junit/runner/JUnitCore.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="0" selection-start="1268" selection-end="1268" vertical-scroll-proportion="0.37142858" vertical-offset="386" max-vertical-offset="946" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ru/javaExam/utildatabase/JdbcUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="142" column="13" selection-start="3834" selection-end="3834" vertical-scroll-proportion="1.6495726" vertical-offset="1939" max-vertical-offset="9592">
+          <folding>
+            <element signature="e#2139#2159#0" expanded="true" />
+            <element signature="e#2804#2820#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

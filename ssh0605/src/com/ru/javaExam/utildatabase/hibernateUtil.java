@@ -1,7 +1,5 @@
 package com.ru.javaExam.utildatabase;
 
-import java.util.List;
-
 import org.apache.poi.hssf.record.formula.functions.T;
 import org.hibernate.HibernateException;
 import org.hibernate.Query;
@@ -9,7 +7,7 @@ import org.hibernate.SQLQuery;
 import org.hibernate.Session;
 import org.springframework.orm.hibernate3.support.HibernateDaoSupport;
 
-import com.ru.ssh.hibernate.entity.Person;
+import java.util.List;
 
 /**
  * 
@@ -20,12 +18,12 @@ import com.ru.ssh.hibernate.entity.Person;
  * 创建时间：2013年10月27日 上午11:34:49
  * 修改人：成如
  * 修改时间：2013年10月27日 上午11:34:49
- * 修改备注：必须在spring配置文件中为此类设置sessionFactory属性,其他的DAO只需要继承这个类即可
+ * 修改备注：必须在spring配置文件中为此类设置sessionFactory属性,其他的DAO只需要继承这个类即可.在sping中继承此类的bean需要设置属性： parent="hibernateDao"
  * @since  jdk1.7
  * @version 1.0
  */
 @SuppressWarnings("all")
-public class hibernateUtil extends HibernateDaoSupport{
+public class HibernateUtil extends HibernateDaoSupport{
 	
 	
 	/*******使用HQL语句执行数据库操作*******/
