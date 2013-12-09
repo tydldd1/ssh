@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="db15c45a-3b0b-430c-978f-b4cf20e23c67" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/ru/javaExam/utildatabase/JdbcUtil.java" afterPath="$PROJECT_DIR$/src/com/ru/javaExam/utildatabase/JdbcUtil.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/ru/javaExam/collection/SetTest.java" afterPath="$PROJECT_DIR$/src/com/ru/javaExam/collection/SetTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebRoot/jsp/main.jsp" afterPath="$PROJECT_DIR$/WebRoot/jsp/main.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/ru/javaExam/utildatabase/HibernateUtil.java" afterPath="$PROJECT_DIR$/src/com/ru/javaExam/utildatabase/HibernateUtil.java" />
     </list>
     <ignored path="ssh0605.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -74,14 +69,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="JdbcUtil.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="JdbcUtil.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/ru/javaExam/utildatabase/JdbcUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="142" column="13" selection-start="3834" selection-end="3834" vertical-scroll-proportion="1.6495726" vertical-offset="1939" max-vertical-offset="9592">
+            <state line="142" column="13" selection-start="3834" selection-end="3834" vertical-scroll-proportion="0.0" vertical-offset="1939" max-vertical-offset="9592">
               <folding>
                 <element signature="e#2139#2159#0" expanded="true" />
                 <element signature="e#2804#2820#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DtiWebModelUtil.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/ru/javaExam/DtiWebModelUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="28" column="31" selection-start="813" selection-end="813" vertical-scroll-proportion="0.88294315" vertical-offset="0" max-vertical-offset="858">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -126,6 +130,7 @@
         <option value="$PROJECT_DIR$/src/com/ru/javaExam/utildtp/CreateExcelReport.java" />
         <option value="$PROJECT_DIR$/src/com/ru/javaExam/collection/SetTest.java" />
         <option value="$PROJECT_DIR$/src/com/ru/javaExam/utildatabase/JdbcUtil.java" />
+        <option value="$PROJECT_DIR$/src/com/ru/javaExam/DtiWebModelUtil.java" />
       </list>
     </option>
   </component>
@@ -797,7 +802,7 @@
       <created>1383969987121</created>
       <updated>1383969987121</updated>
       <workItem from="1386339079002" duration="5708000" />
-      <workItem from="1386600060728" duration="1670000" />
+      <workItem from="1386600060728" duration="1735000" />
     </task>
     <task id="LOCAL-00001" summary="ssh">
       <created>1384218493528</created>
@@ -855,11 +860,19 @@
       <created>1385521543487</created>
       <updated>1385521543487</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="xiugai&#10;">
+      <created>1386601778085</created>
+      <updated>1386601778085</updated>
+    </task>
+    <task id="LOCAL-00016" summary="xiugai&#10;">
+      <created>1386601818239</created>
+      <updated>1386601818239</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7378000" />
+    <option name="totallyTimeSpent" value="7443000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -883,7 +896,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32871974" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -907,7 +920,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952815" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.73875433" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21156661" sideWeight="0.031141868" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21156661" sideWeight="0.031141868" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5055644" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -940,7 +953,8 @@
     <MESSAGE value="测试" />
     <MESSAGE value="测试：" />
     <MESSAGE value="xiugai" />
-    <option name="LAST_COMMIT_MESSAGE" value="xiugai" />
+    <MESSAGE value="xiugai&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="xiugai&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -967,7 +981,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/ru/javaExam/collection/SetTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="8" selection-start="1235" selection-end="1235" vertical-scroll-proportion="0.0" vertical-offset="1320" max-vertical-offset="1584" />
+        <state line="60" column="8" selection-start="1235" selection-end="1235" vertical-scroll-proportion="0.0" vertical-offset="1320" max-vertical-offset="1584">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/ru/javaExam/utildtp/XmlUtil.java">
@@ -1095,7 +1111,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/ru/javaExam/collection/SetTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="34" selection-start="1264" selection-end="1264" vertical-scroll-proportion="0.41137123" vertical-offset="854" max-vertical-offset="1562" />
+        <state line="61" column="34" selection-start="1264" selection-end="1264" vertical-scroll-proportion="0.41137123" vertical-offset="854" max-vertical-offset="1562">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/ru/javaExam/utildatabase/HibernateUtil.java">
@@ -1152,11 +1170,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/ru/javaExam/utildatabase/JdbcUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="142" column="13" selection-start="3834" selection-end="3834" vertical-scroll-proportion="1.6495726" vertical-offset="1939" max-vertical-offset="9592">
+        <state line="142" column="13" selection-start="3834" selection-end="3834" vertical-scroll-proportion="0.0" vertical-offset="1939" max-vertical-offset="9592">
           <folding>
             <element signature="e#2139#2159#0" expanded="true" />
             <element signature="e#2804#2820#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ru/javaExam/DtiWebModelUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="31" selection-start="813" selection-end="813" vertical-scroll-proportion="0.88294315" vertical-offset="0" max-vertical-offset="858">
+          <folding />
         </state>
       </provider>
     </entry>
