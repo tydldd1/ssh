@@ -8,13 +8,6 @@ import org.apache.log4j.Logger;
 
 /**
  * 类加载器工具类。
- * @project dtiweb
- * @version 1.0
- * @author 王博
- * @createDate 下午2:05:23
- * @company 北京天行网安信息技术有限责任公司
- * @authorization (C) Copyright TopWalk Corporation 2006-2012<br/>
- *                <B>本内容仅限于北京天行网安信息技术有限责任公司内部使用，禁止转发</B>
  * @since JDK 1.6
  **/
 public class DtiWebModelUtil {
