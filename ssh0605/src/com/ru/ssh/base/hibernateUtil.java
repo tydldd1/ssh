@@ -1,5 +1,6 @@
 package com.ru.ssh.base;
 
+import com.ru.ssh.hibernate.entity.Address;
 import org.apache.poi.hssf.record.formula.functions.T;
 import org.hibernate.HibernateException;
 import org.hibernate.Query;
@@ -204,7 +205,19 @@ public class hibernateUtil extends HibernateDaoSupport{
 		
 		return query.addEntity(entytyClass).list();
 	}
-	
+
+    public List createSqlQueryTList(String sql, String relate, String table1Alias,String table2Alias, Class entytyClass, Object... values)  throws HibernateException {
+        SQLQuery query = getSession().createSQLQuery(sql).addEntity("addr", Address.class).addJoin("per","addr.persons");
+
+        if(values != null && values.length != 0){
+            for (int i = 0; i < values.length; i++) {
+                query.setParameter(i, values[i]);
+            }
+        }
+        List list = query.list();
+        System.out.print("list.长度 = " + list.size());
+        return list;
+    }
 	
 	/**
 	 * 

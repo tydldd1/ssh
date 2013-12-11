@@ -49,7 +49,7 @@ public class HibernateUtil extends HibernateDaoSupport{
 	 * queryList(hibernateHQL数据库list查询)
 	 * @param hql
 	 * @param values
-	 * @return Query
+	 * @return List  list<T> T表示一个对象
 	 */
 	public List createQueryList(String hql, Object... values)  throws HibernateException {
 		Query query = getSession().createQuery(hql);
@@ -113,7 +113,7 @@ public class HibernateUtil extends HibernateDaoSupport{
 	/**
 	 * 
 	 * save(hibernate 添加操作)
-	 * @param entity
+	 * @param entity 一个对象
 	 * @return boolean
 	 */
 	public boolean save(T entity)  throws HibernateException{
@@ -165,14 +165,14 @@ public class HibernateUtil extends HibernateDaoSupport{
 	
 	/**
 	 * 
-	 * createSqlQueryListT(创建SQL 查询:得到List<T>)
-	 * @param sql
-	 * @param entytyClass
-	 * @param values
+	 * createSqlQueryListT(创建SQL 查询:得到List<T>其中T为对象)
+	 * @param sql sql语句（注：查询必须是全部字段，可以使用* 或者写全字段）
+	 * @param entytyClass 实体类：Student.class
+	 * @param values sql参数数组
 	 * @throws HibernateException
-	 * @return List
+	 * @return List 返回值是对应的对象list。如：List<Student> list = super.createSqlQueryListT(sql, Student.class);
 	 */
-	public List createSqlQueryListT(String sql, Class entytyClass, Object... values)  throws HibernateException {
+	public List createSqlQueryTList(String sql, Class entytyClass, Object... values)  throws HibernateException {
 		SQLQuery query = getSession().createSQLQuery(sql);
 		
 		if(values != null && values.length != 0){
@@ -183,6 +183,59 @@ public class HibernateUtil extends HibernateDaoSupport{
 		
 		return query.addEntity(entytyClass).list();
 	}
+
+    /**
+     *不能执行
+     * @param sql
+     * @param relate
+     * @param table1Alias
+     * @param table2Alias
+     * @param entytyClass
+     * @param values
+     * @return
+     * @throws HibernateException
+     */
+    public List createSqlQueryTList(String sql, String relate, String table1Alias,String table2Alias, Class entytyClass, Object... values)  throws HibernateException {
+        SQLQuery query = getSession().createSQLQuery(sql);
+
+        if(values != null && values.length != 0){
+            for (int i = 0; i < values.length; i++) {
+                query.setParameter(i, values[i]);
+            }
+        }
+        query.addEntity(table1Alias, entytyClass).addJoin(table2Alias,relate);
+        return query.list();
+    }
+
+    /**
+     *
+     * createSqlQueryListT(查询（多表），得到两个多个实体对象数组)
+     * @param sql 类似：SELECT {dtirule.*},{dtidict.*} FROM `T_DTI_RULE` {dtirule}
+     * 		 inner join `T_DTI_DICT` {dtidict} on {dtirule}.`F_CATEGORY` = {dtidict}.`F_CODE`
+     * 		   注：sql 中表别名必须：{dtidict}，查询必须：{dtirule.*}，条件必须：{dtirule}.`F_CATEGORY`
+     * 		   sql也可以这样写：
+     * 		      SELECT {addr.*} FROM  `person` per INNER JOIN `address` addr" +
+     *       " ON per.`address` = addr.`addressid`"
+     * @param tableAlias1 表1的别名 如：dtirule
+     * @param tableAlias2 表2的别名
+     * @param entity1Class 表1的实体类 如：TDtiRule.class
+     * @param entity2Class 表1的实体类
+     * @param values sql参数
+     * @throws HibernateException
+     * @return List<Object[]> obejct[]指两个实体数组.如：[TDtiRule,TDtiDict]
+     */
+    public List<Object[]> createSqlQueryTArrayList(String sql,String tableAlias1, String tableAlias2, Class entity1Class, Class entity2Class, Object... values)  throws HibernateException {
+        SQLQuery query = getSession().createSQLQuery(sql);
+
+        if(values != null && values.length != 0){
+            for (int i = 0; i < values.length; i++) {
+                query.setParameter(i, values[i]);
+            }
+        }
+        query.addEntity(tableAlias1, entity1Class).addEntity(tableAlias2, entity2Class);
+
+        return query.list();
+    }
 	
 	
 	/**
