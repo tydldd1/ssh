@@ -213,6 +213,7 @@ public class HibernateUtil extends HibernateDaoSupport{
      * @param sql 类似：SELECT {dtirule.*},{dtidict.*} FROM `T_DTI_RULE` {dtirule}
      * 		 inner join `T_DTI_DICT` {dtidict} on {dtirule}.`F_CATEGORY` = {dtidict}.`F_CODE`
      * 		   注：sql 中表别名必须：{dtidict}，查询必须：{dtirule.*}，条件必须：{dtirule}.`F_CATEGORY`
+     *
      * 		   sql也可以这样写：
      * 		      SELECT {addr.*} FROM  `person` per INNER JOIN `address` addr" +
      *       " ON per.`address` = addr.`addressid`"
