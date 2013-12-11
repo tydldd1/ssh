@@ -14,4 +14,5 @@ public interface JSOperateDaoInter {
     public List<Object[]> datalogList(String sql, PageBean pageBean)  throws  Exception;
     public int getDatalogCount(String sql) throws  Exception;
     public List<Object> getTaskName() throws Exception;
+    public List getRelateList();
 }

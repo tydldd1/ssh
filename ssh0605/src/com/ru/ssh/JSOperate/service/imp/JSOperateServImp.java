@@ -117,6 +117,7 @@ public class JSOperateServImp implements JSOperateServInter{
 
     public List<Object[]> getUser(String message){
         List<Object[]> list = JSOperateDao.getUser(message);
+        //JSOperateDao.getRelateList();
         return list;
     }
 

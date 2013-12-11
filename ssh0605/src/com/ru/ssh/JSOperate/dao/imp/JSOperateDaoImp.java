@@ -4,6 +4,7 @@ import com.ru.ssh.JSOperate.dao.inter.JSOperateDaoInter;
 import com.ru.ssh.JSOperate.entity.Student;
 import com.ru.ssh.base.hibernateUtil;
 import com.ru.ssh.base.page.PageBean;
+import com.ru.ssh.hibernate.entity.Person;
 import org.hibernate.HibernateException;
 
 import java.util.List;
@@ -77,6 +78,22 @@ public class JSOperateDaoImp extends hibernateUtil implements JSOperateDaoInter{
         String sql = "select taskname from datalog group by taskname";
         List<Object> taskNameList = super.createSqlQueryzObjectList(sql);
         return taskNameList;
+    }
+
+    public List getRelateList(){
+        String sql = "SELECT {addr.*} FROM  `person` per INNER JOIN `address` addr" +
+                " ON per.`address` = addr.`addressid`";
+        List<Person> list = null;
+        try {
+           list = super.createSqlQueryTList(sql, "per.address", "per", "addr", Person.class);
+       }catch (Exception e){
+            e.printStackTrace();
+       }
+        for (Person person : list){
+            System.out.print("  " + person.getName());
+        }
+
+        return list;
     }
 
 }
