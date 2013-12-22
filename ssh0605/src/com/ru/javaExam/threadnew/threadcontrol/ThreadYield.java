@@ -11,7 +11,7 @@ public class ThreadYield implements Runnable{
         for (int i = 0; i < 100; i++){
             System.out.println(Thread.currentThread().getName() + "   " + i);
             if (i == 20){
-                //线程让步
+                //线程让步,yield的作用不是阻塞当前线程，而是将线程转为就绪状态
                 Thread.currentThread().yield();
             }
         }
