@@ -39,7 +39,7 @@ public class RandomAccessFileExam {
 		RandomAccessFile raf = null;
 		byte[] buffer = new byte[1024];
 		try {
-			raf = new RandomAccessFile("G:/test/ru.java", "rw");
+			raf = new RandomAccessFile("G:/test/InetAddressTest.java", "rw");
 			System.out.println("当前指针：" + raf.getFilePointer());
 			//移动当前指针到300字节处
 			raf.seek(10);
@@ -142,6 +142,7 @@ public class RandomAccessFileExam {
 		String str = "--------------|";
 		String file = "G:/test/ru.java";
 		//appendContent(str);
-		appendContentInside(file, 10, str);
-	}
+//		appendContentInside(file, 10, str);
+        pointRanAc();
+    }
 }

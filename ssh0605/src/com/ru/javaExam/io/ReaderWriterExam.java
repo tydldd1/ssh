@@ -117,7 +117,7 @@ public class ReaderWriterExam {
 	 * @return void
 	 * @throws IOException 
 	 */
-	//@Test
+	@Test
 	public void bufferedReaderTest() throws IOException{
 		
 		BufferedReader br = null;
@@ -132,9 +132,13 @@ public class ReaderWriterExam {
 			StringBuilder sb = new StringBuilder();
 			String str = null;
 			while((str = br.readLine()) != null){
-				sb.append(str + "\n");
+				sb.append("--" + str + "--" + "\n");
 			}
-			
+            if(new String("    ").trim().equals("")){
+                System.out.println("----))))))-");
+            }
+//            System.out.println(":::::" + new String("     ").trim());
+
 			System.out.println(sb.toString());
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
@@ -217,8 +221,8 @@ public class ReaderWriterExam {
 		return sb.toString();
 	}
 	
-	public static void main(String[] args){
+	/*public static void main(String[] args){
 		System.out.println(subStrings("[tcp_base]", "[/tcp_base]"));
-	}
+	}*/
 	
 }
